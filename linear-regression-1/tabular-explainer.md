@@ -31,5 +31,9 @@ You can click on any individual data point at any time of the preceding plots to
 | Perturbation Exploration | Allows you to change feature values of the selected data point and observe how those changes will affect predicition value. |
 | Individual Conditional Expectation | Allows you change a feature value from a minimum value to a maximum value to see how the data point's predicition changes when feature changes. |
 
+![Data Exploration](../.gitbook/assets/aml-globalvisualization.PNG)
+
+![Local Feature Importance](../.gitbook/assets/aml-localvisualization-fi.PNG)
+
 ###  
 

@@ -13,4 +13,5 @@
   * [Linear model feature](linear-regression-1/linear-model-feature.md)
   * [Interpretability with Azure Machine Learning](linear-regression-1/interpretability-with-azure-machine-learning.md)
   * [Tabular Explainer](linear-regression-1/tabular-explainer.md)
+  * [Dashboard](linear-regression-1/dashboard.md)
 
