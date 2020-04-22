@@ -6,14 +6,14 @@ We want to make a model that will help us predict the charges given all the othe
 
 ### **The summary of our OLS model is as below:** 
 
-![OLS Model](../../.gitbook/assets/ols.PNG)
+![OLS Model](../.gitbook/assets/ols.PNG)
 
 The summary is indeed a very detailed one. To explain each and every metric of our summary will be a lengthy job. For the purpose of this book, we will only focus on the individual feature coefficients and t statistics for every feature. If you are interested in understanding the other metrics fully, you can read \*\*insert article link\*\*
 
 Let’s have another look at the table more closely focussed on the part we want to interpret.  
 
 
-![OLS statistics](../../.gitbook/assets/ols-details.PNG)
+![OLS statistics](../.gitbook/assets/ols-details.PNG)
 
 #### A simple way to interpret this model in form of an equation can be written as:
 
