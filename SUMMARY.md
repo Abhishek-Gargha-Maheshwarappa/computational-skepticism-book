@@ -11,7 +11,3 @@
   * [Model](linear-regression-1/model.md)
   * [Visual Interpretation](linear-regression-1/visual-interpretation.md)
 
-## Dataset
-
-## Linear Regression
-
