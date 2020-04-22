@@ -14,4 +14,8 @@
   * [Interpretability with Azure Machine Learning](linear-regression-1/interpretability-with-azure-machine-learning.md)
   * [Tabular Explainer](linear-regression-1/tabular-explainer.md)
   * [Dashboard](linear-regression-1/dashboard.md)
+* [Deep Learning](deep-learning/README.md)
+  * [Convolutional Neural Network](deep-learning/convolutional-neural-network.md)
+  * [Structure of CNN for classification](deep-learning/structure-of-cnn-for-classification.md)
+  * [Model Interpretability](deep-learning/model-interpretability.md)
 
