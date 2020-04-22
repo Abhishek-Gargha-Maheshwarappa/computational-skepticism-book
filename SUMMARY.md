@@ -10,5 +10,9 @@
 
 ## Linear Regression
 
-* [Linear Regression](linear-regression/linear-regression.md)
+* [Linear Regression](linear-regression/linear-regression/README.md)
+  * [Assumptions](linear-regression/linear-regression/assumptions.md)
+  * [Interpretation](linear-regression/linear-regression/interpretation.md)
+  * [Model](linear-regression/linear-regression/model.md)
+  * [Visual Interpretation](linear-regression/linear-regression/visual-interpretation.md)
 
