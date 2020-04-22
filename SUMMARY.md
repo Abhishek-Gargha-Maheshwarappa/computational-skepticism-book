@@ -10,4 +10,7 @@
   * [Interpretation](linear-regression-1/interpretation.md)
   * [Model](linear-regression-1/model.md)
   * [Visual Interpretation](linear-regression-1/visual-interpretation.md)
+  * [Linear model feature](linear-regression-1/linear-model-feature.md)
+  * [Interpretability with Azure Machine Learning](linear-regression-1/interpretability-with-azure-machine-learning.md)
+  * [Tabular Explainer](linear-regression-1/tabular-explainer.md)
 
