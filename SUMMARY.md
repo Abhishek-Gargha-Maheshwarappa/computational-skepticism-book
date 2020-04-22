@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Computational-Skepticism](README.md)
-* [Introduction](introduction.md)
-* [Interpretability](interpretability.md)
+* [Introduction](introduction/README.md)
+  * [Interpretability](introduction/interpretability.md)
 
 ## Dataset
 
@@ -10,6 +10,5 @@
 
 ## Linear Regression
 
-* [Linear Regression](linear-regression/linear-regression/README.md)
-  * [Untitled](linear-regression/linear-regression/untitled.md)
+* [Linear Regression](linear-regression/linear-regression.md)
 
