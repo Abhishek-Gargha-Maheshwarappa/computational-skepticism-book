@@ -42,5 +42,9 @@ Lets consider James\(J\), Robert\(R\) and Susan\(S\)  are the 3 members of the t
 | Robert | 1/6\(40+60+30+30+60+30\) | 41.7 |
 | Susan | 1/6\(50+30+50+5+5+5\) | 24.17 |
 
+We have 3 students so the total combination is 3! which is 6.
+
+Shap gives the feature importance assigned to every feature which will correspond to the contribution by it.
+
 
 
