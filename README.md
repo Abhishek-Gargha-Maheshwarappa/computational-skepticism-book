@@ -6,7 +6,7 @@ description: Making a model “​TrustWorthy​”
 
 ####        
 
-![Making a model &#x201C;&#x200B;TrustWorthy&#x200B;&#x201D;](.gitbook/assets/screenshot-92.png)
+![](.gitbook/assets/screenshot-92.png)
 
 
 
