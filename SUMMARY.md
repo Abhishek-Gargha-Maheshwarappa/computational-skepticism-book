@@ -5,6 +5,8 @@
   * [Interpretability](introduction/interpretability.md)
 * [Datasets](datasets/README.md)
   * [Medical Cost Personal Dataset](datasets/medical-cost-personal-dataset.md)
+  * [Horse and Human Dataset](datasets/horse-and-human-dataset.md)
+  * [CIFAR-10 dataset](datasets/cifar-10-dataset.md)
 * [Linear Regression](linear-regression-1/README.md)
   * [Assumptions](linear-regression-1/assumptions.md)
   * [Interpretation](linear-regression-1/interpretation.md)

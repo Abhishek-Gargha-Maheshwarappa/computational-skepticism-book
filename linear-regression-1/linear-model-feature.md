@@ -4,7 +4,7 @@
 
 In our model, we have used One Hot encoding. But there are multiple ways to encode categorical features. If you want to have a look at the other ways, read [this](https://kiwidamien.github.io/encoding-categorical-variables.html). 
 
-#### One Hot Encoding
+### One Hot Encoding
 
 In this, we create a new feature per level of the original feature. The β per category is the estimated mean value of y for each category \(given all other feature values are zero or the reference category\). Note that the intercept has been omitted here so that a unique solution can be found for the linear model weights.
 

@@ -6,7 +6,7 @@ description: Horse and Human classification Dataset
 
 ### **SHAP \(SHapley Additive exPlanations\)**
 
-SHAP is one of the local explanation methods that satisfies several desirable local explanation properties. Given a sample and its prediction, SHAP decomposes the prediction additively between features using a game-theoretic approach.
+In this section we explore what is Shap and how it will help us interpret the deep learning model.SHAP is one of the local explanation methods that satisfies several desirable local explanation properties. Given a sample and its prediction, SHAP decomposes the prediction additively between features using a game-theoretic approach.
 
 ‌ It is introduced by Lundberg et al. who proposed a unified approach to interpreting model predictions.
 
@@ -56,4 +56,6 @@ Shap gives the feature importance assigned to every feature which will correspon
 ![Shap Deep Explainer output](../.gitbook/assets/screenshot-85.png)
 
 Red pixels increase the model's output while blue pixels decrease the output. The sum of the SHAP values equals the difference between the expected model output \(averaged over the background dataset\) and the current model output. The above image shows the features in the image that are contributing to the model output. Now one can see this output and say what actually leads the model to classify the image has horse or human.
+
+The corsponding python notebook is present in the github and one can try it hands on and understand its working practically and can play with notebook to understand better.
 
