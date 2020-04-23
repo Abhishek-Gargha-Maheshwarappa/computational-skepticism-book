@@ -22,4 +22,5 @@
   * [Interpretable Methods](deep-learning/model-interpretability.md)
   * [SHAP \(SHapley Additive exPlanations\)](deep-learning/shap-interpretation.md)
   * [LIME](deep-learning/lime.md)
+  * [TCAV](deep-learning/tcav.md)
 
