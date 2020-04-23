@@ -2,7 +2,7 @@
 description: Horse and Human classification Dataset
 ---
 
-# Shap interpretation
+# SHAP \(SHapley Additive exPlanations\)
 
 The convolutional neural network \(CNN\) is a class of deep learning neural networks and it represents an important part of computer vision application of image classification.
 
