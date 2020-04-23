@@ -30,7 +30,7 @@ Now one more human image is fed
 
 The model does really good work in predicting the image which it didn't see.
 
-We are dealing with 3 methods of inprepetation in this book. They are :
+We will be demonstrating 3 methods of interpretation in this book. They are :
 
 ## **SHAP**
 
@@ -41,6 +41,8 @@ SHAP is one of the local explanation methods that satisfies several desirable lo
 LIME focuses on training local surrogate models to explain individual predictions
 
 ## TCAV
+
+TCAV is a Google AI initiative and interprets models based on their concepts. 
 
 
 

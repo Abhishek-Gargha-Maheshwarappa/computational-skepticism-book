@@ -1,6 +1,6 @@
 # Interpretability with Azure Machine Learning
 
-This section of the book is something which both the authors find interesting. This section will help explain how you can get started and combine automated machine learning and model interpretability. 
+This section of the book is something which both the authors find very interesting. This section will help explain how you can get started and combine automated machine learning and model interpretability. 
 
 Automated machine learning is a capability that allows a developer or data scientist to access an automated service that identifies the best machine learning pipelines for their labelled data. It empowers customers, with or without data science expertise, to identify an end-to-end machine learning pipeline for any problem.
 

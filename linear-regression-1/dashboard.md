@@ -1,4 +1,4 @@
-# Dashboard
+# Understanding the Visualizations
 
 The dashboard is very overwhelming at first sight isn’t it? 
 

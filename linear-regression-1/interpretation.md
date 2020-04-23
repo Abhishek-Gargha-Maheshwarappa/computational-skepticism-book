@@ -16,7 +16,7 @@ This is a feature that takes one of two possible categories for each instance. E
 
 ### Categorical feature with multiple categories: 
 
-Features with a fixed number of possible values fall under categorical features. An example is the feature “region”, with possible categories “northeast”, “northwest”, “southeast” and “southwest”. A solution to deal with many categories is the one-hot-encoding, meaning that each category has its own binary column. For a categorical feature with L categories, you only need L-1 columns, because the L-th column would have redundant information \(e.g. when columns 1 to L-1 all have value 0 for one instance, we know that the categorical feature of this instance takes on category L\). The interpretation for each category is then the same as the interpretation for binary features. We have implemented this in our code and you can have a look as to how it's done here \(insert link\).
+Features with a fixed number of possible values fall under categorical features. An example is the feature “region”, with possible categories “northeast”, “northwest”, “southeast” and “southwest”. A solution to deal with many categories is the one-hot-encoding, meaning that each category has its own binary column. For a categorical feature with L categories, you only need L-1 columns, because the L-th column would have redundant information \(e.g. when columns 1 to L-1 all have value 0 for one instance, we know that the categorical feature of this instance takes on category L\). The interpretation for each category is then the same as the interpretation for binary features. We have implemented this in our code and you can have a look as to how it's done in our github repository.
 
 ### Intercept β0
 

@@ -2,9 +2,9 @@
 
 ## Description
 
-This data set consists of images for horse and human and are divide into validation and training data. These data are read use data genrators in keras into our model.
+This data set consists of images of horses and humans. They are divided into validation and training data. This data is used as input to a keras model for deep learning.
 
-Example of few data
+Samples from data:
 
 ![Horse](../.gitbook/assets/horse01-1.png)
 

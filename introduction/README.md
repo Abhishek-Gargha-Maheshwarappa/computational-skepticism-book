@@ -1,6 +1,6 @@
 # Introduction
 
-Over the last few years, there have been several innovations in the field of artificial intelligence and machine learning. As technology is expanding into various domains right from academics to cooking robots and others, it is significantly impacting our lives. For instance, a business or finance user is using machine learning technology to predict the number of customers that will buy a new product or whether or not an attempted activity is uncharacteristic of the account owner.
+Over the last few years, there have been several innovations in the field of artificial intelligence and machine learning. As technology is expanding into various domains right from academics to house-cleaning robots and others, it is significantly impacting our lives. For instance, a business or finance user is using machine learning technology to predict the number of customers that will buy a new product or whether or not an attempted activity is uncharacteristic of the account owner.
 
 
 
@@ -8,7 +8,7 @@ Making a machine trustworthy and reliable is one of the most important goals of 
 
 
 
-In this book, we will start with a brief introduction of what interpretability is and  briefly showcase the methods of interpretability that exist today. We will then study interpretability of two models in detail with python code. The first is a simple intrinsic model - Linear Regression , which is fairly easy to interpret and the other is a Neural Network - which replicates the neurons in a human brain. 
+In this book, we will start with a brief introduction of what interpretability is and  briefly showcase the methods of interpretability that are used today. We will then study interpretability of two models in detail with python code. The first is a simple intrinsic model - Linear Regression , which is fairly easy to interpret in most cases, and the other is a Neural Network - which replicates the neurons in a human brain. 
 
 
 
