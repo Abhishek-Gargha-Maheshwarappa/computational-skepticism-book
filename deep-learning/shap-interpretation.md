@@ -2,7 +2,7 @@
 description: Horse and Human classification Dataset
 ---
 
-# SHAP \(SHapley Additive exPlanations\)
+# SHAP
 
 ### **SHAP \(SHapley Additive exPlanations\)**
 

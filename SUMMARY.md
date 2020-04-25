@@ -20,7 +20,7 @@
   * [Convolutional Neural Network](deep-learning/convolutional-neural-network.md)
   * [Structure of CNN for classification](deep-learning/structure-of-cnn-for-classification.md)
   * [Interpretable Methods](deep-learning/model-interpretability.md)
-  * [SHAP \(SHapley Additive exPlanations\)](deep-learning/shap-interpretation.md)
+  * [SHAP](deep-learning/shap-interpretation.md)
   * [LIME](deep-learning/lime.md)
   * [TCAV](deep-learning/tcav.md)
 
