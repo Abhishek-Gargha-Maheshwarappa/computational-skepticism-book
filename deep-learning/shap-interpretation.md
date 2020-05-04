@@ -22,17 +22,7 @@ Non-Cooperative game theory is a competitive social interaction where there will
 
 #### Cooperative Game theory
 
-Cooperative Game theory is where every player has agreed tp work together toward a common goal. Like nash equilibrium cooperative game theory has shapely values. In a game theory a coalition is what you call a group of players in a cooperative game.
-
-#### Shapely values
-
-A method of dividing up the gains or costs among player acording to value of their individual contributions . 
-
-It rests on three important pillars 
-
-#### Marginal contribution
-
-The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear lets take an example.
+Cooperative Game theory is where every player has agreed tp work together toward a common goal. Like nash equilibrium cooperative game theory has shapely values. In a game theory a coalition is what you call a group of players in a cooperative game..
 
 #### Shapely values
 
