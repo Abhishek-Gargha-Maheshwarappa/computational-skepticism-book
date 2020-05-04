@@ -34,7 +34,15 @@ It rests on three important pillars
 
 The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear lets take an example.
 
+#### Shapely values
 
+A method of dividing up the gains or costs among player acording to value of their individual contributions . 
+
+It rests on three important pillars 
+
+#### Marginal contribution
+
+The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear lets take an example.
 
 ‌ 
 
