@@ -6,9 +6,29 @@ description: Horse and Human classification Dataset
 
 ### **SHAP \(SHapley Additive exPlanations\)**
 
-In this section we explore what is SHAP and how it will help us interpret a deep learning model. SHAP is one of the local explanation methods that satisfies several desirable local explanation properties. Given a sample and its prediction, SHAP decomposes the prediction additively between features using a game-theoretic approach.
+In this section we explore what is SHAP and how it will help us interpret a deep learning model. Given a sample and its prediction, SHAP decomposes the prediction additively between features using a game-theoretic approach.
 
-‌ It was introduced by Lundberg et al - who proposed a unified approach to interpreting model predictions.
+Game theory was initially developed by John von Neumann and Oskar Morgenstern in 1944 as a mathematical theory. Following on from this, in 1944 Neumann published The Theory of Games and Economic Behavior co-authored with Morgenstern. This is considered to be one of the main foundation texts of game theory. But the economist John Nash, John Harsanyi, and Reinhard Selten received the Nobel Prize for Economics in 1994 for further developing game theory in relation to economics.
+
+### Game theory
+
+‌Game theory is the process of modeling the strategic interaction between two or more people in a situation containing set rules and outcomes in which each person's payoff is affected by the decision made by others. Game theory is used by the economist, political scientist, military and others.
+
+![](../.gitbook/assets/screenshot-117.png)
+
+#### Non Cooperative Game theory 
+
+Non-Cooperative game theory is a competitive social interaction where there will be some winners and some losers. It is where Nash equilibrium comes into play. This doesn't deal in detail about game theory. To read more about nash equilibrium refer to an article from [Investopedia](https://www.investopedia.com/terms/n/nash-equilibrium.asp). The non-cooperative game theory is best understood with the example of the [Prisoner's Dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp).
+
+#### Cooperative Game theory
+
+
+
+
+
+‌ 
+
+It was introduced by Lundberg et al - who proposed a unified approach to interpreting model predictions.
 
 ‌‌Let us consider a project in a course that requires delivering 100 lines of code and consists of a team of 3 individuals who have worked as a team to present the project within a deadline to get good grades.
 
