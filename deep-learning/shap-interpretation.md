@@ -42,7 +42,11 @@ It rests on three important pillars
 
 #### Marginal contribution
 
-The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear lets take an example.
+The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear let us take an example.
+
+‌ Say every day you and your friends bake cookies, one day you get sick due to eating too many cookies. That day group of your friends produces 50 lesser cookies than the days you were there. So your marginal contribution to the coalition per day is 50 cookies.
+
+#### Interchangeable players has equal value
 
 ‌ 
 
