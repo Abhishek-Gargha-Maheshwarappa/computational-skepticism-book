@@ -9,7 +9,7 @@ description: >-
 The following plot shows the results from the previous linear regression model.  
 
 
-![Weight Plot](../.gitbook/assets/weightplot.PNG)
+![](../.gitbook/assets/weightplot.PNG)
 
 Notice that in the above weight plot, all weights are between 0 and 1. This is because the data has been standardized before fitting the model. The weight plot shows that being a smoker has a strong positive effect on the charges. Other features that have reasonable positive effect are the BMI and Age of an individual. Now that we have interpreted the coefficients, let us interpret the t statistic.   
 

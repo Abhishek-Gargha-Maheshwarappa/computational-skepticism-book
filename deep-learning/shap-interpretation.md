@@ -18,7 +18,7 @@ Game theory was initially developed by John von Neumann and Oskar Morgenstern in
 
 #### Non Cooperative Game theory 
 
-Non-Cooperative game theory is a competitive social interaction where there will be some winners and some losers. It is where Nash equilibrium comes into play. This doesn't deal in detail about game theory. To read more about nash equilibrium refer to an article from [Investopedia](https://www.investopedia.com/terms/n/nash-equilibrium.asp). The non-cooperative game theory is best understood with the example of the [Prisoner's Dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp).
+Non-Cooperative game theory is a competitive social interaction where there will be some winners and some losers. It is where Nash equilibrium comes into play. This book doesn't deal in detail about game theory. To read more about nash equilibrium refer to an article from [Investopedia](https://www.investopedia.com/terms/n/nash-equilibrium.asp). The non-cooperative game theory is best understood with the example of the [Prisoner's Dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp).
 
 #### Cooperative Game theory
 
@@ -62,7 +62,7 @@ Let us say David and Lisa are making cookies separately then David makes 10 cook
 
 ![](../.gitbook/assets/cookie-2.png)
 
-‌ If we consider 1$ for each cookie then when they bake it separately it will 30 cookies so it will be 30$. But when they bake together they get 40$.
+‌If we consider 1$ for each cookie then when they bake it separately it will 30 cookies\(David makes 10 and Lisa makes 20\) so it will be 30$. But when they bake together they get 40$\(40 cookies together\).
 
 Let us now calculate the marginal contribution
 
