@@ -62,48 +62,27 @@ Let us say David and Lisa are making cookies separately then David makes 10 cook
 
 Let us now calculate the marginal contribution
 
-if
+#### Case 1
 
-It was introduced by Lundberg et al - who proposed a unified approach to interpreting model predictions.
+If David makes 10 cookies alone then 
 
-‌‌Let us consider a project in a course that requires delivering 100 lines of code and consists of a team of 3 individuals who have worked as a team to present the project within a deadline to get good grades.
+40-10 = 30 , it is Lisa's marginal contribution to the coaltion.
 
-‌ Let us consider that James\(J\), Robert\(R\) and Susan\(S\) are the 3 members of the team.Then
+#### Case 2
 
-| Students | Lines of code |
-| :---: | :---: |
-| J | 10 |
-| R | 30 |
-| S | 5 |
-| JR | 50 |
-| RS | 40 |
-| SJ | 35 |
-| JRS | 100 |
+If Lisa makes 20 cookies then 
 
+40-20 = 20, it is the marginal contribution of David to the coalition.
 
+So in the first case David value to the coalition is 10 cookies and in the second case David value to the coalition is 20 cookies. According to the shapely equation to find the shapely value of David we need to average them - \(10+20\)/2 = 15. This the shapely value for David
 
+Simlarly for Lisa in first case the value to the coalition is 30 cookies  and in the second case her value to the cooalition is 20 cookies so it will be\(20+30\)/2 = 25. 
 
+I think above example should have cleared what is shapely values.
 
-| Order | James contribution | Robert contribution | Susan Contribution |
-| :---: | :---: | :---: | :---: |
-| J,R,S | 10 | 40 | 50 |
-| J,S,R | 10 | 60 | 30 |
-| R,J,S | 20 | 30 | 50 |
-| R,S,J | 65 | 30 | 5 |
-| S,R,J | 35 | 60 | 5 |
-| S,J,R | 65 | 30 | 5 |
+‌SHAP gives the feature importance assigned to every feature which will correspond to the contribution by it for the prediction.
 
-
-
-| Contributor | Shapely Calculation | Shapely Value |
-| :--- | :--- | :--- |
-| James | 1/6\(10+10+20+65+35+65\) | 34.17 |
-| Robert | 1/6\(40+60+30+30+60+30\) | 41.7 |
-| Susan | 1/6\(50+30+50+5+5+5\) | 24.17 |
-
-We have 3 students so the total combination is 3!\(3 factorial = 3\*2\) which is 6.
-
-SHAP gives the feature importance assigned to every feature which will correspond to the contribution by it.
+In our example, we used Shap for image data set and it works similar to tabular just using pixels of the image to find the shapely values
 
 ‌So our model predicts correct output but now to see what features in image influence this decision, we refer to the SHAP values.
 
