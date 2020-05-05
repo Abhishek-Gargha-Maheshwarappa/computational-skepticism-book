@@ -70,7 +70,7 @@ If David makes 10 cookies alone then
 
 #### Case 2
 
-If Lisa makes 20 cookies then 
+If Lisa makes 20 cookies alone then 
 
 40-20 = 20, it is the marginal contribution of David to the coalition.
 
