@@ -56,6 +56,10 @@ Let us take an example and break it down to understand it better, so again we wi
 
 Let us say David and Lisa are making cookies separately then David makes 10 cookies and Lisa makes 20 cookies.
 
+![](../.gitbook/assets/cookies-1.png)
+
+![](../.gitbook/assets/cookie-2.png)
+
 ‌When David and Lisa working together, they will streamline the process then they bake 40 cookies together.
 
 ‌ If we consider 1$ for each cookie then when they bake it separately it will 30 cookies so it will be 30$. But when they bake together they get 40$.
@@ -64,11 +68,15 @@ Let us now calculate the marginal contribution
 
 #### Case 1
 
+![](../.gitbook/assets/cookies-3.png)
+
 If David makes 10 cookies alone then 
 
 40-10 = 30 , it is Lisa's marginal contribution to the coaltion.
 
 #### Case 2
+
+![](../.gitbook/assets/cookies-4%20%281%29.png)
 
 If Lisa makes 20 cookies alone then 
 
