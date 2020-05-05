@@ -1,12 +1,6 @@
----
-description: >-
-  Whether a linear model is the "right" model or not depends on some underlying
-  assumptions associated with this model. They are:
----
-
 # Assumptions
 
-
+Whether a linear model is the "right" model or not depends on some underlying assumptions associated with this model. They are:
 
 ### **Linearity Assumption**: 
 
