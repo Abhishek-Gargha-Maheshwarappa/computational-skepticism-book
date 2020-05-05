@@ -58,9 +58,9 @@ Let us say David and Lisa are making cookies separately then David makes 10 cook
 
 ![](../.gitbook/assets/cookies-1.png)
 
-![](../.gitbook/assets/cookie-2.png)
-
 ‌When David and Lisa working together, they will streamline the process then they bake 40 cookies together.
+
+![](../.gitbook/assets/cookie-2.png)
 
 ‌ If we consider 1$ for each cookie then when they bake it separately it will 30 cookies so it will be 30$. But when they bake together they get 40$.
 
