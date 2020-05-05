@@ -38,7 +38,31 @@ The contribution of each player is determined by what is gained or lost by remov
 
 #### Interchangeable players has equal value
 
-‌ 
+If two parties bring the same things to the coalition, they should have to contribute the same amount and should be rewarded for their contributions.
+
+#### Dummy player have zero values
+
+If a member of the coalition contributes nothing then they should receive nothing. But it might not be fair in all the cases, let us take an example to this thing more clear.
+
+‌ If you go to restaurants with friends and you order nothing and eat nothing then there is no need for you to chip in on the bill. But in another scenario where you are on maternity leave and not paid since you are not working is not fair.
+
+‌ Mathematically shapely values are represented by
+
+![](../.gitbook/assets/shapely-value-formula.png)
+
+In a coalitional game, we have a set N of n players. We also have a function v that gives the value \(or payout\) for any subset of those players, i.e. let S be a subset of N, then v\(S\) gives you the value of that subset. So, for a coalitional game \(N, v\) we can use the equation to calculate the payout for player i, i.e. the Shapley value.
+
+Let us take an example and break it down to understand it better, so again we will take the cookie example. Yes, you guessed it right I love cookie too much.
+
+Let us say David and Lisa are making cookies separately then David makes 10 cookies and Lisa makes 20 cookies.
+
+‌When David and Lisa working together, they will streamline the process then they bake 40 cookies together.
+
+‌ If we consider 1$ for each cookie then when they bake it separately it will 30 cookies so it will be 30$. But when they bake together they get 40$.
+
+Let us now calculate the marginal contribution
+
+if
 
 It was introduced by Lundberg et al - who proposed a unified approach to interpreting model predictions.
 
