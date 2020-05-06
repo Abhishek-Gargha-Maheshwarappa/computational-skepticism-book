@@ -21,9 +21,6 @@ The Concept Activation Vectors \(CAVs\), provide an interpretation of a neural n
 
 ![](https://lh4.googleusercontent.com/PSyiap7-Zy3zytGUrmIwLcODCmTmCu-UBy8tiOoTWwbb1ATVejCr5j3VAv-87Ryo9nlsR4PGXAQBYWTjgkRsp8XBMVpkRz2NsrQRK6Njm4QbdSr_33XZpUvttkKyjKIdSzfkfF-T)
 
-  
-
-
 * a given set of examples that represent the stripes concept
 * independent data set with the concept labelled 
 * trained network
