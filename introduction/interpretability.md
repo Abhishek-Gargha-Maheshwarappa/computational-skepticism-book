@@ -2,7 +2,7 @@
 
 Before going to define the interpretability let's talk a little bit about the confusion between the terms Interpretability and explainability. There are a lot of papers which have different opinions about these two terms. Some define them to be different, while others define them to be the same. 
 
-The oxford dictionary defines the word interpret as to explain the meaning of something and the word explains as to make an idea clear to someone by describing it in more detail. There is very little which separates interpretation from the word explanation unless we dive into the depth of literature. So to avoid all the confusion, interpretability, and explainability, we define the same.
+The oxford dictionary defines the word interpret as to explain the meaning of something and the word explains as to make an idea clear to someone by describing it in more detail. There is very little which separates interpretation from the word explanation, unless we dive into the depth of literature. So to avoid all the confusion, for the purpose of this book we have defined interpretability and explainability as the same.
 
 ### What is interpretability?
 
@@ -14,7 +14,7 @@ Let's take an example of diabetic retinopathy, it is a diabetes complication tha
 
 ![](https://lh4.googleusercontent.com/FtmX_tsjJEDYDK-kTuYCqdxp38hECeibPZFDjgGUSfwU2WAlTPZRxhdKNhDLhuF-6Y8dUI0LAMxBcpbx5Lg4R3KqR54OLIwbRGyr-ZC7_sTJNeSP4H6vRx6JFmwnbL_l0v1xdiE0)
 
-Say you use Deep Learning with Convolutional Neural Networks for classification of normal eye from the diabetic eye, and the model does a fairly good job with validation accuracy of 90%. Then the question arises what did the model look into to classify the images, did the model look into the same diagnostic parts of the images used by the doctors or did it use something else. Because this is a very important context where a person can lose eyesight if he was misdiagnosed that his eyes were prefectly fine but in real not. So interpretability is meant to engender trust.  
+Say you use Deep Learning with Convolutional Neural Networks for classification of normal eye from the diabetic eye, and the model does a fairly good job with validation accuracy of 90%. Then, the question arises - what did the model look into to classify the images, did the model look into the same diagnostic parts of the images used by the doctors or did it use something else. This is a very important context where a person can lose eyesight if he is misdiagnosed \(that his eyes were perfectly fine but in real not\). In such cases, interpretability is meant to engender trust.  
 
 
 ## How does one achieve interpretability? 
