@@ -6,7 +6,7 @@ The oxford dictionary defines the word interpret as to explain the meaning of so
 
 ### What is interpretability?
 
-Interpretable Machine Learning refers to machine learning models that can provide explanations regarding why certain predictions are made. Miller defines Interpretability as the degree to which a human can understand the cause of a decision.
+Miller defines Interpretability as the degree to which a human can understand the cause of a decision.Interpretable Machine Learning refers to machine learning models that can provide explanations regarding why certain predictions are made. 
 
 The demand for interpretability arises when there is a mismatch between the formal objectives of the model and real-world costs in deployment settings.
 
