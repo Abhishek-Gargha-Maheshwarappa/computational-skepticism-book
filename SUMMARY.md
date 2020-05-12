@@ -2,7 +2,7 @@
 
 * [Computational-Skepticism](README.md)
 * [Introduction](introduction/README.md)
-  * [Interpretability](introduction/interpretability.md)
+  * [Interpretability and Explainability](introduction/interpretability.md)
 * [Datasets](datasets/README.md)
   * [Medical Cost Personal Dataset](datasets/medical-cost-personal-dataset.md)
   * [Horse and Human Dataset](datasets/horse-and-human-dataset.md)
