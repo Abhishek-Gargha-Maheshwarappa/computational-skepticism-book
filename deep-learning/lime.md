@@ -1,5 +1,29 @@
 # LIME
 
+## What is LIME? 
+
+The main idea behind using LIME is perturbing \(or changing\) the input to see how the predictions change. This allows us to change components that make sense to humans \(e.g., words or parts of an image\) even if the model is using much more complicated components as features \(e.g., word embeddings\).
+
+ The key intuition behind LIME is that it is much easier to approximate a black-box model by a simple model _locally_ \(in the neighborhood of the prediction we want to explain\), as opposed to trying to approximate a model globally. 
+
+LIME is short for **Local Interpretable Model-Agnostic Explanations \(LIME\)**. It explains the predictions of any classifier in “an interpretable and faithful manner, by learning an interpretable model locally around the prediction.” The approach is to gain the trust of users for individual predictions and then to trust the model as a whole.
+
+## Understanding with an Example
+
+Suppose we use a model to do COVID-19 prediction for a person. The prediction is then explained by an "explainer" that highlights the symptoms that are most important to the model. With this information about the rationale behind the model, the doctor is now empowered to trust the model—or not. 
+
+Assume that as per the model, the most important symptoms are fever, body aches and loss of taste. These are the globally important features. 
+
+Now let us consider a person 'A' who undergoes the test. As per the model, person 'A' tests positive and the most important symptoms are body ache, sore throat and shortness of breath. Now, these symptoms are quite different from the globally important ones. Then how can the tests show positive? 
+
+The globally important features/symptoms may be true for a majority of the people that had been tested. However, each patient is unique and the same features need not be important for all. It is important to understand that individual instances may have different important features and differ from the generalized ones. So in the case of person 'A', the locally important features were body ache, sore throat and shortness of breath. 
+
+With this example, we understood how explanations can help us understand or interpret predictions made by the model that did not make sense at first sight. This is the power of LIME. It helps us understand how individual predictions were made. So, if we want to study the "weird" predictions, we can use LIME to understand them.
+
+
+
+## How LIME?
+
 In this section, we will use LIME to understand how images are classified in our horse and human dataset. LIME is short for Local Interpretable Model-agnostic Explanations. This helps us generate explanations for image classification. It can be used on any model and helps generate local explanations i.e., instance specific explanations rather than global explanations. 
 
 In the horse-human images dataset, we will use LIME to understand how our deep learning model distinguishes between the two categories. We aim to be able to understand what parts of the image are telling our model whether it is of a human or a horse.
