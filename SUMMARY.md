@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Computational-Skepticism](README.md)
+* [Model Interpretability](README.md)
 * [Introduction](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
 * [Datasets](datasets/README.md)

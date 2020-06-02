@@ -2,7 +2,7 @@
 description: Making a model “​TrustWorthy​”
 ---
 
-# Computational-Skepticism
+# Model Interpretability
 
 ####        
 
