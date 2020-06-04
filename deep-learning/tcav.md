@@ -38,10 +38,13 @@ As shown in the above example, the model is trained to classify zebras and the c
 
 When we say we use stripes as a concept, we implement it and get the TCAV score by simply using the activation vectors for that concept. Hence, the name Test Concept with Activation Vectors.
 
-A few prerequisites are needed for implementing TCAV. They are:  
-Example images of the concept  
-Random images  
-Network under investigation and need access to the activation vectors of it
+![TCAV](https://lh4.googleusercontent.com/Vt1lYFu1hatr1H0XgPjvkIbMETOd15m8peSNgUBtmoo-DPGtPZ85vFnsNuE-4E_93kZ-t0zwYJ-pMQLPDYAMdWBzIrLwc52wyHDd8FGhEtYfayX_zHE0ypimYyAYSGC6ya8mZqqb)
+
+A few prerequisites are needed for implementing TCAV. They are:
+
+* Example images of the concept
+* Random images
+* Network under investigation and need access to the activation vectors of it
 
 Once we are ready with these, what we need to do is build a linear classifier to separate the concept images from random images. Then, we take an orthogonal vector of the decision boundary. Now, we are ready with our CAV. 
 
