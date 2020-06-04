@@ -58,9 +58,9 @@ There are multiple ways to draw saliency maps. Each method has their own pros an
 
 #### Pros
 
-Helps identify significant regions in an image for a model  
-Easy to implement  
-Easy to understand
+* Helps identify significant regions in an image for a model
+* Easy to implement
+* Easy to understand
 
 #### Cons
 
