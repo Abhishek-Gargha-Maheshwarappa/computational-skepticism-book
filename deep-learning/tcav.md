@@ -6,6 +6,8 @@ TCAV is the latest breakthrough for model interpretability in the 21st century. 
 
 In his keynote address at Google I/O 2019, Google CEO Sundar Pichai talked about how they are trying to build a more helpful Google for everyone which also includes building AI for everyone. 
 
+![](../.gitbook/assets/1_3hyocdaaomljljwtcimrfg.gif)
+
 TCAV is the latest breakthrough for model interpretability in the 21st century. It helps achieve interpretability beyond feature attribution. TCAV is short for Testing with Concept Activation Vectors. It is an initiative by Google AI, in a bid to make AI more responsible and transparent. 
 
 TCAV allows quantitative testing with concept activation vectors to get model explanations.
