@@ -38,8 +38,6 @@ As shown in the above example, the model is trained to classify zebras and the c
 
 When we say we use stripes as a concept, we implement it and get the TCAV score by simply using the activation vectors for that concept. Hence, the name Test Concept with Activation Vectors.
 
-![TCAV](https://lh4.googleusercontent.com/Vt1lYFu1hatr1H0XgPjvkIbMETOd15m8peSNgUBtmoo-DPGtPZ85vFnsNuE-4E_93kZ-t0zwYJ-pMQLPDYAMdWBzIrLwc52wyHDd8FGhEtYfayX_zHE0ypimYyAYSGC6ya8mZqqb)
-
 A few prerequisites are needed for implementing TCAV. They are:
 
 * Example images of the concept
@@ -57,6 +55,8 @@ The intuition behind all this is that if we consider a picture or pixel more lik
 If it changes a lot, it's important or else it is not important.
 
 This activity was done on many more zebra images to get a reliable explanation. The final TCAV score is simply a ratio of the zebra having stripes that positively increases the probability of being a zebra. In layman terms, it is like asking - for 100 images, how many of the images returned positive directional derivatives?
+
+![](../.gitbook/assets/image%20%282%29.png)
 
 ### Pros and Cons
 
