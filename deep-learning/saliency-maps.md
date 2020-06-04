@@ -64,8 +64,8 @@ Easy to understand
 
 #### Cons
 
-Different people can interpret the map differently   
-Saliency maps to not alter much with small tweaks in model - difficult to interpret in such situations
+* Different people can interpret the map differently 
+* Saliency maps to not alter much with small tweaks in model - difficult to interpret in such situations
 
 
 
