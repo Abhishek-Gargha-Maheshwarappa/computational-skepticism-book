@@ -22,5 +22,6 @@
   * [Interpretable Methods](deep-learning/model-interpretability.md)
   * [SHAP](deep-learning/shap-interpretation.md)
   * [LIME](deep-learning/lime.md)
+  * [Saliency Maps](deep-learning/saliency-maps.md)
   * [TCAV](deep-learning/tcav.md)
 
