@@ -46,6 +46,18 @@ A few prerequisites are needed for implementing TCAV. They are:
 
 Once we are ready with these, what we need to do is build a linear classifier to separate the concept images from random images. Then, we take an orthogonal vector of the decision boundary. Now, we are ready with our CAV. 
 
+![](https://lh4.googleusercontent.com/YSyBk_gnQ1t0_dYJdjYIYLkhfC5bpBVQvyc52x8BNxss3eISO-IRswtbSG6sw54QNjfm9VbLnOkSqr0cZ4CfNtwZuXpCM1qmCLdSQKihVYaGBjIQMjixWA7G37IukGAQKtSOAkrO)
+
+
+
+
+
+**a\) a given set of examples that represent the stripes concept  
+b\) independent data set with the concept labelled  
+c\) trained network  
+d\) CAVs are then learned by training a linear classifier to distinguish between the activations produced by a concept’s examples and examples in any layer  
+e\) TCAV uses the directional derivative SC,k,l\(x\) to quantify conceptual sensitivity**
+
 So, a CAV is nothing but a direction pointing from away from the random image towards a more concept image. What are the next steps? 
 
 Once we have a concept activation vector, the next step is to take the derivative of the probability of the class to the concept vector. This is the directional derivative with CAV.
