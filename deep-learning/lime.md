@@ -2,6 +2,12 @@
 
 ## What is LIME? 
 
+In this chapter, we will understand how the first part works. We aim to establish trust in the model by building a clear understanding of a single prediction. If we can understand the predictions for multiple instances, one-by-one, we can build trust on the entire model.
+
+To understand how LIME works let us take a metaphorical example. 
+
+Take the example of a university student that has taken a course in college. The final grade of this course is based on different criteria. In our case, the final grade is assignments, midterm exam, final exam, final project and weekly quizzes.  Let us assume that the percentage weightage of t
+
 The main idea behind using LIME is perturbing \(or changing\) the input to see how the predictions change. This allows us to change components that make sense to humans \(e.g., words or parts of an image\) even if the model is using much more complicated components as features \(e.g., word embeddings\).
 
  The key intuition behind LIME is that it is much easier to approximate a black-box model by a simple model _locally_ \(in the neighborhood of the prediction we want to explain\), as opposed to trying to approximate a model globally. 
