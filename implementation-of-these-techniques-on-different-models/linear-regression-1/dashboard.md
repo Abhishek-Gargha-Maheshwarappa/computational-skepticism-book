@@ -13,17 +13,17 @@ On selecting Perturbation Exploration, we get to experiment with our feature val
 This is the original feature data for the selected sample.  
 
 
-![](../.gitbook/assets/aml-localvisualization0.PNG)
+![](../../.gitbook/assets/aml-localvisualization0.PNG)
 
 So the selected sample is a male smoker with 3 children. Let us see how the charges would vary if he were a non smoker.   
 
 
-![](../.gitbook/assets/aml-localvisualization1.PNG)
+![](../../.gitbook/assets/aml-localvisualization1.PNG)
 
 In the above picture, you can see we have simply changed the value of smoker to 0 and a Perturbation value for the output appears on top. The new predicted charges is 0.052. Clearly quitting smoking will be beneficial health-wise and monetarily! Let us try with another feature to grow our experimentation.   
 
 
-![](../.gitbook/assets/aml-localvisualization2.PNG)
+![](../../.gitbook/assets/aml-localvisualization2.PNG)
 
 Ok, in this iteration, we can see the predicted charges if the sample were a female. The perturbation shows a predicted value of 0.435. Not too different from the original value. So the medical charges are not too different for males or females. Although, there is some increase in charges for females. 
 

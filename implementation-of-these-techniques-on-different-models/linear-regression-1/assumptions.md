@@ -14,7 +14,7 @@ The target outcome, given the features, follows a normal distribution. If this a
 
 Homoscedasticity describes a situation wherein our error term' variance is assumed to be the same across all values of independent variables. Suppose we are to predict the value of a house given the living area in square meters. You estimate a linear model that assumes that, regardless of the size of the house, the error around the predicted response has the same variance. This assumption is often violated in reality. In the house example, it is plausible that the variance of error terms around the predicted price is higher for larger houses, since prices are higher and there is more room for price fluctuations. Suppose the average error \(difference between predicted and actual price\) in your linear regression model is 50,000 Euros. If you assume homoscedasticity, you assume that the average error of 50,000 is the same for houses that cost 1 million and for houses that cost only 40,000. This is unreasonable because it would mean that we can expect negative house prices. Below graphs should help visualize this concept more
 
-![](../.gitbook/assets/homoscedasticity.png)
+![](../../.gitbook/assets/homoscedasticity.png)
 
 ### **Independence Assumption**: 
 
