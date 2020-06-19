@@ -17,12 +17,4 @@
   * [Interpretability with Azure Machine Learning](linear-regression-1/interpretability-with-azure-machine-learning.md)
   * [Tabular Explainer Dashboard](linear-regression-1/tabular-explainer.md)
   * [Understanding the Visualizations](linear-regression-1/dashboard.md)
-* [Deep Learning](deep-learning/README.md)
-  * [Convolutional Neural Network](deep-learning/convolutional-neural-network.md)
-  * [Structure of CNN for classification](deep-learning/structure-of-cnn-for-classification.md)
-  * [Interpretable Methods](deep-learning/model-interpretability.md)
-  * [SHAP](deep-learning/shap-interpretation.md)
-  * [LIME](deep-learning/lime.md)
-  * [Saliency Maps](deep-learning/saliency-maps.md)
-  * [TCAV](deep-learning/tcav.md)
 
