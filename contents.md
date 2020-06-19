@@ -15,7 +15,8 @@
 4. Intrepretable Machine learning models
    1. Linear Regression
       1. Statistical intrepretation
-   2. Decision Tress
+      2. 
+   2. Decision Trees
 5. Model agonistic methods
    1. SHAP
    2. LIME and K-LIME
