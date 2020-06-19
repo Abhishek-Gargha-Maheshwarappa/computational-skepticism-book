@@ -4,6 +4,7 @@
 * [Contents](contents.md)
 * [Introduction](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
+  * [Demand for Explainability](introduction/demand-for-explainability.md)
 * [Types of Model Interpretability](types-of-model-interpretability.md)
 * [Interpretable Machine learning models](interpretable-machine-learning-models.md)
 * [Model agonistic methods](model-agonistic-methods.md)

@@ -2,6 +2,8 @@
 
 1. Introduction
    1. Interpretability and Explainability
+   2. Demand for explainability
+   3. How does one achieve interpretability? 
 2. Types of Model Interpretability
    1. Interpretable Machine learning models
    2. Model Agonistic method
