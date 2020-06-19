@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Model Interpretability](README.md)
+* [Preface](preface.md)
 * [Contents](contents.md)
 * [Introduction](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
