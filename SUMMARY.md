@@ -5,6 +5,7 @@
 * [Introduction](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
   * [Demand for Explainability](introduction/demand-for-explainability.md)
+  * [How does one achieve interpretability?](introduction/how-does-one-achieve-interpretability.md)
 * [Types of Model Interpretability](types-of-model-interpretability.md)
 * [Interpretable Machine learning models](interpretable-machine-learning-models.md)
 * [Model agonistic methods](model-agonistic-methods.md)
