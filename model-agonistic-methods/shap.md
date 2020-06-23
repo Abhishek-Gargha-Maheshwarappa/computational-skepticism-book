@@ -8,6 +8,8 @@ Game theory was initially developed by John von Neumann and Oskar Morgenstern in
 
 ‌Game theory is the process of modeling the strategic interaction between two or more people in a situation containing set rules and outcomes in which each person's payoff is affected by the decision made by others. Game theory is used by the economist, political scientist, military and others.
 
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2Ff3f8943d2e1f2987432f7aab41a1647abd8b27d5.png?alt=media)
+
 ### Non Cooperative Game theory
 
 Non-Cooperative game theory is a competitive social interaction where there will be some winners and some losers. It is where Nash equilibrium comes into play. This book doesn't deal in detail about game theory. To read more about nash equilibrium refer to an article from [Investopedia](https://www.investopedia.com/terms/n/nash-equilibrium.asp). The non-cooperative game theory is best understood with the example of the [Prisoner's Dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp).
@@ -28,11 +30,11 @@ The contribution of each player is determined by what is gained or lost by remov
 
 ‌ Say every day you and your friends bake cookies, one day you get sick due to eating too many cookies. That day group of your friends produces 50 lesser cookies than the days you were there. So your marginal contribution to the coalition per day is 50 cookies.
 
-### Interchangeable players has equal value
+### Interchangeable players have an equal value
 
 If two parties bring the same things to the coalition, they should have to contribute the same amount and should be rewarded for their contributions.
 
-### Dummy player have zero values
+### Dummy player has zero values
 
 If a member of the coalition contributes nothing then they should receive nothing. But it might not be fair in all the cases, let us take an example to this thing more clear.
 
@@ -40,13 +42,21 @@ If a member of the coalition contributes nothing then they should receive nothin
 
 ‌ Mathematically shapely values are represented by
 
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2Ff4fa557f5b9d49fb7abb54ea1ab29a6d77d76702.png?alt=media)
+
 In a coalitional game, we have a set N of n players. We also have a function v that gives the value \(or payout\) for any subset of those players, i.e. let S be a subset of N, then v\(S\) gives you the value of that subset. So, for a coalitional game \(N, v\) we can use the equation to calculate the payout for player i, i.e. the Shapley value.
 
 Let us take an example and break it down to understand it better, so again we will take the cookie example. Yes, you guessed it right I love cookie too much.
 
 Let us say David and Lisa are making cookies separately then David makes 10 cookies and Lisa makes 20 cookies.
 
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2F3b3009a9fa91155a349ccd9b76e716d975c5ef48.png?alt=media)
+
+
+
 ‌When David and Lisa working together, they will streamline the process then they bake 40 cookies together.
+
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2F205ae6f0bc3cf539d424cdc47500d35765419d35.png?alt=media)
 
 ‌If we consider 1$ for each cookie then when they bake it separately it will 30 cookies\(David makes 10 and Lisa makes 20\) so it will be 30$. But when they bake together they get 40$\(40 cookies together\).
 
@@ -54,37 +64,29 @@ Let us now calculate the marginal contribution
 
 ### Case 1
 
+
+
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2F04be9829c7c321e01faf5abc0bcc73bc8b90bea4.png?alt=media)
+
 If David makes 10 cookies alone then
 
-40-10 = 30 , it is Lisa's marginal contribution to the coaltion.
+40-10 = 30, it is Lisa's marginal contribution to the coalition.
 
 ### Case 2
+
+![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2Fbebe882ac75f49211b209f1028c9fa6f1670b580.png?alt=media)
 
 If Lisa makes 20 cookies alone then
 
 40-20 = 20, it is the marginal contribution of David to the coalition.
 
-So in the first case David value to the coalition is 10 cookies and in the second case David value to the coalition is 20 cookies. According to the shapely equation to find the shapely value of David we need to average them - \(10+20\)/2 = 15. This the shapely value for David
+So in the first case, David's value to the coalition is 10 cookies and in the second case, David's value to the coalition is 20 cookies. According to the shapely equation to find the shapely value of David we need to average them - \(10+20\)/2 = 15. This the shapely value for David
 
-Simlarly for Lisa in first case the value to the coalition is 30 cookies and in the second case her value to the cooalition is 20 cookies so it will be\(20+30\)/2 = 25.
+Similarly, for Lisa in the first case, the value to the coalition is 30 cookies and in the second case, her value to the coalition is 20 cookies so it will be\(20+30\)/2 = 25.
 
 I think above example should have cleared what is shapely values.
 
 ‌SHAP gives the feature importance assigned to every feature which will correspond to the contribution by it for the prediction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-It is a method of dividing up the gains or costs among features according to the value of their individual contributions to the predictions of the machine learning model. SHAP can be used not only for interpretation but also for feature selection for training the machine learning model for better accuracy.
 
 SHAP can be applied to tabular data and image data. SHAP is a model agnostic method, which means it can be applied to any model.  
 
