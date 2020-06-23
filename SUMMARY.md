@@ -3,6 +3,7 @@
 * [Model Interpretability](README.md)
 * [Preface](preface.md)
 * [Contents](contents.md)
+* [About us](about-us.md)
 * [Introduction](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
   * [Demand for Explainability](introduction/demand-for-explainability.md)
