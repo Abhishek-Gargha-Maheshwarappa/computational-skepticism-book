@@ -14,7 +14,7 @@
   * [Surrogate model](model-agonistic-methods/surrogate-model.md)
   * [SHAP \(SHapley Additive exPlanations\)](model-agonistic-methods/shap.md)
   * [LIME \(Local Interpretable Model-Agnostic Explanations\)](model-agonistic-methods/lime-and-k-lime.md)
-  * [PDP](model-agonistic-methods/pdp.md)
+  * [PDP \(Partial Dependence Plot\)](model-agonistic-methods/pdp.md)
   * [ICE](model-agonistic-methods/ice.md)
   * [ALE](model-agonistic-methods/ale.md)
 * [Model-specific Methods](model-specific-methods.md)
