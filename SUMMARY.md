@@ -12,7 +12,7 @@
 * [Interpretable Machine learning models](interpretable-machine-learning-models.md)
 * [Model agonistic methods](model-agonistic-methods/README.md)
   * [Surrogate model](model-agonistic-methods/surrogate-model.md)
-  * [SHAP](model-agonistic-methods/shap.md)
+  * [SHAP \(SHapley Additive exPlanations\)](model-agonistic-methods/shap.md)
   * [LIME and K-LIME](model-agonistic-methods/lime-and-k-lime.md)
   * [PDP](model-agonistic-methods/pdp.md)
   * [ICE](model-agonistic-methods/ice.md)
