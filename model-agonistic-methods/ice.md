@@ -1,4 +1,2 @@
 # ICE
 
-Kartik
-
