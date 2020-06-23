@@ -10,14 +10,10 @@
    3. Model-specific methods
 3. Interpretable Machine learning models
    1. Linear Regression
-      1. Introduction
-      2. Use case example
-      3. Statistical interpretation
-      4. Visual interpretation of weights
+      1. Statistical interpretation
+      2. Visual interpretation of weights
    2. Decision Trees
-      1. Introduction
-      2. Use case example
-      3. visualization of treemap
+      1. visualization treemap
 4. Model agonistic methods
    1. Surrogate model
       1. Global 
@@ -44,6 +40,6 @@
    7. K-means clustering
    8. PCA
    9. Deep learning
-8. 
+
 
 
