@@ -84,7 +84,7 @@ So in the first case, David's value to the coalition is 10 cookies and in the se
 
 Similarly, for Lisa in the first case, the value to the coalition is 30 cookies and in the second case, her value to the coalition is 20 cookies so it will be\(20+30\)/2 = 25.
 
-I think above example should have cleared what is shapely values.
+I think the above example should have cleared what is shapely values.
 
 ‌SHAP gives the feature importance assigned to every feature which will correspond to the contribution by it for the prediction.
 
@@ -93,8 +93,9 @@ SHAP can be applied to tabular data and image data. SHAP is a model agnostic met
 
 The interpretation SHAP can do is 
 
-**Force Plot**  
-  
+**Force Plot**
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 The above interpretation shows how each feature is pushing or contributing to moving the base value \(the average model output over the training dataset\) of the output. Features that push prediction higher are shown in red and the features pushing the value lower are in blue.
 
@@ -102,7 +103,7 @@ The above interpretation shows how each feature is pushing or contributing to mo
 
 ![](https://lh5.googleusercontent.com/xpaILWMid_xyQ7viUNI8rD584-C1uvJMNsh0LTpREJh4VRtLHYc27tfwZRWNkSh0kU-WeMayl7IXL2qZbp_3nT3lq3r8E4MOABBxZArgcBgFxv-eWckVMg4d2th0GwqjmJk2lPTI)
 
-To understand how a single feature can affect the output of the model we use a partial dependence plot where we plot SHAP value of that feature versus the value of the feature for all examples in a dataset.
+To understand how a single feature can affect the output of the model we use a partial dependence plot where we plot the SHAP value of that feature versus the value of the feature for all examples in a dataset.
 
 ‌ SHAP values represent a feature's responsibility for a change in the model output, the plot below represents the change in predicted output as RM changes. Vertical dispersion at a single value of RM represents interaction effects with other features. 
 
