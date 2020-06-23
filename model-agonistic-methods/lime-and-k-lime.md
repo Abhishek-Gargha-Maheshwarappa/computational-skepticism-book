@@ -1,4 +1,4 @@
-# LIME and K-LIME
+# LIME \(Local Interpretable Model-Agnostic Explanations \)
 
 ### What is it?
 
