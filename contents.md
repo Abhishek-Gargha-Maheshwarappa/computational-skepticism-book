@@ -1,7 +1,7 @@
 # Contents
 
 1. Introduction
-   1. Interpretability and Explainability
+   1. [Interpretability and Explainability](https://app.gitbook.com/@maheshwarappa-a/s/ads/introduction/interpretability)
    2. Demand for explainability
    3. How does one achieve interpretability? 
 2. Types of Model Interpretability
