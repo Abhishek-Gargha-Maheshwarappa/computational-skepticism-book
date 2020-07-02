@@ -26,15 +26,5 @@ To provide a complete explanation for any decision by a black-box model can be a
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-The goal of interpretability is to describe the internals of a system in a way that is understandable to humans. Miller defines Interpretability as the degree to which a human can understand the cause of a decision. The success of this goal is tied to the cognition, knowledge, and biases of the user: for a system to be interpretable, it must produce descriptions that are simple enough for a layman to understand using a vocabulary that is meaningful to the user.
 
-Completeness is describing the operation of a system accurately. An explanation is more complete when it allows the behavior of the system to be anticipated in more situations. When explaining a model like a deep neural network, a perfectly complete explanation can always be given by revealing all the mathematical operations and parameters in the system. 
-
-To understand this difference, let us go back to the example of job and university applications. On approval, we interpret that our skills and experience match the requirements. But this explanation is not complete because we do not know the exact metrics of how the approver made that decision. 
-
-Today, the challenges faced in the field of explainability are in creating explanations that are highly interpretable and complete.
-
-When we dive into the data science of this concept, we will see that there are some models that are fully explainable – such as generalized linear models, and there are other complex models that are not easily explainable – such as a neural network. For complex models, there exist interpretability techniques, that help humans understand how a model makes a prediction. 
-
- In this book, we concentrate on the interpretability of a model. So we will go through the interpretability of both simple models and complex models. 
 

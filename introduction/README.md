@@ -1,6 +1,6 @@
 # Introduction
 
-Over the last few years, there have been several innovations in the field of artificial intelligence and machine learning. As technology is expanding into various domains right from academics to house-cleaning robots and others, it is significantly impacting our lives. For instance, a business or finance user is using machine learning technology to predict the number of customers that will buy a new product or whether or not an attempted activity is uncharacteristic of the account owner.
+Over the last few years, there have been several innovations in the field of artificial intelligence and machine learning. As technology is expanding into various domains right from academics to house-cleaning robots and others, it is significantly impacting our lives. For instance, a business or finance user is now using machine learning technology to predict the number of customers that will buy a new product or whether or not an attempted activity is uncharacteristic of the account owner. This would not have been possible to do so easily 20 years ago.
 
 
 
