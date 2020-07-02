@@ -10,6 +10,7 @@
   * [How does one achieve interpretability?](introduction/how-does-one-achieve-interpretability.md)
 * [Methods of Model Interpretability](types-of-model-interpretability.md)
 * [Interpretable Machine learning models](interpretable-machine-learning-models.md)
+* [Linear Regression](linear-regression.md)
 * [Model agonistic methods](model-agonistic-methods/README.md)
   * [Surrogate model](model-agonistic-methods/surrogate-model.md)
   * [SHAP \(SHapley Additive exPlanations\)](model-agonistic-methods/shap.md)
