@@ -13,5 +13,7 @@ Every machine learning engineer or data scientist learns these two models the fi
 
 Take for example linear regression in daily life, when a person is looking for an apartment he after looking a few apartments and knowing the price and other information like the size of the house, number of rooms, number of bathrooms he will be able approximate the apartment cost which is doesn't know based the details of rooms, size, bathrooms, and others.
 
-Now for the decision tree in daily life,
+Now for the decision tree in daily life, the following picture will help us understand how decision tree are used in daily life.
+
+![](../.gitbook/assets/screenshot-214-.png)
 
