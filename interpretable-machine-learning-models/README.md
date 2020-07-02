@@ -9,5 +9,9 @@ This book discusses two interpretable models
 1. Linear regression
 2. Decision Tree
 
+Every machine learning engineer or data scientist learns these two models the first or in every university and in every course work will contain these two machine learning models. The rationale behind this is they are easy to understand and learn from. These models make sense to human understanding and people can easily connect them with their daily life easily.
 
+Take for example linear regression in daily life, when a person is looking for an apartment he after looking a few apartments and knowing the price and other information like the size of the house, number of rooms, number of bathrooms he will be able approximate the apartment cost which is doesn't know based the details of rooms, size, bathrooms, and others.
+
+Now for the decision tree in daily life,
 
