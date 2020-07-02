@@ -1,7 +1,9 @@
 # Contents
 
+**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+
 1. Introduction
-   1. [Interpretability and Explainability](https://app.gitbook.com/@maheshwarappa-a/s/ads/introduction/interpretability)
+   1. Interpretability and Explainability
    2. Demand for explainability
    3. How does one achieve interpretability? 
 2. Types of Model Interpretability
