@@ -25,9 +25,9 @@ There are three methods employed for achieving model interpretability‌
 2. Model agonistic methods
 3. Model-specific methods
 
-**Interpretable machine models:** These are models which are interpretable by themselves, without external methods. Example - Linear regression and Decision trees 
+**Interpretable machine models:** These are models which are interpretable by themselves, without external methods. Example - Linear regression and Decision trees.
 
-**Model agonistic methods:** These are the methods that can be employed to interpret any models. Example - SHAP, LIME and PDP
+**Model agonistic methods:** These are the methods that can be employed to interpret any models. Example - SHAP, LIME and PDP.
 
-**‌Model-specific methods:** These are the methods that can be employed to specific models.
+**‌Model-specific methods:** These are the methods that can be employed to specific models. Example TCAV - Testing with Concept Activation Vectors.
 
