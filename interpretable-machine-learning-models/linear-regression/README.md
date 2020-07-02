@@ -4,13 +4,23 @@ A linear regression model predicts the target \(dependent variable\) as a weight
 
 Linear models can be used to model the dependence of a regression target variable y on some feature inputs X. The learned relationships are linear and can be written for a single instance  as follows:
 
-**y = β0 + β1 x1 + … + βn Xn + ϵ**
+**One Independent variable**
 
-y is the target variable that we want to be able to predict.
+y = β0 + β1 x1
 
-x1, x2,...Xn - features
+Where :
 
-β0  Intercept
+* ϵ -  mean-zero random error term
+* y - Dependent variable 
+* X - Independent variable
+* β0 - Intercept is the expected value of Y when X = 0
+* β1 - Slope is the average increase in Y associated with a one-unit increase in X
 
-β1, β2,..., βn are the coefficients for every feature input in the linear equation. Also referred to as weights.
+Multiple **Independent variables** 
+
+It is called  multiple linear regression
+
+ Y = β0 + β1X1+ β2X2+ β2X3+… + βkXn + **ϵ**
+
+ϵ -  mean-zero random error term.
 
