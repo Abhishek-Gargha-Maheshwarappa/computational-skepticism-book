@@ -4,5 +4,10 @@ In this section of the book, we want to discuss in detail about the interpretabl
 
 If buy a toaster it self explanatory in itself no need for other people to explain how to operate the toaster. The same is the case with interpretable machine learning models.
 
+This book discusses two interpretable models 
+
+1. Linear regression
+2. Decision Tree
+
 
 
