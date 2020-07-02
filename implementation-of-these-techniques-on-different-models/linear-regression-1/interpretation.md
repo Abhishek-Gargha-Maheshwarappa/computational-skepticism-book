@@ -8,7 +8,7 @@ description: >-
 
 ### Numerical feature:
 
-Interpretation of a numerical feature is fairly simple. We can simply say that increasing the numerical feature by one unit changes the estimated outcome by its weight. An example of a numerical feature in the Medical cost dataset is the age of the individual.
+The interpretation of a numerical feature is fairly simple. We can simply say that increasing the numerical feature by one unit changes the estimated outcome by its weight. An example of a numerical feature in the Medical cost dataset is the age of the individual.
 
 ### Binary feature: 
 
@@ -20,7 +20,7 @@ Features with a fixed number of possible values fall under categorical features.
 
 ### Intercept β0
 
-The intercept is the feature weight for the “constant feature”, which is always 1 for all instances. Most software packages automatically add this “1”-feature to estimate the intercept. The interpretation is: For an instance with all numerical feature values at zero and the categorical feature values at the reference categories, the model prediction is the intercept weight. The interpretation of the intercept is usually not relevant because instances with all features values at zero often make no sense. The interpretation is only meaningful when the features have been standardised \(mean of zero, standard deviation of one\). Then the intercept reflects the predicted outcome of an instance where all features are at their mean value.
+The intercept is the feature weight for the “constant feature”, which is always 1 for all instances. Most software packages automatically add this “1”-feature to estimate the intercept. The interpretation is: For instance with all numerical feature values at zero and the categorical feature values at the reference categories, the model prediction is the intercept weight. The interpretation of the intercept is usually not relevant because instances with all features values at zero often make no sense. The interpretation is only meaningful when the features have been standardised \(mean of zero, the standard deviation of one\). Then the intercept reflects the predicted outcome of an instance where all features are at their mean value.
 
 
 
