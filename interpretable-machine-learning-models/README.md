@@ -2,7 +2,7 @@
 
 In this section of the book, we want to discuss in detail about the interpretable machine learning models. These are simple models that are used widely in many applications all around us. We will be diving deep into the model explanation for these simple models. 
 
-For example, when you buy a toaster it is self-explanatory in itself about how it should be used and there will be no need for other people to explain how to operate the toaster. The same is the case with interpretable machine learning models.
+If buy a toaster it self explanatory in itself no need for other people to explain how to operate the toaster. The same is the case with interpretable machine learning models.
 
 This book discusses two interpretable models 
 
@@ -16,6 +16,4 @@ Take for example linear regression in daily life, when a person is looking for a
 Now for the decision tree in daily life, the following picture will help us understand how decision tree are used in daily life.
 
 ![](../.gitbook/assets/screenshot-214-.png)
-
-But there cases where interpretable machine learning models fail to self-explanation. For example when there is multicollinearity or when there is an interaction effect among the features the linear models fail to explain themselves without the help of other methods. Which will be discussed briefly in this book.
 
