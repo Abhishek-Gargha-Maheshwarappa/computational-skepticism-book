@@ -43,7 +43,9 @@
    4. Random forest
    5. GBM
    6. SVM
-   7. Deep learning
+   7. K-means clustering
+   8. PCA
+   9. Deep learning
 
 
 
