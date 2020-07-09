@@ -1,18 +1,6 @@
 # Model
 
-### Encoding of Categorical Features
-
-In our model, we have used One Hot encoding. But there are multiple ways to encode categorical features. If you want to have a look at the other ways, read [this](https://kiwidamien.github.io/encoding-categorical-variables.html). 
-
-### One Hot Encoding
-
-In this, we create a new feature per level of the original feature. The β per category is the estimated mean value of y for each category \(given all other feature values are zero or the reference category\). Note that the intercept has been omitted here so that a unique solution can be found for the linear model weights.
-
-### Model Creation
-
-Now that we have established the prerequisite knowledge and done some basic encoding required to build a Linear Regression model. Let us dive in and build a model for our dataset.
-
-We want to make a model that will help us predict the charges given all the other features of an individual. You can refer to a step-by-step guide on how to build the model in our jupyter notebook on github. For now, all that is needed to be understood is that we have an OLS method to make our model. 
+### 
 
 ### **The summary of our OLS model is as below:** 
 
@@ -27,8 +15,7 @@ Let’s have another look at the table more closely focused on the part we want 
 
 #### A simple way to interpret this model in form of an equation can be written as:
 
-**charges =   
-0.1886\*age + 0.0021\* female + 0.2012\*bmi + 0.0076\*children + 0.3801\*smoker                        -0.0504\*northeast - 0.0560\*northwest - 0.0669\*southeast - 0.0657\*southwest**
+**charges =**  0.1886\*age + 0.0021\* female + 0.2012\*bmi + 0.0076\*children + 0.3801\*smoker - 0.0504\*northeast - 0.0560\*northwest - 0.0669\*southeast - 0.0657\*southwest
 
 Interpretation of a numerical feature \(age\): An increase of the age by 1 unit increases the charges by the factor of 0.1886 when all other features remain fixed. This means that for an increase of 1 unit in age, the charges go up 1\*0.1886 = 0.1866. So there is an increase of 18.66% in the charges for every 1 year you age. Another reason to wish we could stay younger!
 
