@@ -13,7 +13,7 @@
   * [Linear Regression](interpretable-machine-learning-models/linear-regression/README.md)
     * [Assumptions](interpretable-machine-learning-models/linear-regression/assumptions.md)
     * [Model](interpretable-machine-learning-models/linear-regression/model-1.md)
-    * [Model](interpretable-machine-learning-models/linear-regression/model.md)
+    * [Statistical Interpretation](interpretable-machine-learning-models/linear-regression/model.md)
     * [Visual Interpretation](interpretable-machine-learning-models/linear-regression/visual-interpretation.md)
   * [Decision Trees](interpretable-machine-learning-models/decision-trees.md)
 * [Model agonistic methods](model-agonistic-methods/README.md)
