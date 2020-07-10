@@ -1,4 +1,2 @@
 # Surrogate model
 
-Kartik
-
