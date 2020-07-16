@@ -1,6 +1,6 @@
 ---
 description: >-
-  The information of the weight table (weight and variance estimates) can be
+  The information on the weight table (weight and variance estimates) can be
   visualized in a weight plot.
 ---
 
