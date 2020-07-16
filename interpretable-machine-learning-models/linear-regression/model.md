@@ -1,7 +1,3 @@
----
-description: Meaning of important Stats...!!!
----
-
 # Statistical Interpretation
 
 ### 

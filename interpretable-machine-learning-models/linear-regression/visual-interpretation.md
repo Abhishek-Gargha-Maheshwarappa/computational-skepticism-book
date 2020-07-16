@@ -1,7 +1,5 @@
 ---
-description: >-
-  The information on the weight table (weight and variance estimates) can be
-  visualized in a weight plot.
+description: 'Weight Plot, Predicted vs real values, Box plot'
 ---
 
 # Visual Interpretation
