@@ -1,8 +1,12 @@
+---
+description: What assumptions to be made?
+---
+
 # Assumptions
 
 
 
-There are four assumptions associated with a linear regression model:
+
 
 1. **Linearity**: The relationship between X and the mean of Y is linear.
 2. **Homoscedasticity**: The variance of residual is the same for any value of X.
