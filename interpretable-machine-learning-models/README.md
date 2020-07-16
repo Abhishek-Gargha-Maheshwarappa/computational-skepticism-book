@@ -1,7 +1,3 @@
----
-description: Model that are interpretable implicitly and industrial applications
----
-
 # Interpretable Machine learning models
 
 In this section of the book, we want to discuss in detail about the interpretable machine learning models. These are simple models that are used widely in many applications all around us. We will be diving deep into the model explanation for these simple models. 
