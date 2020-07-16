@@ -9,3 +9,17 @@ There are four assumptions associated with a linear regression model:
 3. **Independence**: Observations are independent of each other.
 4. **Normality**: For any fixed value of X, Y is normally distributed.
 
+
+
+
+
+[The Notebook with the implementation of the Assumptions](https://colab.research.google.com/drive/1-TLYC_YdscL1CVMPJGxwEzY0tgw7BeqQ?usp=sharing)
+
+
+
+
+
+
+
+
+
