@@ -1,7 +1,3 @@
----
-description: 'What, Why, How...!!!'
----
-
 # Linear Regression
 
 A linear regression model predicts the target \(dependent variable\) as a weighted sum of the feature inputs \(independent variables\). The linearity of their relationship makes the interpretation easy. Linear regression models are very widely used by statisticians, computer scientists and other people who tackle quantitative problems. It is safe to say that almost every machine learning engineer started his/her journey with a simple linear regression model. 
