@@ -4,9 +4,9 @@ description: What assumptions to be made?
 
 # Assumptions
 
+**Homoscedasticity**
 
-
-
+Homoscedasticity means the variance around the regression line is the same for all the values of predictor variables. Homoscedasticity describes a situation in which the error term is the same across all the values of the independent variables. Violation of the Homoscedasticity  is called heteroscedasticity, it is present when the size of the error term difference across values of an independent variables.
 
 1. **Linearity**: The relationship between X and the mean of Y is linear.
 2. **Homoscedasticity**: The variance of residual is the same for any value of X.
