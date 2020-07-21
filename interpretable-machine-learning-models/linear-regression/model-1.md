@@ -6,7 +6,7 @@ description: How it is made ...!!!
 
 ### Preprocessing
 
-Before applying any model to the given data, it has to be preprocessed. Preprocessing involves encoding the data for categorical feature and normalization of the data 
+Before applying any model to the given data, it has to be preprocessed. Preprocessing involves encoding the data for categorical features and normalization of the data.
 
 ### Encoding of Categorical Features
 
