@@ -4,23 +4,11 @@ description: How it is made ...!!!
 
 # Model
 
-### Preprocessing
+The important step in data modeling is data preparation for modeling. Most of the data scientist time is spent on data preparation rather than building the model.
 
-Before applying any model to the given data, it has to be preprocessed. Preprocessing involves encoding the data for categorical features and normalization of the data.
+During preprocessing there are many steps to be followed many things to handle, this out of the scope of this book. 
 
-### Encoding of Categorical Features
+[https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73)
 
-In our model, we have used One Hot encoding. But there are multiple ways to encode categorical features. If you want to have a look at the other ways, read [this](https://kiwidamien.github.io/encoding-categorical-variables.html). 
-
-**Normalization**
-
-Data normalization is a process in which data features within a data model are organized to increase the cohesion of entity types
-
-### 
-
-
-
-### Model Creation
-
-
+For the data insurance premium data set we will be using, the data preparation used was encoding the categorical columns and scaling the data. Which is present in the hands-on notebook attached for this chapter.
 
