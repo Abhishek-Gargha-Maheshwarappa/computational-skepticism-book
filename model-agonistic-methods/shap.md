@@ -24,7 +24,7 @@ Cooperative Game theory is where every player has agreed to work together toward
 
 #### Shapely values
 
-A method of dividing up the gains or costs among players according to the value of their contributions.
+The SHAP being based on the game-theory approach takes the coalition of the features and provides the contributions of each feature for predictions since it takes into a coalition effect it is better compared to other methods like feature importance for measuring the contributions for predictions.
 
 It rests on three important pillars
 
