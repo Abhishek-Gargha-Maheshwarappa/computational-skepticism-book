@@ -1,22 +1,25 @@
 ---
-description: What assumptions to be made?
+description: >-
+  It is important to understand the assumptions made before making a linear
+  model. This section demonstrates the assumptions with Python notebook
+  containing code verification of every assumption.
 ---
 
 # Assumptions
 
 ### **Linearity** 
 
-The linear regression model is used when the dependent variable y is assumed to vary linearly with dependent variable X.
+A linear regression model is used when the dependent variable y is assumed to vary linearly with dependent variables X \(X1, X2, X3,..., Xn\).
 
-Fitting a linear model to non-linear data results is serious prediction errors. ‌ To detect non-linearity one can inspect plots of predicted values vs observed values.
+Fitting a linear model to non-linear data results in serious prediction errors. ‌ To detect non-linearity, one can inspect plots of 'predicted values' vs 'observed values'.
 
-The desired outcome is that points are symmetrically distributed around a diagonal line in the plot.
+The desired outcome is that the points that are symmetrically distributed around a diagonal line in the plot \(such as that shown below\).
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
 ### **Homoscedasticity**
 
-Homoscedasticity means the variance around the regression line is the same for all the values of predictor variables. Homoscedasticity describes a situation in which the error term is the same across all the values of the independent variables. Violation of the Homoscedasticity is called heteroscedasticity, it is present when the size of the error term difference across values of an independent variable. This can be fixed by data transformation like log transformation.
+Homoscedasticity means that the variance around our linear regression line is the same for all the values of predictor variables. In other words, Homoscedasticity describes a situation in which the error term is the same across all the values of the independent variables/feature inputs. Violation of the Homoscedasticity is called Heteroscedasticity. Heteroscedasticity is present when the size of the error term is different across different values of an independent variable. This can be fixed by data transformation methods such as log transformation.
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
@@ -24,23 +27,21 @@ Homoscedasticity means the variance around the regression line is the same for a
 
 ### **No Multicollinearity** 
 
-Multicollinearity is the situation where independent variables in the multiple regression model are highly correlated. Multi collinearity is not good for linear modeling.
+Multi-collinearity is a situation wherein the independent variables in the regression model are highly correlated. Multi-collinearity is not good for linear modeling.
 
-One can detect multicollinearity using the Variance Inflation Factor\(VIF\). The Variance Inflation Factor estimates how much the variance of a regression coefficient is inflated due to multicollinearity in the model.
+One can detect Multi-collinearity by using the Variance Inflation Factor\(V.I.F.\). The Variance Inflation Factor estimates how much the variance of a regression coefficient is inflated due to Multi-collinearity in the model.
 
-**VIF** = 1/\(1-Rsquare\)
+**V.I.F.** = 1/\(1-Rsquare\) \(photos needed\)
 
-#### **Interpreting the Variance Inflation Factor**
+Variance Inflation Factors range between 1 and above 1. The numerical value for V.I.F. tells us what percentage of the variance \(i.e. the standard error squared\) is inflated for each coefficient. 
 
-Variance Inflation Factors range from 1 upwards. The numerical value for VIF tells us what percentage of the variance \(i.e. the standard error squared\) is inflated for each coefficient. 
+Let's take an example to understand this concept better:
 
-Let take an example,
+Assume V.I.F. = 1.9 
 
-VIF = 1.9 
+This tells us that the variance of a particular coefficient is 90% bigger than what you would expect if there was no Multi-collinearity — if there was no correlation with other predictors. 
 
-tells us that the variance of a particular coefficient is 90% bigger than what you would expect if there was no multicollinearity — if there was no correlation with other predictors. 
-
-**Variance Inflation Factor:**
+General Values for Variance Inflation Factor:
 
 **1** = not correlated
 
@@ -50,11 +51,11 @@ tells us that the variance of a particular coefficient is 90% bigger than what y
 
 ### **Normality test**
 
-For applying the hypothesis testing the data has to be normally distributed. This is required for applying the linear model also. The normality can be verified with a normal quantile-quantile plot. If the plot is an approximately straight line then the data is approximately normally distributed.
+When we apply a linear model, we essentially do a hypothesis testing. The test the hypothesis that a particular feature input has impact on the target variable. In order to apply the hypothesis testing, the data has to be normally distributed. This is required while making the linear model also. The normality can be verified with a normal quantile-quantile plot. If the plot is an approximately straight line, then the data is approximately normally distributed.
 
-Violations of normality because the 
+Violations of normality may occur because:  
 
-* dependent and/or independent variables are significantly non-normal
+* the dependent and/or independent variables are significantly non-normal
 * the linearity assumption is violated
 
 The solution can be a nonlinear transformation of variables that might help to make data normal.
