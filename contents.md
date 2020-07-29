@@ -42,6 +42,7 @@
    3. Decision trees
    4. Random forest
    5. GBM
+   6. Deep learning
 
 
 
