@@ -37,13 +37,10 @@
    4. Automotive marketing dataset 
    5. Marketing communications dataset
 7. Implementation of these techniques on different models
-   1. Linear regression
-   2. Logistic regression
-   3. Decision trees
-   4. Random forest
-   5. GBM
-
-
+   1. Logistic regression - Shap
+   2. Random forest - Lime
+   3. GBM - PDP, ICE, ALE
+   4. Navies Bayes - Surrogate
 
 
 
