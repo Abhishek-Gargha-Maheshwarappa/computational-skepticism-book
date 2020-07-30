@@ -1,7 +1,3 @@
----
-description: How it is made ...!!!
----
-
 # Model
 
 In this section, we will take you through building a Linear Regression model. We will explain the steps very briefly as this part is not the focus of our book. We want to be sure of making a good accurate model because it makes no sense to try and interpret an inaccurate model.
