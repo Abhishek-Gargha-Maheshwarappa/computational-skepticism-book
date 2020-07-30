@@ -51,7 +51,7 @@ General Values for Variance Inflation Factor:
 
 ### **Normality test**
 
-When we apply a linear model, we essentially do hypothesis testing. The test the hypothesis that a particular feature input has an impact on the target variable. In order to apply hypothesis testing, the data has to be normally distributed. This is required while making the linear model also. The normality can be verified with a normal quantile-quantile plot. If the plot is an approximately straight line, then the data is approximately normally distributed.
+When we apply a linear model, we essentially do a hypothesis testing. The test the hypothesis that a particular feature input has impact on the target variable. In order to apply the hypothesis testing, the data has to be normally distributed. This is required while making the linear model also. The normality can be verified with a normal quantile-quantile plot. If the plot is an approximately straight line, then the data is approximately normally distributed.
 
 Violations of normality may occur because:  
 
