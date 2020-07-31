@@ -1,14 +1,18 @@
 # Decision Trees
 
-Decision Trees are used to predict a target variable 
+Decision Trees are used to predict a target variable based on the decision made on subset of data in a tree format. Any classification or regression problem can be solved using Decision Trees. The main idea is to find the most impactful features and place them towards the root of the tree. As the tree deepens, the subset becomes smaller, and the predictions become accurate for that subset of data. Let use an example to understand how decision tree works
+
+Consider the below table where we have four columns : Weather, Humidity, Wind speed and Run
+
+![](../.gitbook/assets/image%20%2817%29.png)
+
+Our target variable is "Run" and the other three columns are our feature inputs.
 
 Decision Tree is a non-parametric method, a supervised learning algorithm for classification problems.
 
 Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
-Let use an example to understand how decision tree works
 
-![](../.gitbook/assets/image%20%2817%29.png)
 
  How the decision tree will classify this
 
