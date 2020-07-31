@@ -1,5 +1,7 @@
 # Decision Trees
 
+Decision Trees are used to predict a target variable 
+
 Decision Tree is a non-parametric method, a supervised learning algorithm for classification problems.
 
 Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/)
