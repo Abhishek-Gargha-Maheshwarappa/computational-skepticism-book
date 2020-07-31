@@ -22,3 +22,5 @@ Till now you can consider the angel telling us which attribute to split on, now 
 
 It is based on the measure of the purity of the split, entropy helps to measure the purity of the split. Entropy is the way to measure the uncertainty of class in a subset. 
 
+Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/) 
+
