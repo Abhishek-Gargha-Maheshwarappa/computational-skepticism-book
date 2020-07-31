@@ -1,14 +1,12 @@
 # How Do They Work?
 
-Consider the below table where we have four columns : Weather, Humidity, Wind speed and Run
+To understand the working of Decision Trees, consider the below table where we have four columns : Weather, Humidity, Wind speed and Run
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
 Our target variable is "Run" and the other three columns are our feature inputs.
 
-Decision Tree is a non-parametric method, a supervised learning algorithm for classification problems.
 
-Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 
 

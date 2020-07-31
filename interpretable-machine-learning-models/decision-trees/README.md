@@ -1,6 +1,6 @@
 # Decision Trees
 
-Decision tree models allow model predictions to be visualized and allow users to explicitly see the decisions made in determining the prediction. As given in the name, these decisions are made in a tree format. Any classification or regression problem can be solved using Decision Tree models. 
+Decision tree models allow model predictions to be visualized and allow users to explicitly see the decisions made in determining the prediction. As given in the name, these decisions are made in a tree format. Decision Tree is a non-parametric method, a supervised learning algorithm for classification problems.
 
 The reason Decision Trees are prevalent is because they are easy to interpret. Humans can understand the decisions made by a Decision Tree model because that is also how humans make a decision.  
 
