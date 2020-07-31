@@ -6,6 +6,8 @@ To understand the working of Decision Trees, consider the below table where we h
 
 Our target variable is "Run" and the other three columns are our feature inputs.
 
+To find the most important feature in the above table, we have to take into consideration a few metrics.
+
 
 
 

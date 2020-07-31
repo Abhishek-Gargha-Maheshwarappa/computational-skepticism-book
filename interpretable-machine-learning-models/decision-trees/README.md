@@ -1,16 +1,28 @@
 # Decision Trees
 
-Decision tree models allow model predictions to be visualized and allow users to explicitly see the decisions made in determining the prediction. As given in the name, these decisions are made in a tree format. Decision Trees are a non-parametric method and supervised learning algorithm for classification problems.
+Decision Trees are used to predict a target variable based on the decision made on subset of data in a tree format. Any classification or regression problem can be solved using Decision Trees. The main idea is to find the most impactful features and place them towards the root of the tree. As the tree deepens, the subset becomes smaller, and the predictions become accurate for that subset of data. Let use an example to understand how decision tree works
 
-The reason Decision Trees are prevalent is because they are easy to interpret. Humans can understand the decisions made by a Decision Tree model because that is also how humans make a decision.  
+Consider the below table where we have four columns : Weather, Humidity, Wind speed and Run
 
-To understand the an example of Decision Trees in daily life, consider the following picture:
+![](../../.gitbook/assets/image%20%2817%29.png)
 
-![](../../.gitbook/assets/screenshot-214-.png)
+Our target variable is "Run" and the other three columns are our feature inputs.
 
-The Decision tree above depicts simple decision making that one would make. At every step in the tree, asking the right question either leads us to an answer or the next important question that will in turn lead us to an answer.
+Decision Tree is a non-parametric method, a supervised learning algorithm for classification problems.
 
-The key here is to find the most important features that impact a prediction and place them towards the root of the tree. As the tree deepens, we see nearly all the features that impact the model for all the predictions made by the model. 
+Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
-Decision trees are widely used in Operations research and Operations management. There are many different algorithms that were developed based on the Decision Tree principle such as RandomForest, XGBoost, GBM, etc. 
+
+
+ How the decision tree will classify this
+
+![Tree](../../.gitbook/assets/screenshot-278-.png)
+
+As can be seen, the node Overcast is pure since it has only one output that is to go for a run. So we now know that if the weather is the overcast person will go for a run. But if the weather is not overcast then if it is rainy or sunny doesn't have an output, it has yes or no. So needs further splitting it deduce it more.
+
+Till now you can consider the angel telling us which attribute to split on, now let us know how the angel knows which attribute to select.
+
+**Which attribute to split on?**
+
+It is based on the measure of the purity of the split, entropy helps to measure the purity of the split. Entropy is the way to measure the uncertainty of class in a subset. 
 
