@@ -1,5 +1,7 @@
 # Interpretability and Explainability
 
+**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+
 Human decisions are being pushed to be made by Machine Learning models. Human decisions generally tend to depend on beliefs and values, and sometimes on habit or tradition. Whatever the case, every human decision has a justification. Therefore, if we are to replace human decisions by a model's decision, it is highly important to be able to understand these model decisions, just like humans decisions are justified.
 
 How would we define interpretability in daily life? "Interpretability" is not a term one would find in the dictionary, but if we split the word, we can get a sense of the meaning - "interpret ability". Just by looking at this, one can tell that this refers to the ability to interpret something. 

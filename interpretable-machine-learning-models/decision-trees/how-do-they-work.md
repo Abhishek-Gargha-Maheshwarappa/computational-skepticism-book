@@ -6,31 +6,43 @@ To understand the working of Decision Trees, consider the below table where we h
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
-Our target variable is "Run" and the other three columns are our feature inputs.
+We want to be able to predict when we can go for a run \(Run="Yes"\) and when we cannot\(Run="No"\), based on the Weather, Humidity and Wind speed. 
 
-To find the most important feature in the above table, we have to take into consideration a few metrics.
+The Decision Tree algorithm works on a "Divide & Conquer" principle where the aim is to break the data into subsets with similar attributes. 
 
-entropy 
+![](../../.gitbook/assets/image%20%2818%29.png)
 
-gini
+As shown in the above figure, at the origin of the tree we have a "Root" node which is split into "Decision" and "Terminal" nodes. "Terminal" nodes are also referred to as "Leaf" nodes and they contain the model's predicted output. The "Decision" nodes essentially help in splitting the data into a subset. After splitting the data into subsets, we can have a common output for a subset \(terminal node\) or we can split the subset further into more subsets \(with the help of a decision node\)
 
-pure node/impure node
+**How do we decide our root node,decision nodes and terminal nodes?** It depends on the the function we choose to measure the quality of a split. 
 
-root/leaf/edge\(branch\)
+Broadly, there are three functions that can be used: Gini, Chi-Squared and Entropy. Every function has a mathematical formula linked to it and that mathematical formula is used to split the dataset into the root, decision and terminal nodes. Most commonly used are Gini and Entropy. 
 
+For the purpose of this book, we have explained the Entropy function. We have not shown the mathematical formula of the Entropy to keep things simple. If you are interested in knowing the mathematical functions or want to know how the other functions work, check out this **link**.
 
+Before diving into the explanation of the Entropy function, it is important to understand the difference between a "Pure" node and an "Impure" node. Any "Decision" node that yields only a "Terminal" node, can be called a "Pure" node. In other words, the result of that decision is the same and common for all data points in that subset. 
+
+**Insert picture of Overcast column - Pure node**
+
+In the above picture, it can be seen that "Overcast" is a pure node because whenever the Weather is "Overcast", the predicted Run is "Yes". There is never a "No" Run when Weather is "Overcast". This is the definition of a pure node. If instead of the "Yes" in Run, we had all "No" for "Overcast", it would still be a pure node. Only if the data had a micture of "Yes" and "No" run, with "Overcast" weather, would the node be termed as "impure". 
+
+With that definition in mind. Let's understand what Entropy is. 
+
+Entropy can be defined as the measure of uncertainty of a class in a data/subset of a data set. Entropy essentially tells how pure/impure a node is. The purer a node, the higher it is placed in our tree. Using the **Entropy Mathematical Formula,**  we obtain the best attribute and use that as the root node of our tree.
+
+Once we have the best attribute, we further split it into two child nodes based on next best attributes. At each step, we calculate the entropy for a node and then calculate the Information Gain. Overall, we want to design our tree in such a way that the Information Gain is maximized. The mathematical formula for the Information Gain is:
+
+I.G. = Original Entropy - Subset1\(size\*entropy\) - Subset2 \(size \* entropy\)
+
+So in our example, Weather was the best attribute and it yielded a pure node in "Overcast". If the Weather was "Sunny" or "Rainy", the we would have the further split the data into subsets as they are impure nodes. These subsets are made based on mathematical calculation of Entropy and Information Gain for every attribute other than "Sunny" or "Rainy". 
+
+The process can continue till we obtain a tree that will justify all the predictions in a dataset. If that is done, the tree would be too complex and it would overfit the data. By overfitting, we mean that the tree would only be able to predict correctly for the given data set and not new data. This is not desired and so it is advisable to avoid overly complex Decision Trees. In the next sections, we will show how to build a model using sklearn and interpret the model. All the mathematical calculations involved are done by the libraries function and all we have to do is define the hyper-parameters to our model. 
+
+**End**
 
  How the decision tree will classify this
 
 ![Tree](../../.gitbook/assets/screenshot-278-.png)
-
-As can be seen, the node Overcast is pure since it has only one output that is to go for a run. So we now know that if the weather is the overcast person will go for a run. But if the weather is not overcast then if it is rainy or sunny doesn't have an output, it has yes or no. So needs further splitting it deduce it more.
-
-Till now you can consider the angel telling us which attribute to split on, now let us know how the angel knows which attribute to select.
-
-**Which attribute to split on?**
-
-It is based on the measure of the purity of the split, entropy helps to measure the purity of the split. Entropy is the way to measure the uncertainty of class in a subset. 
 
 Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/) 
 
