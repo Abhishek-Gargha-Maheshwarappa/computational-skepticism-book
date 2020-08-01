@@ -1,7 +1,5 @@
 # Model
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 In this section, we will take you through building a Linear Regression model. We will explain the steps very briefly as this part is not the focus of our book. We want to be sure of making a good accurate model because it makes no sense to try and interpret an inaccurate model.
 
 The first and most important step in data modeling is actually ensuring having the right data. Data preparation for modeling is highly important and difficult to do. Most of the time of a data scientist's job is spent on data preparation rather than building the model.

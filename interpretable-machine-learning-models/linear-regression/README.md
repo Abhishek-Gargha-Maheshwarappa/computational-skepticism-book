@@ -1,7 +1,5 @@
 # Linear Regression
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 A linear model is an attempt to understand the target variable as a linear equation of the features_. **In other words, a linear model predicts the dependent variable as a weighted sum of the independent variables. The linearity of the established relationship makes the interpretation easy.**_ Linear regression models are very widely used by statisticians, computer scientists and other people who tackle quantitative problems. It is safe to say that almost every machine learning engineer started his/her journey with a simple linear regression model. 
 
 The reason one uses a linear model because it is easy to implement and easy to understand. Every machine learning model is always made with a trade-off between interpret-ability and accuracy. Complex Deep learning models are highly accurate, but their structure makes it difficult to be interpreted. Linear models, on the other hand, can make reasonably accurate predictions and are easy to interpret.

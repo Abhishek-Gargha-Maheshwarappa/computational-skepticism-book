@@ -10,7 +10,13 @@ Our target variable is "Run" and the other three columns are our feature inputs.
 
 To find the most important feature in the above table, we have to take into consideration a few metrics.
 
+entropy 
 
+gini
+
+pure node/impure node
+
+root/leaf/edge\(branch\)
 
 
 

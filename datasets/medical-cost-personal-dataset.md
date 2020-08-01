@@ -1,7 +1,5 @@
 # Medical Cost Personal Dataset
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ## Description
 
 This dataset contains information about the medical charges incurred by an individual in the United States along with their personal details such as age, gender, body mass index\(bmi\), number of children, smoker/non-smoker, residential area. The charges are an important point of estimation for any insurance company. We will be using Linear Regression to determine the factors affecting the charges and creating a model to predict the charges accurately. Our aim is to make an accurate model and help achieve the maximum interpretability of this accurate model.

@@ -1,7 +1,5 @@
 # Methods of Model Interpretability
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 Before taking about the different methods for model interpretability, need to mention the type of machine learning models. 
 
 There are two types models 

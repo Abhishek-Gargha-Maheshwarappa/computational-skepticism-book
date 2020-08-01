@@ -1,9 +1,5 @@
 # PDP \(Partial Dependence Plot\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
-
-
 The partial dependence plot shows the marginal effect of one or two features on the predicted outcome of a machine learning model. 
 
 ‌A partial dependence plot can show the relationship between the target and the features under investigation. 

@@ -1,9 +1,5 @@
 # LIME \(Local Interpretable Model-Agnostic Explanations\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
-
-
 ### What is it?
 
 LIME is short for Local Interpretable Model-Agnostic Explanations \(LIME\). From the name, we can deduce that it is a model agnostic method - which means that this technique can be applied to any model. Also from the name, we can see that this generates Local Explanations. 

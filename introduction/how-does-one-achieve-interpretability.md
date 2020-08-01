@@ -1,7 +1,5 @@
 # How does one achieve interpretability?
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 So far we have seen that interpretability is something that is computationally less expensive than explainability. But how do we measure it? To answer this, let us define interpretability more clearly:
 
 "Interpretability" in machine learning is the ability to predict a model's output before the model itself. If we can predict that a model will classify a text as spam/ham, for all possible texts in our training dataset, we have full interpretation of our model. 
