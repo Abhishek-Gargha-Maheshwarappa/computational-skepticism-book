@@ -7,6 +7,8 @@ description: >-
 
 # Assumptions
 
+**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+
 ### **Linearity** 
 
 A linear regression model is used when the dependent variable y is assumed to vary linearly with dependent variables X \(X1, X2, X3,..., Xn\).

@@ -1,5 +1,7 @@
 # How Do They Work?
 
+**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+
 To understand the working of Decision Trees, consider the below table where we have four columns : Weather, Humidity, Wind speed and Run
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
