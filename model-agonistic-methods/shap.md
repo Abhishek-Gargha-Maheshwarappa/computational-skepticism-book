@@ -66,7 +66,7 @@ Let us say David and Lisa are making cookies separately. David makes 10 cookies 
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MAC2Jbv5mGL5pUkLsG8%2Fsync%2F205ae6f0bc3cf539d424cdc47500d35765419d35.png?alt=media)
 
-‌If we consider 1$ for each cookie, then they make $30 when they bake it separately \(30 cookies - David makes 10 and Lisa makes 20\). But when they bake together they get $40 \(40 cookies together\).
+‌If we consider 1$ for each cookie, then they make $30 when they bake it separately \(30 cookies - David makes 10 and Lisa make 20\). But when they bake together they get $40 \(40 cookies together\).
 
 Let us now calculate the marginal contribution
 
@@ -88,9 +88,9 @@ This is the marginal contribution of David to the coalition.
 
 So in the first case, David's value to the coalition is 10 cookies and in the second case, David's value to the coalition is 20 cookies. According to the Shapely equation, to find the Shapely value of David we need to average these two values i.e., \(10+20\)/2 = 15. This the  Shapely value for David
 
-Similarly, for Lisa, in the first case the value to the coalition is 30 cookies. And in the second case, her value to the coalition is 20 cookies. So Shapley value for Lisa will be \(20+30\)/2 = 25.
+Similarly, for Lisa, in the first case, the value to the coalition is 30 cookies. And in the second case, her value to the coalition is 20 cookies. So Shapley value for Lisa will be \(20+30\)/2 = 25.
 
-We hope the above example have given clarity on what Shapely values are.
+We hope the above example has given clarity on what Shapely values are.
 
 ‌SHAP gives the feature importance assigned to every feature which will correspond to the contribution by it for the prediction.
 
