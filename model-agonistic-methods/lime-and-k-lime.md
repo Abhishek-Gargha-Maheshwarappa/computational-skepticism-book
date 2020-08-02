@@ -2,6 +2,23 @@
 
 **Readers note:** _**The book is not yet completed will be released in the last week of August**_
 
+* **Intro - background and history**
+* **Definition**
+* **Non technical Explanation - Metaphorical example**
+* **Technical Explanation - Equation and explanation**
+* **Suitable Algorithms for the technique**
+* **Pros and Cons**
+
+### Introduction
+
+LIME is short for Local Interpretable Model-Agnostic Explanations \(LIME\). From the name, we can deduce that it is a model agnostic method - which means that this technique can be applied to any model. Also from the name, we can see that this generates Local Explanations. This means that this technique helps generate explanations for a single instance/row in our data set.
+
+LIME is a technique that can be applied to understand the predictions of a black box model, by understanding the individual predictions with the help of a simpler, and directly interpretable model.
+
+In general, black box models are highly complex and to be able to generate an overall global explanation for the model’s prediction is actually a very difficult job. The LIME algorithm was first brought into light for its ability to help understand image classification in 2016 \[**paper link**\]. With this algorithm, we could identify the parts of the input that triggered or affected our output the most. Even though this algorithm might not allow high volume of interpretability on model predictions, it definitely allows us to get a high quality in the local interpretation. This technique is highly impactful when we want to focus on understanding individual predictions rather than a group of predictions made by a model. An example of such a use-case would be the healthcare industry, wherein each individual has a unique biological body mechanism. It would be wrong to generalize a model and assume the model would predict correctly for every human. Since every individual is unique, we would want to understand the single predictions and ensure that our model has not made a mistake. 
+
+### 
+
 
 
 ### What is it?
