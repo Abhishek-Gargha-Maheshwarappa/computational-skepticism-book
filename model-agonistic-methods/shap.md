@@ -22,11 +22,11 @@ Non-Cooperative game theory is a competitive social interaction where there will
 
 #### Cooperative Game theory
 
-Cooperative Game theory is where every player has agreed to work together towards a common goal. **Like/Unlike** the Nash equilibrium, cooperative game theory has shapely values. In-game theory, a coalition is what you call a group of players in a cooperative game.
+Cooperative Game theory is where every player has agreed to work together towards a common goal. Like the Nash equilibrium, cooperative game theory has shapely values. In-game theory, a coalition is what you call a group of players in a cooperative game.
 
 #### Shapely values
 
-A method of dividing up the gains or costs among players, according to value of their individual contributions .
+A method of dividing up the gains or costs among players, according to the value of their individual contributions.
 
 It rests on three important pillars:
 
@@ -44,7 +44,7 @@ If two parties bring the same things to the coalition, they should have to contr
 
 If a member of the coalition contributes nothing then they should receive nothing. But it might not be fair in all the cases, let us take an example to make this concept more clear.
 
-‌If you go to a restaurant with friends and you order nothing and eat nothing, then there is no need for you to chip in on the bill. But in another scenario, when you are on maternity leave, and are not paid since you are not working, is not fair.
+‌If you go to a restaurant with friends and you order nothing and eat nothing, then there is no need for you to chip in on the bill. But in another scenario, when you are on maternity leave and are not paid since you are not working, is not fair.
 
 ‌ Mathematically shapely values are represented by
 
