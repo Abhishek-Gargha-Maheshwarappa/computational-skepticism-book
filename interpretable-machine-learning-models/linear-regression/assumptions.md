@@ -64,5 +64,5 @@ The solution can be a nonlinear transformation of variables that might help to m
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
-[The Notebook with the implementation of the Assumptions](https://colab.research.google.com/drive/1-TLYC_YdscL1CVMPJGxwEzY0tgw7BeqQ?usp=sharing)
+
 
