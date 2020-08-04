@@ -24,7 +24,7 @@ So in the root node, we have 3869 samples for churn class "Yes" and 1378 for chu
 
 In the next level, we have two decision nodes based on whether Contract &lt;=0.5.
 
-![Root Node and Level 1 of Decision Tree](../../.gitbook/assets/image%20%2824%29.png)
+![Root Node and Level 1 of Decision Tree](../../.gitbook/assets/image%20%2825%29.png)
 
 We can see that of the 5247 samples in the root node, 2862 have Contract = 0 \(**Categoryname**\) and 2385 have Contract = 1\(**Categoryname**\). In the first level after the root node, we have two decision nodes which show that "Monthly Charges" is the most important feature for that level. On the left, the decision threshold is "Monthly Charges &lt;= 68.975" and on the right the decision threshold is "Monthly Charges &lt;=93.675". Remember that the primary separator of data before this node was Contract. 
 
