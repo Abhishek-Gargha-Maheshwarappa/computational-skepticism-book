@@ -10,7 +10,7 @@ Firstly, we have adjusted for missing values in the data by replacing with the m
 
 Secondly, to make the interpretation easy, we have reduced the data set using feature importance. In this step, we have essentially trained a Decision Tree classifier on the entire data set, and then calculated the feature importance for every column using the "model.feature\_importances\_" function \(inbuilt function\).
 
-![Variable Importance](../../.gitbook/assets/image%20%2821%29.png)
+![Variable Importance](../../.gitbook/assets/image%20%2822%29.png)
 
 After calculating the feature importance for every column, we have filtered out the columns that had a value lower than our threshold value. The threshold value chosen by us is 0.05, but this can be changed as per your convenience. 
 
