@@ -13,7 +13,7 @@
 
 LIME is short for Local Interpretable Model-Agnostic Explanations. LIME is a technique that can be applied to understand the predictions of a black box model, by understanding the individual predictions with the help of a simpler, and directly interpretable model. 
 
-LIME can be used in case of tabular, text and even image data. It generates local explanation for a particular row, input word vector or a super pixel in all the three cases respectively. The technique was first proposed in a [paper](https://arxiv.org/abs/1602.04938) in 2016. From the name, we can deduce that it is a model agnostic method - which means that this technique can be applied to any model. Also from the name, we can see that this generates Local Explanations. This means that this technique helps generate explanations for a single instance/row in our data set. 
+LIME can be used in case of tabular, text and even image data. It generates a local explanation for a particular row, input word vector or a super pixel in all the three cases respectively. The technique was first proposed in a [paper](https://arxiv.org/abs/1602.04938) in 2016. From the name, we can deduce that it is a model agnostic method - which means that this technique can be applied to any model. Also from the name, we can see that this generates Local Explanations. This means that this technique helps generate explanations for a single instance/row in our data set. 
 
 ### Definition
 
