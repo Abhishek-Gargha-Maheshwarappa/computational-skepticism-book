@@ -27,8 +27,8 @@
    2. SHAP
    3. LIME and K-LIME
    4. PDP
-   5. ICE
-   6. ALE
+   5. ICE - sat
+   6. ALE -  sat
 5. Model-specific Methods
 6. Data sets
    1. Medical cost personal Dataset
@@ -37,10 +37,10 @@
    4. Automotive marketing dataset 
    5. Marketing communications dataset
 7. Implementation of these techniques on different models
-   1. Logistic regression - Shap
-   2. Random forest - Lime
-   3. GBM - PDP, ICE, ALE
-   4. Navies Bayes - Surrogate
+   1. Logistic regression - Shap almost done
+   2. Random forest - Lime   6 th
+   3. GBM - PDP, ICE, ALE     8 th 
+   4. Navies Bayes - Surrogate - 10th
 
 
 

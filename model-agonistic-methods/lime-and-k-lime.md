@@ -4,7 +4,7 @@
 
 * **Intro - background and history**
 * **Definition**
-* **Non technical Explanation - Metaphorical example**
+* **Non-technical Explanation - Metaphorical example**
 * **Technical Explanation - Equation and explanation**
 * **Suitable Algorithms for the technique**
 * **Pros and Cons**
