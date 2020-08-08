@@ -51,6 +51,12 @@ In the image, the proximity is represented by the size of the cross and the circ
 
 We have to understand that features that may seem important locally need not be important globally. By global importance, we mean that a feature is important for all the instance predictions in the data set. But in local importance, the features may or may not be the same as global because only a single instance prediction is taken into consideration.
 
+### Visualizations
+
+
+
+
+
 ### Algorithms suitable for LIME application
 
 LIME is a model agnostic method that can be applied to any kind of model.
