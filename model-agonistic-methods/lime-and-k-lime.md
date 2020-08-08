@@ -21,7 +21,7 @@ In general, black box models are highly complex and to be able to generate an ov
 
 This technique is highly impactful when we want to focus on understanding individual predictions rather than a group of predictions made by a model. An example of such a use-case would be the healthcare industry, wherein each individual has a unique biological body mechanism. It would be wrong to generalize a model and assume the model would predict correctly for every human. Since every individual is unique, we would want to understand the single predictions and ensure that our model has not made a mistake. 
 
-In the image below, we have a model that predicts if a person has the flu or not. For a particular individual, LIME indicates that sneeze and headache had contributed to the “flu” prediction, while “no fatigue” is evidence against it. With these, a doctor can make an informed decision about whether to trust the model’s prediction.
+In the image below, we have a model that predicts if a person has the flu or not. For this particular individual, LIME indicates that sneeze and headache had contributed to the “flu” prediction, while “no fatigue” is evidence against it. With these, a doctor can make an informed decision about whether to trust the model’s prediction.
 
 ![LIME highlights the symptoms that led to the prediction](../.gitbook/assets/image%20%2826%29.png)
 
