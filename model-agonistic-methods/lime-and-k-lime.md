@@ -61,7 +61,7 @@ Currently, we are dealing with tabular data sets and in the upcoming version we 
 
 * The technique can be applied to tabular, text and image data
 * The technique can be easily used as it is implemented in a Python library \([lime.py](https://github.com/marcotcr/lime)\)
-* 
+
 ### **Cons**
 
 * The vicinity of a prediction can vary and to find the right  kernel width that generates an accurate local explanation is a difficult job
