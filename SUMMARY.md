@@ -25,7 +25,6 @@
   * [PDP \(Partial Dependence Plot\)](model-agonistic-methods/pdp.md)
   * [ICE \(Individual Conditional Plots\)](model-agonistic-methods/ice.md)
   * [ALE](model-agonistic-methods/ale.md)
-* [Model-specific Methods](model-specific-methods.md)
 * [Datasets](datasets/README.md)
   * [Medical Cost Personal Dataset](datasets/medical-cost-personal-dataset.md)
 * [Implementation of these techniques on different models](implementation-of-these-techniques-on-different-models/README.md)
