@@ -25,9 +25,9 @@
       1. Global 
       2. Local
    2. SHapley Additive exPlanations
-   3. LIME and K-LIME
+   3. Local Interpretable Model-Agnostic Explanations and  K-LIME
    4. Partial Dependence Plot
-   5. ICE - sat
+   5. Individual Conditional Plots
    6. ALE -  sat
 5. Model-specific Methods
 6. Data sets
