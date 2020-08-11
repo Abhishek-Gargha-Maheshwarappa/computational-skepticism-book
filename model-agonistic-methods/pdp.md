@@ -4,9 +4,13 @@
 
 ### Introduction
 
-The partial dependence plot shows the marginal effect of one or two features on the predicted outcome of a machine learning model. A partial dependence plot can show the relationship between the target and the features under investigation. PDP is a global method that considers all the data instances, it gives the global relationship of a feature with the predicted outcome. 
+Partial Dependence Plots were first used by Friedman in 2001. The model agnostic technique plots the change in a specified feature's values with the predicted outcome, averaging the effect of the other predictor variables. By making such a plot, we can get a gist of how a feature impact varies  - linear, non-linear,  etc. 
+
+These plots were one of the earliest techniques used to interpret machine learning models. Essentially, the plot shows the marginal effect of a feature on the predicted outcome of a machine learning model. The plots help get an insight into the feature importance. A simple way to judge feature importance from these plots is \(a\) if the plot is zero or a constant line, then the feature is not very important in predicting the outcome \(b\) if the plot has a linear or has many curves, then the feature is important as it is impacting the predictor outcome.
 
 ### Mathematical Explanation
+
+It is often used to study the relationship between the target and a feature under investigation. 
 
 Input predictor variables XT = \(X1, X2, . . . , Xp\) - indexed by S ⊂ {1, 2, . . . , p}.
 
@@ -28,11 +32,15 @@ PDP can be Estimated by
 
 where {x1C, x2C, . . . , xNC} - values of XC occurring in the training data. 
 
-### **Non-technical Explanation** 
+### **Non-Technical Explanation**
 
-Let us take the example of insurance 
+The way PDPs work is very similar to how one would 
 
-Where insurance charges are modeled on: -
+### **Technical Explanation** 
+
+To understand how PDPs work, let us take the example of medical insurance charges and the data set for this problem that we have mentioned in the Datasets section.
+
+In this, the insurance charges are modeled on: -
 
 * Age
 * BMI
