@@ -24,7 +24,7 @@
    1. Surrogate model
       1. Global 
       2. Local
-   2. SHAP
+   2. SHapley Additive exPlanations
    3. LIME and K-LIME
    4. Partial Dependence Plot
    5. ICE - sat

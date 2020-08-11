@@ -24,3 +24,8 @@ The C-ICE \(centered ICE plots\) makes it easier to compare the curves of indivi
 
 It helps to Identify the heterogeneity within the data. The derivate function \(curve\) will tell you whether changes occur and in which direction they occur. If there are no interactions then the individual partial derivate will be the same and they differ due to interaction which will be visible in derivate ICE -plot. SO Derivate ICE plot can be used to identify the interaction among the features.
 
+### References
+
+1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019.
+2. The Elements of    Statistical Learning:   Trevor Hastie   , Robert Tibshirani   , Jerome Friedman
+
