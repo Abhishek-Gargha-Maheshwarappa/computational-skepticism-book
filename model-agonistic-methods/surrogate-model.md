@@ -40,6 +40,12 @@ Once we have tunned the simple model to achieve maximum accuracy, we can visuali
 
 ### Visualizations
 
+![](../.gitbook/assets/image%20%2839%29.png)
+
+![](../.gitbook/assets/image%20%2842%29.png)
+
+![](../.gitbook/assets/image%20%2843%29.png)
+
 ### Pros
 
 * The technique helps achieve interpretability for any black-box model

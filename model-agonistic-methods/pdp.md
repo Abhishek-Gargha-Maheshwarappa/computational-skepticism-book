@@ -14,7 +14,7 @@ The way PDPs work is very similar to how a teacher would evaluate students in a 
 
 In order to do this, the teacher gives the students a test to see their performance. The test results arrive a week later and the teacher starts to evaluate the students. Only once all the students marks have been evaluated, the teacher can start evaluating how an individual student fairs in the class. 
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Once the teacher has all the marks evaluated, in order to find out the students that are highly skilled in math, the teacher will average out the marks by all students and compare individual student marks to that average. The more a student is above the average, the better he/she is at math. 
 
@@ -28,7 +28,7 @@ A common misconception in PDPs is that we want to plot the feature values agains
 
 For features that are continuous, it is easy to visualize a line that shows the variations in a particular column. For categorical columns, the plots are not exactly a straight line, rather discrete. The PDP takes the form of a bar plot and all the categories present in the column under investigation have unique bars assigned to them.
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 If the bars are similar in size and value range, then the feature is not very important and does not change the prediction much. Else, if the bar size and value ranges are different, the feature is important and the plot gives an idea of the most impactful categories in the column.
 
@@ -40,7 +40,7 @@ Note: PDPs can also be used to visualize the effect of two columns together agai
 
 ### Visualizations
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
