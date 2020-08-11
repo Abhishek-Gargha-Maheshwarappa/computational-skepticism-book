@@ -2,9 +2,9 @@
 
 **Readers note:** _**The book is not yet completed will be released in the last week of August**_
 
-To demonstrate the application of Decision Tree model, we will consider Churn data set. Our aim is to be able to predict whether a customer will Churn or not, using a Decision Tree classifier. 
+To demonstrate the application of the decision tree model, we will consider the Churn data set. Our aim is to be able to predict whether a customer will Churn or not, using a Decision Tree classifier. 
 
-Before creating the model, we have included a few pre-processing step. 
+Before creating the model, we have included a few pre-processing steps. 
 
 Firstly, we have adjusted for missing values in the data by replacing with the mode for discrete \(categorical\) columns and mean for continuous \(numeric\) columns.
 
