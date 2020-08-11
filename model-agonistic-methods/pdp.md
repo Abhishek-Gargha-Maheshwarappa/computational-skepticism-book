@@ -8,7 +8,7 @@ The partial dependence plot shows the marginal effect of one or two features on 
 
 ### Mathematical Explanation
 
- Input predictor variables XT = \(X1, X2, . . . , Xp\) - indexed by S ⊂ {1, 2, . . . , p}.
+Input predictor variables XT = \(X1, X2, . . . , Xp\) - indexed by S ⊂ {1, 2, . . . , p}.
 
 Consider the subvector XS of ℓ &lt; p of the predictor variable
 
