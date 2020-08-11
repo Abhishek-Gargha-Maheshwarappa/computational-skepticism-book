@@ -26,7 +26,7 @@
       2. Local
    2. SHAP
    3. LIME and K-LIME
-   4. PDP
+   4. Partial Dependence Plot
    5. ICE - sat
    6. ALE -  sat
 5. Model-specific Methods

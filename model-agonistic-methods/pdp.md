@@ -6,29 +6,27 @@
 
 The partial dependence plot shows the marginal effect of one or two features on the predicted outcome of a machine learning model. A partial dependence plot can show the relationship between the target and the features under investigation. PDP is a global method that considers all the data instances, it gives the global relationship of a feature with the predicted outcome. 
 
-### Technical Explanation
+### Mathematical Explanation
 
-Let Xs be the set of target features, where the input predictor variable are 
+ Input predictor variables XT = \(X1, X2, . . . , Xp\) - indexed by S ⊂ {1, 2, . . . , p}.
 
-X T = \(x1,x2,........xp\) indexed by S belongs to {1,2,3,....p}
+Consider the subvector XS of ℓ &lt; p of the predictor variable
 
- Let Xc be its complement of Xs
+Let C be the complement set,  -  S ∪ C = {1, 2, . . . , p}
 
-f\(x\) = f\(Xc,Xs\)
+A general function f\(X\) will in principle depend on all of the input variables
 
-f\(x\) depends on all the input features
+ f\(X\) = f\(XS , XC\)
 
-So now PDP
+One way to define the average or partial dependence of f\(X\) on XS is
 
-fs\(Xs\) = EXcf \(Xs,Xc\)
+![](../.gitbook/assets/image%20%2833%29.png)
 
-PDP can be used to interpret any black box models
+PDP can be Estimated by
 
-### 
+![](../.gitbook/assets/image%20%2832%29.png)
 
-![](../.gitbook/assets/image%20%2831%29.png)
-
-
+where {x1C, x2C, . . . , xNC} - values of XC occurring in the training data. 
 
 ### **Non-technical Explanation** 
 
@@ -54,15 +52,25 @@ Here if we take a partial dependence plot for prediction versus age, then the pa
 
 Image credits - [https://scikit-learn.org/](https://scikit-learn.org/)
 
-Pros
+### Pros
+
+PDP is very intuitive 
+
+PDP has causal interpretation has it averages the other features
 
 
 
-Cons
+### Cons
 
-This will be computationally intensive, even for moderately size data sets. The most important thing to remember is the partial dependence functions represent the effect on Xs on f\(x\) after accounting for the \(average\) effects of the other variable Xc on f\(x\). They are not the effect of Xs on f\(x\) ignoring the effect of Xc.
+PDP requires a pass over the entire dataset once, which can be computationally intensive, even for moderately sized data sets. 
 
 ‌It can be applied with a maximum of two features due to the higher dimensional view is not possible to plot and understandable due limitation of the human perception. It is generally applied to the most important features and can have multiple PDPs side by side. 
+
+### Reference 
+
+The Elements of Statistical Learning: [Trevor Hastie](http://www-stat.stanford.edu/~hastie/),  [Robert Tibshirani](http://www-stat.stanford.edu/~tibs/) and  [Jerome Friedman](http://www-stat.stanford.edu/~jhf)
+
+Scikit Learn -  [https://scikit-learn.org/](https://scikit-learn.org/)
 
 
 
