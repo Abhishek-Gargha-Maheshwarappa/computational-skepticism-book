@@ -4,7 +4,7 @@
 
 Maintaining current customers is very important as acquiring new customers is very expensive compared to maintaining current customers. So to understand what rate the customers are leaving Churn is calculated. The dataset contains the customer churn which is calculated by the number of customers who leave the company during a given period. The target variable in the dataset is 'Churn'. There may be many reasons for customer churn like bad onboarding, poor customer service, less engagement, and others.
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 **Data Set Characteristics:** Classification **-** Bivariate 
 

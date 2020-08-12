@@ -1,28 +1,24 @@
 # Surrogate model
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+**Introduction**
 
+Surrogacy is a process when an external source is used to help achieve an outcome that was not possible internally. The early stage of applications of this technique in machine learning was when Mutual Angular Regularization was proposed to be surrogate to Latent Variable Modeling in 2015\([paper](https://arxiv.org/abs/1512.07336)\). The goal was to make the process and the outcome more interpretable. 
 
+The core idea behind this technique is to get a simpler model to replicate the black-box model predictions as best as possible, and at the same time, provide interpretability. A common misconception is that if we are going to use a simpler model to interpret the black-box model, why make the black box model in the first place? Why can't we just make a directly interpretable model such as Linear Regression or Decision Tree?
 
-### **Introduction**
-
-Surrogacy is a process when a n external source is used to help achieve an outcome that was not possible internally. The early stage of applications of this technique in machine learning were when Mutual Angular Regularization was proposed to be surrogate to Latent Variable Modeling in 2015\([paper](https://arxiv.org/abs/1512.07336)\). The goal was to make the process and outcome more interpretable. 
-
-The core idea behind this technique is to get a simpler model to replicate the black box model predictions as best as possible, and at the same time, provide interpretability. A common misconception is that if we are going to use a simpler model to interpret the black-box model, why make the black box model in the first place? Why can't we just make make a directly interpretable model such as Linear Regression or Decision Tree?
-
-The answer is because we will be comprising on accuracy. Though simpler models are easy to interpret, they are not very accurate with complex data. Complex models such as a deep learning model do a good job with complex data that a simple model would do. Our aim with surrogacy is to build a simple model, that can predict the prediction made by the blac-box model.
+The answer is because we will be comprising of accuracy. Though simpler models are easy to interpret, they are not very accurate with complex data. Complex models such as a deep learning model do a good job with complex data that a simple model would do. Our aim with surrogacy is to build a simple model, that can predict the prediction made by the black-box model.
 
 The surrogate models can be applied globally or locally, based on the use case. In this section, we will discuss global surrogates, and in the next section, we will explain local surrogates. 
 
 ### Non-technical Explanation
 
-The idea of surrogacy is very common outside model interpretability and has been used for decades. It is used widely in engineering systems and in healthcare industry.
+The idea of surrogacy is very common outside model interpretability and has been used for decades. It is used widely in engineering systems and in the healthcare industry.
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
-In healthcare, when a couple want a child but cannot get the child on their own due to certain circumstances, they go for surrogacy i.e., get surrogate parent\(s\) for the child. In the above picture we can see that a third person helps in giving the two parents a child. The father may or may not be the same. Eventually, the child is going to be raised in a family that might not be related by blood.
+In healthcare, when a couple wants a child but cannot get the child on their own due to certain circumstances, they go for surrogacy i.e., get surrogate parent\(s\) for the child. In the above picture, we can see that a third person helps in giving the two parents a child. The father may or may not be the same. Eventually, the child is going to be raised in a family that might not be related by blood.
 
-In a similar way, consider a black-box model to be the two green-colored parents \(see in pic\). The model cannot achieve interpretability by itself, just like the parents cannot get a child on their own. Hence, to achieve interpretability, or get a child, they take the help of an outsider. This outsider\( model/ the third person colored pink\) can help us achieve interpretability or get a child with ease. Hence, helping complete the goal which seemed impossible earlier.
+In a similar way, consider a black-box model to be the two green-colored parents \(see in pic\). The model cannot achieve interpretability by itself, just like the parents cannot get a child on their own. Hence, to achieve interpretability, or get a child, they take the help of an outsider. This outsider\( model/ the third person colored pink\) can help us achieve interpretability or get a child with ease. Hence, helping complete the goal seemed impossible earlier.
 
 The above example is a perfect way of explaining the concept. We hope you feel the same and can remember the concept with this example. 
 
