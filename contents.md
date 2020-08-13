@@ -28,7 +28,6 @@
    3. Local Interpretable Model-Agnostic Explanations and  K-LIME
    4. Partial Dependence Plot
    5. Individual Conditional Plots
-   6. ALE -  sat
 5. Model-specific Methods
 6. Data sets
    1. Medical cost personal Dataset
@@ -39,8 +38,8 @@
 7. Implementation of these techniques on different models
    1. Logistic regression
    2. Random forest 
-   3. GBM - PDP, ICE, ALE  
-   4. Navies Bayes - Surrogate 
+   3. GBM  
+   4. Navies Bayes
 
 
 
