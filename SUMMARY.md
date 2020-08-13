@@ -32,6 +32,7 @@
   * [Pima Indians Diabetes Dataset](datasets/pima-indians-diabetes-dataset.md)
 * [Implementation of these techniques on different models](implementation-of-these-techniques-on-different-models/README.md)
   * [Logistic Regression](implementation-of-these-techniques-on-different-models/logistic-regression.md)
+  * [Untitled](implementation-of-these-techniques-on-different-models/untitled.md)
   * [Linear Regression](implementation-of-these-techniques-on-different-models/linear-regression-1/README.md)
     * [Assumptions](implementation-of-these-techniques-on-different-models/linear-regression-1/assumptions.md)
     * [Linear model feature](implementation-of-these-techniques-on-different-models/linear-regression-1/linear-model-feature.md)
