@@ -24,11 +24,13 @@ Now since the model training and predicting is done now time to move ahead with 
 
 We are using library SHAP by [Scott Lundberg](https://scottlundberg.com/) for generating SHAP for providing interpretation for the model trained.
 
-### **Implementation of Interpreatability**
+### **Implementation of Interpretability**
 
 **Kernel Shap**
 
 Kernel Shap is being used to generate SHAP values, kernel SHAP can be applied to any model for SHAP generation. Kernel SHAP uses a specially-weighted local linear regression to estimate SHAP values for any model.
+
+### **Visualization**
 
 Once the SHAP values are generated we can generate the summary plot from these values which tells us the effect of each attribute on the predictions. The SHAP summary is always better compared to the variable importance because of the coalition effect involved in the SHAP.
 
