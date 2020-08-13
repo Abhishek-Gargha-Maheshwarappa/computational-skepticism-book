@@ -6,6 +6,8 @@ Logistic regression is one of the techniques of machine learning from the field 
 
 To read more about Logistic Regression this [link](https://web.stanford.edu/~hastie/ElemStatLearn/).
 
+### **Model Details**
+
 Logistic regression is applied to the Sales Opportunity Size Dataset where the **target** is 
 
 **DEAL SIZE** - Small, Medium and Large.
@@ -21,6 +23,8 @@ The model has very good accuracy, which can be seen in the confusion matrix whic
 Now since the model training and predicting is done now time to move ahead with Interpretation, for this model we will be using SHAP for interpretation.
 
 We are using library SHAP by [Scott Lundberg](https://scottlundberg.com/) for generating SHAP for providing interpretation for the model trained.
+
+### **Implementation of Interpreatability**
 
 **Kernel Shap**
 
