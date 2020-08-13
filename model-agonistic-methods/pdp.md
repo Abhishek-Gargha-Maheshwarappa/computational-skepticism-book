@@ -10,21 +10,25 @@ These plots were one of the earliest techniques used to interpret machine learni
 
 ### **Non-Technical Explanation**
 
-The way PDPs work is very similar to how a teacher would evaluate the classroom performance in a school. Consider the example wherein the teacher is assigned a class of 10 students. The teacher takes 20 tests for every student in an academic year.  
+The way PDPs work can be similar to how a teacher would evaluate a student's performance in a classroom. Consider the example wherein the student has 3 subjects - Physics, Chemistry and Math. The student writes 10 tests for every subject in an academic year.  
 
-Every test is evaluated by the teacher. At the end of evaluation of all 20 tests in the year, the teacher studies the performance of the class. To her delight, the class performance had improved a lot in a span of 1 academic year. The teacher is very happy and wants to give chocolates to students that improved the most and helped improve class performance. To be able to see how well a particular student did, the teacher takes the PDP approach.  
+Every test is evaluated by the teacher. At the end of evaluation of all 30 tests in the year, the teacher studies the overall performance of the student. So the overall performance is an output that is decided by the 3 subject test scores.  
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
-First student is John. Since the class performance metric is dependent on all 10 students, the teacher takes the average scores for all other 9 students and sees how Johns scores affected it. She takes the individual scores of John along with the average scores of other 9 to compute the class performance in every test. If the plot is a straight line, it means that John has scored the same marks in all the tests. It also means that John did not have much hand in improving the class performance. If, on the contrary, John had scored low in his first few tests and scored high in the tests towards the end of the year, the teacher would see a linear line with increasing slope in the plot. This would tell the teacher that John had played a major role in improving class performance and definitely deserves a chocolate!
+The teacher wants study how good the student is at Math and how the student's overall performance is impacted by this subject. The teacher decides to take the PDP approach to do this. 
+
+First, the teacher takes the average score for the each of the other subjects - Chemistry and Physics. Then, the teacher varies the Math scores and studies how the overall performance varies. The teacher plots a graph with change in performance\(y-axis\) against Math score\(x-axis\). 
+
+The plot turns out to be a line with increasing slope. This means that as the Math score increased, the students performance improved.  
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
-PDPs are similar to the above example such that the students are merely the features\(columns\) present in the data set. The test scores are the rows. To study the impact on of one feature, we average the effect of the others and only study how a single feature's values bring change in prediction outcome.
+If the line had been straight line, we could have said that the Math score had no impact in changing the overall performance of the student. In the above example, the subjects are merely the features\(columns\) present in the data set. The test scores are the rows. To study the impact on of one feature, we average the effect of the others and only study how a single feature's values bring change in prediction outcome.
 
 ### **Technical Explanation** 
 
-PDPs are named Partial Dependence Plots for a reason. The end goal is to find out the partial derivative of a single feature with respect to the output.
+PDPs are named Partial Dependence Plots for a reason. The end goal is to find out the partial derivative of a single feature with respect to the output. By doing so, we are calculating the change in output, with respect to one feature. We vary values for this one feature and average the values for the other. 
 
 A common misconception in PDPs is that we want to plot the feature values against the predicted outcome. NO! We want to plot the feature values against the change in our predicted outcome. So the feature values are the x-axis and the change in prediction values for every feature value input is the y-axis.
 
