@@ -7,7 +7,7 @@
 * [What is Model Interpretability?](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
   * [Demand for Explainability](introduction/demand-for-explainability.md)
-  * [How does one achieve interpretability?](introduction/how-does-one-achieve-interpretability.md)
+  * [How does one achieve Interpretability?](introduction/how-does-one-achieve-interpretability.md)
 * [Methods of Model Interpretability](types-of-model-interpretability.md)
 * [Interpretable Machine learning models](interpretable-machine-learning-models/README.md)
   * [Linear Regression](interpretable-machine-learning-models/linear-regression/README.md)

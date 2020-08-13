@@ -4,7 +4,7 @@ description: Whom this book for ?
 
 # Preface
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August.**_
+**Readers note:** _**The book is not yet completed will be released in the last week of August.\(in progress\)**_
 
 The book aims to address the general idea of "Model Interpretability" and the novel topics around it. It gives a guide for a "hands-on" application of Model Interpretability techniques on different machine learning algorithms. The basic requirement of implementing Model Interpretability is the model itself, so through different examples, we will be creating models and will showcase how to establish a brief explanation of the model employed. 
 
