@@ -6,7 +6,7 @@ To read more about Logistic Regression this [link](https://web.stanford.edu/~has
 
 Logistic regression is applied to the Sales Opportunity Size Dataset where the **target** is 
 
-**DEAL SIZE** - Small, Medium and Large
+**DEAL SIZE** - Small, Medium and Large.
 
 The data is passed through preprocessing which contains handling missing values, one-hot encoding, and other steps required, then it is trained using Scikit learn Library.
 
