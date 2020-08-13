@@ -10,19 +10,21 @@ These plots were one of the earliest techniques used to interpret machine learni
 
 ### **Non-Technical Explanation**
 
-The way PDPs work is very similar to how a teacher would evaluate students in a classroom. Consider the example wherein a Math teacher has been assigned a new group of students to teach. In order to understand the students better, the teacher want to know how the students fair currently. 
+The way PDPs work is very similar to how a teacher would evaluate the classroom performance in a school. Consider the example wherein the teacher is assigned a class of 10 students. The teacher takes 20 tests for every student in an academic year.  
 
-In order to do this, the teacher gives the students a test to see their performance. The test results arrive a week later and the teacher starts to evaluate the students. Only once all the students marks have been evaluated, the teacher can start evaluating how an individual student fairs in the class. 
+Every test is evaluated by the teacher. At the end of evaluation of all 20 tests in the year, the teacher studies the performance of the class. To her delight, the class performance had improved a lot in a span of 1 academic year. The teacher is very happy and wants to give chocolates to students that improved the most and helped improve class performance. To be able to see how well a particular student did, the teacher takes the PDP approach.  
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
-Once the teacher has all the marks evaluated, in order to find out the students that are highly skilled in math, the teacher will average out the marks by all students and compare individual student marks to that average. The more a student is above the average, the better he/she is at math. 
+First student is John. Since the class performance metric is dependent on all 10 students, the teacher takes the average scores for all other 9 students and sees how Johns scores affected it. She takes the individual scores of John along with the average scores of other 9 to compute the class performance in every test. If the plot is a straight line, it means that John has scored the same marks in all the tests. It also means that John did not have much hand in improving the class performance. If, on the contrary, John had scored low in his first few tests and scored high in the tests towards the end of the year, the teacher would see a linear line with increasing slope in the plot. This would tell the teacher that John had played a major role in improving class performance and definitely deserves a chocolate!
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
-PDPs are similar to the above evaluation such that the students are merely the features present in the data set. To study the impact of one feature, we average the effect of the others and study that particular features values with change in prediction outcome.
+PDPs are similar to the above example such that the students are merely the features\(columns\) present in the data set. The test scores are the rows. To study the impact on of one feature, we average the effect of the others and only study how a single feature's values bring change in prediction outcome.
 
 ### **Technical Explanation** 
+
+PDPs are named Partial Dependence Plots for a reason. The end goal is to find out the partial derivative of a single feature with respect to the output.
 
 A common misconception in PDPs is that we want to plot the feature values against the predicted outcome. NO! We want to plot the feature values against the change in our predicted outcome. So the feature values are the x-axis and the change in prediction values for every feature value input is the y-axis.
 

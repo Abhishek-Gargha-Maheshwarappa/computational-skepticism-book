@@ -2,9 +2,35 @@
 
 **Readers note:** _**The book is not yet completed will be released in the last week of August**_
 
-ICE display one line per instance that shows how the instance prediction changes when feature changes.
 
-‌ PDP focus is on the global interpretation and doesn't concentrate on local interpretation. ICE is equivalent to PDP for individual data instance, PDP is the average of ICE lines
+
+### Introduction
+
+ICE is short for Individual Conditional Expectation. These plots are similar to the PDPs, yet very different.
+
+They are similar to PDPs because they help in understanding the variations in a feature values against the output. In essence, they are extension to the PDPs. An ICE plot is just the PDP but disintegrated for every instance in the data set. The ICE plot unpacks the PDP curve and displays one line per instance that shows how the instance prediction changes when feature changes.
+
+‌They are different than PDPs because they help achieve local interpretability, rather than the global interpretation we get from PDPs. 
+
+### **Non Technical Explanation:**
+
+To explain the ICE concept, we will take the same example to the one in PDPs to help draw the analogy between the PDP and ICE as well.
+
+In PDPs, we said that a feature refers to a student. There were 10 students and 20 tests in our example . In PDP analogy, we mentioned that to study if John helped improve class performance, the teacher took PDP approach. 
+
+Suppose the teacher  In ICE, we want to be able to visualize how the student scored in reality. For every test, we plot how the student scored in Math with the actual Physics and Chemistry scores.  
+
+
+
+
+
+### Technical Explanation:
+
+As stated before, ICE plots represent feature variations for every individual row. When the variations for every single row are in the same plot, we can see if there are any relations between individual rows or subsets of data.
+
+Technically, the plots are similar to PDPs as the effect of other features are averaged out. 
+
+
 
 ![](../.gitbook/assets/image%20%2837%29.png)
 
