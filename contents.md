@@ -39,7 +39,7 @@
    1. Logistic regression
    2. Random forest 
    3. GBM  
-   4. Deep Learning
+   4. Navies Bayes
 
 
 

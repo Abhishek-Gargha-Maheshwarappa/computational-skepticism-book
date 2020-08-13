@@ -6,7 +6,7 @@ Logistic regression is one of the techniques of machine learning from the field 
 
 To read more about Logistic Regression this [link](https://web.stanford.edu/~hastie/ElemStatLearn/).
 
-### **Model Details**
+### **Model** 
 
 Logistic regression is applied to the Sales Opportunity Size Dataset where the **target** is 
 
