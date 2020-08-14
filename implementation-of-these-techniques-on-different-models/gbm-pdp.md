@@ -1,0 +1,48 @@
+# GBM - PDP
+
+### What is GBM?
+
+* Gradient Boosting Machine is a machine learning algorithm that forms an ensemble of weakly predicted decision trees
+* It constructs a forward stage-wise additive model by implementing gradient descent in function space
+* Also known as MART \(Multiple Additive Regression Trees\) and GBRT \(Gradient Boosted Regression Trees\)
+
+### Making the Model
+
+**Dataset:** Pima Indians Diabetes  ; **Target:** Outcome
+
+The data is trained by calling the GradientBoostingClassifier function from Scikit learn Library
+
+**Accuracy:** 
+
+### **Implementation of Interpretability**
+
+For this model, we will interpret with Partial Dependence Plots. 
+
+![](../.gitbook/assets/image%20%2877%29.png)
+
+With just few lines of code, we can plot the PDPs for any dataset using the sklearn partial\_dependence library.
+
+### Visualizations
+
+**PDP for every feature**
+
+![](../.gitbook/assets/image%20%2876%29.png)
+
+The above plot shows how each individual feature varies with change in the output. Some key points for interpretation from the above plots:
+
+* As Pregnancies increase, the person's chances of becoming diabetic go up
+* Higher the Glucose, higher the chances of person becoming diabetic
+* BMI more than 25 increases an individuals chances of becoming diabetic
+
+ **3-D PDPs**
+
+![](../.gitbook/assets/image%20%2874%29.png)
+
+These plots show the combined effect of two features on the change in output. As seen above, a reduction in both - Insulin and DiabetesPedigreeFunction, results in negative change of a person being diabetic \(nearing non-diabetic situation\).
+
+**PDP value plot**
+
+ 
+
+![](../.gitbook/assets/image%20%2871%29.png)
+
