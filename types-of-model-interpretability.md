@@ -1,29 +1,26 @@
 # Methods of Model Interpretability
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
-Before taking about the different methods for model interpretability, need to mention the type of machine learning models. 
+Before taking about the different methods/techniques for Model Interpretability, we need to mention the types of machine learning models. 
 
 There are two types models 
 
 1. Interpretable Models
 2. Black Box Models
 
-Interpretable Models are interpretable in itself, they don't require any other method to explain them explicitly. The other interpretable methods can be employed to them also for interpreting the model.  
+![](.gitbook/assets/image%20%2891%29.png)
 
-Black Box Models are those which are not interpretable in itself, they require other methods to explain them. The reason why these models are called the black-box model because they are least understood or they are very complex to understand or not understood at all. For example, when we consider the neural network model there are millions of weights and calculations that are happening within these layers, and to understand them is either very difficult or not possible for the human mind to understand such large calculations. Hence these models are called Black Models.
+Interpretable Models are interpretable in itself. They don't require any other techniques to explain them explicitly. The other interpretable techniques can be applied to them also for interpreting the model but are not needed.  
+
+Black Box Models are those which are not interpretable in itself. They require other methods to explain them. The reason why these models are called black-box is because they are very complex to understand or not understood at all. For example, when we consider a neural network model, there are millions of weights and calculations that are happening within the layers. To understand them is extremely difficult and it is not possible for the human mind to understand such large calculations. Hence these models are called Black Models.
 
 **Methods of Interpretability**
 
-There are three methods employed for achieving model interpretability‌
+There are three methods employed for achieving Model Interpretability‌
 
 1. Interpretable machine models
 2. Model agonistic methods
-3. Model-specific methods
 
 **Interpretable machine models:** These are models which are interpretable by themselves, without external methods. Example - Linear regression and Decision trees.
 
 **Model agonistic methods:** These are the methods that can be employed to interpret any models. Example - SHAP, LIME and PDP.
-
-**‌Model-specific methods:** These are the methods that can be employed to specific models. Example TCAV - Testing with Concept Activation Vectors.
 
