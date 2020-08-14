@@ -1,17 +1,12 @@
 # Contents
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
-1. Introduction
-   1. Interpretability and Explainability
-   2. Demand for explainability
-   3. How does one achieve interpretability? 
-2. Types of Model Interpretability
-   1. Interpretable Machine learning models
-   2. Model Agonistic method
-   3. Model-specific methods
-3. Interpretable Machine learning models
-   1. Linear Regression
+1.  ****[**Introduction**](introduction/)\*\*\*\*
+   1. [Interpretability and Explainability](introduction/interpretability.md)
+   2. [Demand for explainability](introduction/demand-for-explainability.md)
+   3. [How does one achieve interpretability](introduction/how-does-one-achieve-interpretability.md)? 
+2. \*\*\*\*[**Methods of Model Interpretabilit**y](types-of-model-interpretability.md)
+3. \*\*\*\*[**Interpretable Machine learning model**s](interpretable-machine-learning-models/)
+   1. [Linear Regression](interpretable-machine-learning-models/linear-regression/)
       1. Introduction
       2. Use case example
       3. Statistical interpretation
@@ -39,7 +34,7 @@
    1. Logistic regression
    2. Random forest 
    3. GBM  
-   4. Navies Bayes
+   4. Deep Learning
 
 
 
