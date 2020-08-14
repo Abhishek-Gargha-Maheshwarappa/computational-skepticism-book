@@ -30,8 +30,9 @@
 6. \*\*\*\*[Implementation of these techniques on different models](implementation-of-these-techniques-on-different-models/)
    1. [Logistic regression](implementation-of-these-techniques-on-different-models/logistic-regression.md)
    2. [Random forest ](implementation-of-these-techniques-on-different-models/untitled.md)
-   3. GBM  
-   4. Deep Learning
+   3. [GBM - PDP](implementation-of-these-techniques-on-different-models/gbm-pdp.md)
+   4. [GBM - ICE](implementation-of-these-techniques-on-different-models/gbm-ice.md)  
+   5. [Deep Learning](implementation-of-these-techniques-on-different-models/deep-learning-surrogate.md)
 
 
 

@@ -24,7 +24,7 @@ We are using the SHAP library created by [Scott Lundberg](https://scottlundberg.
 
 **Kernel Shap** is one of the SHAP explainers that can be used to generate SHAP values. Kernel SHAP can be applied to any model for SHAP generation. Kernel SHAP uses a specially-weighted local linear regression to estimate SHAP values for any model.
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 We have used kmeans on the entire data set before feeding it to the SHAP explainer to reduce computation time. Essentially we want to be able to get the predicted values for the data set by the model.
 

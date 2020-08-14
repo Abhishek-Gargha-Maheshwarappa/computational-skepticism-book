@@ -4,7 +4,7 @@
 * [Preface](preface.md)
 * [About us](about-us.md)
 * [Contents](contents.md)
-* [What is Model Interpretability?](introduction/README.md)
+* [What is Interpretability?](introduction/README.md)
   * [Interpretability and Explainability](introduction/interpretability.md)
   * [Demand for Explainability](introduction/demand-for-explainability.md)
   * [How does one achieve Interpretability?](introduction/how-does-one-achieve-interpretability.md)

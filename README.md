@@ -14,19 +14,19 @@ description: Making a model “​TrustWorthy​”
 
 ## Authors:
 
-Abhishek Gargha Maheshwarappa
+1. **Abhishek Gargha Maheshwarappa** \([LinkedIn](https://www.linkedin.com/in/abhishek-g-m/)\) 
 
-* [LinkedIn ](https://www.linkedin.com/in/abhishek-g-m/)
+![](.gitbook/assets/image%20%2874%29.png)
 
-Kartik Kumar
+2. **Kartik Kumar** \([LinkedIn](https://www.linkedin.com/in/hellokartikkumar/)\) 
 
-* [LinkedIn ](https://www.linkedin.com/in/hellokartikkumar/)
+![](.gitbook/assets/linkedin_crop.png)
 
 ## **Mentor:**
 
-**Nicholas Brown** \(Assistant Teaching Professor,  Multidisciplinary Graduate Engineering Programs, Northeastern University\)
+**Nicholas Brown** \(Assistant Teaching Professor,  Multidisciplinary Graduate Engineering Programs, Northeastern University\)  [LinkedIn](https://www.linkedin.com/in/nikbearbrown/)
 
-* [LinkedIn ](https://www.linkedin.com/in/nikbearbrown/)
+[ ](https://www.linkedin.com/in/nikbearbrown/)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
+![](.gitbook/assets/image%20%2873%29.png)
 

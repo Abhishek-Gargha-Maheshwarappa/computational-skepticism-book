@@ -18,7 +18,7 @@ The data is trained by calling the GradientBoostingClassifier function from Scik
 
 For this model, we will interpret with Partial Dependence Plots. 
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 With just few lines of code, we can plot the PDPs for any dataset using the sklearn partial\_dependence library.
 
@@ -26,7 +26,7 @@ With just few lines of code, we can plot the PDPs for any dataset using the skle
 
 **PDP for every feature**
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 The above plot shows how each individual feature varies with change in the output. Some key points for interpretation from the above plots:
 
@@ -36,7 +36,7 @@ The above plot shows how each individual feature varies with change in the outpu
 
  **3-D PDPs**
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
 These plots show the combined effect of two features on the change in output. As seen above, a reduction in both - Insulin and DiabetesPedigreeFunction, results in negative change of a person being diabetic \(nearing non-diabetic situation\).
 
@@ -44,5 +44,5 @@ These plots show the combined effect of two features on the change in output. As
 
  
 
-![](../.gitbook/assets/image%20%2871%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
