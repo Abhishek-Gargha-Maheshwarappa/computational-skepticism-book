@@ -8,7 +8,7 @@
 
 ### Making the Model
 
-**Dataset:** Pima Indians Diabetes  ; **Target:** Outcome
+**Dataset:** Pima Indians Diabetes; **Target:** Outcome
 
 The data is trained by calling the GradientBoostingClassifier function from Scikit learn Library
 
