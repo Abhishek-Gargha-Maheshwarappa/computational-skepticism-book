@@ -1,4 +1,13 @@
+---
+description: >-
+  It is important to understand the assumptions made before making a linear
+  model. This section demonstrates the assumptions with Python notebook
+  containing code verification of every assumption.
+---
+
 # Assumptions
+
+**Readers note:** _**The book is not yet completed will be released in the last week of August**_
 
 ### **Linearity** 
 
