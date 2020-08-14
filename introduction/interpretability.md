@@ -6,7 +6,7 @@ How would we define interpretability in daily life? "Interpretability" is not a 
 
 Take the example of applications to companies for a job or university applications for a study program - the rejection is often not explained. If we get accepted, however, we interpret that our skills and experience match the expectations of the approving personnel, but we still do not know the exact metrics that got us the approval. The explanations behind such a decision could be highly useful, but are not entirely necessary. The explanation can help an individual to work on the required skills and improve their chances of getting that dream job, or even help to get acceptance from a prestigious university. A simple "interpretation" of the result gives us confidence about the decision. When we interpret, we make a comparison to understand. So, if a person wanted to study in MIT, he/she would connect with other students that got admission and compare their profiles oneself. 
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 This is the difference between interpretations and explanations. Many times we do not know the explanation of a decision, but have a good interpretation. Similarly, for machine learning models, which are like black-box models for most of the audience, explanation is something that gives full clarity into what happened and why. But interpretation also serves the purpose of understanding a decision and is way less expensive computationally. 
 
