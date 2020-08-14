@@ -7,8 +7,8 @@
 2. \*\*\*\*[**Methods of Model Interpretabilit**y](types-of-model-interpretability.md)
 3. \*\*\*\*[**Interpretable Machine learning model**s](interpretable-machine-learning-models/)
    1. [Linear Regression](interpretable-machine-learning-models/linear-regression/)
-      1. Introduction
-      2. Use case example
+      1. [Introduction](interpretable-machine-learning-models/linear-regression/)
+      2. [Assumptions](interpretable-machine-learning-models/linear-regression/assumptions.md)
       3. Statistical interpretation
       4. Visual interpretation of weights
    2. Decision Trees
