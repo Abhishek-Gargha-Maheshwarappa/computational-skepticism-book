@@ -18,13 +18,13 @@ The data is trained by making a Keras Sequential model with 3 layers.
 
 In this section we will interpret a Keras Sequential model with a Decision Tree model as a surrogate. 
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 We found the best hyper-parameters for our DecisionTreeClassifier using GridSearch and then fit it on the training data without the outcome. The output column is replaced by the predictions made by the Keras Sequential model and then fit into the Decision Tree model.
 
 ### Visualizations
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 The above tree serves as a surrogate model to the Deep Learning model. As we can see, the most important feature is the root node i.e., Glucose.
 
