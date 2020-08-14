@@ -12,15 +12,15 @@ The dataset is originally from the National Institute of Diabetes and Digestive 
 
 **Features**
 
-* **Pregnancies** - Number of times pregnant
-* **Glucose** - Plasma glucose concentration
-* **Blood Pressure** - Diastolic blood pressure \(mm Hg\)
-* **SkinThickness:** Triceps skinfold thickness \(mm\) 
-* **Insulin** - 2-Hour serum insulin \(mu U/ml\)
-* BMI - Body mass index \(weight in kg/\(height in m\)^2\)
-* **DiabetesPedigreeFunction -**  scores likelihood of _diabetes_ based on family history
-* **Age -** Age \(years\)
-* **Outcome** - Class variable \(0 or 1\) = False/True
+* Pregnancies
+* Glucose 
+* Blood Pressure 
+* Skin Thickness 
+* Insulin 
+* BMI
+* DiabetesPedigreeFunction 
+* Age
+* Outcome
 
 ![](../.gitbook/assets/image%20%2851%29.png)
 

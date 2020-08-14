@@ -12,13 +12,13 @@ This dataset contains information about the medical charges incurred by an indiv
 
 **Features**
 
-* **Age**
-* **Sex**
-* **BMI** 
-* **Children**
-* **Smoker**
-* **Region**
-* **Charges**
+* Age
+* Sex
+* BMI 
+* Children
+* Smoker
+* Region
+* Charges
 
 ![](../.gitbook/assets/image%20%2848%29.png)
 
