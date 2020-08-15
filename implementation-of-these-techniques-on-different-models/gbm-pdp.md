@@ -42,9 +42,9 @@ The above plot shows how change in output varies with variations in feature valu
 
 These plots show the combined effect of two features on the change in output. As seen above, a reduction in both - Insulin and DiabetesPedigreeFunction, results in negative change of a person being diabetic \(nearing non-diabetic situation\).
 
-**PDP interact plot**
-
-The below plot shows the output prediction \(value inside square\) for every combination of values between the features Insulin and DiabetesPedigreeFunction\(values given by scale\). 
+**PDP interact plot** 
 
 ![](../.gitbook/assets/image%20%2875%29.png)
+
+The below plot shows the change output prediction \(value inside square\) for every combination of values between the features Insulin and DiabetesPedigreeFunction\(values given by scale\).
 
