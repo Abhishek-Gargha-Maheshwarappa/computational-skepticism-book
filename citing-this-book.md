@@ -10,7 +10,7 @@ Abhishek & Kartik "The Underlying Truth - Model Interpretability", 2020. https:/
 
 
 
-Or use the following Bibtex entry:
+Or use the following bibtex entry:
 
 ```text
 @book{
