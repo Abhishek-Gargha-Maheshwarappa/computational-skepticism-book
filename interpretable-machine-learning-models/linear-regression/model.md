@@ -1,7 +1,5 @@
 # Statistical Interpretation
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ### **The summary of our OLS model is as below:** 
 
 ![OLS Summary](https://lh6.googleusercontent.com/il56OS6H1gdzHeV3SYgIrlBAhdROI_KdVhL_9YmGr0nQxvHvKBZe7ODfEQiZF6ktdU2RgDPBMKvtAS-fUcfANASlxK-o0SeFezdFEhCgS6zikRizH5xdEHm50zbMY9dONNHXmwdu)
