@@ -1,7 +1,5 @@
 # GBM - ICE
 
-[Code Implementation Here](https://colab.research.google.com/drive/1hIEPr60uUd0wZjjJcR4ZH5l5DZPmQ1T0?usp=sharing)
-
 ### What is GBM?
 
 * Gradient Boosting Machine is a machine learning algorithm that forms an ensemble of weakly predicted decision trees

@@ -1,7 +1,5 @@
 # GBM - PDP
 
-[Code Implementation Here](https://colab.research.google.com/drive/1SiKKQ5T9rgrYjtDVEEraN1QZxTnztDF8?usp=sharing)
-
 ### What is GBM?
 
 * Gradient Boosting Machine is a machine learning algorithm that forms an ensemble of weakly predicted decision trees

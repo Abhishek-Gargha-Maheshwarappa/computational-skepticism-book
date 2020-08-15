@@ -1,7 +1,5 @@
 # Deep Learning - Surrogate
 
-[Code Implementation Here](https://colab.research.google.com/drive/1OJJfqYsfg3Odi8aLC8Aw_UGE3EZzAH0w?usp=sharing)
-
 ### What is Deep Learning?
 
 * Deep learning methods are based on artificial neural networks with representation learning
