@@ -24,7 +24,7 @@ We found the best hyper-parameters for our DecisionTreeClassifier using GridSear
 
 ### Visualizations
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 The above tree serves as a surrogate model to the Deep Learning model. As we can see, the most important feature is the root node i.e., Glucose.
 

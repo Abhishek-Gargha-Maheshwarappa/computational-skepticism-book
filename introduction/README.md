@@ -12,7 +12,7 @@ Over the last few years, there have been several innovations in the field of art
 
 Making a machine trustworthy and reliable is one of the most important goals of data science today. Models are many times used as black boxes, wherein we give a particular input, know little of what happens inside the model, and get an output. But an important question that often gets overlooked is 'Why?' In some cases, one might not care why a decision was made, it is enough to know that the predictive performance on a test dataset was good. But in other cases, knowing the ‘Why’ can help learn more about the problem,the data and the reason why a model might fail. To be able to explain why a machine learning model is working in a particular way, can be one of the most powerful assets for a machine learning engineer.
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 This chapter helps build on the baseline definition for the term "Interpretability". We will explain what it means to "interpret" a model with metaphorical examples and with some example applications of machine learning.  Overall, our aim is to help you understand the meaning of interpretation and show you why it has become so important to be able to interpret a model today. We will not focus on explaining how to build a model as that concept is not in line with the motive of the book. 
 
