@@ -24,7 +24,7 @@ This dataset contains information about the medical charges incurred by an indiv
 
 ### Acknowledgments
 
-The dataset is available [here](https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv).
+The data set is available [here](https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv).
 
 
 

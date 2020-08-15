@@ -62,8 +62,8 @@ It helps to Identify the heterogeneity within the data. The derivate function \(
 
 
 
-**References**
+### References
 
-1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019. [https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/).
-2. [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/): Trevor Hastie,  Robert Tibshirani and  Jerome Friedman
+1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019.
+2. The Elements of    Statistical Learning:   Trevor Hastie   , Robert Tibshirani   , Jerome Friedman
 
