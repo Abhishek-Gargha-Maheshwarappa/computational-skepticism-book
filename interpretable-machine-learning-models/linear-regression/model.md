@@ -43,7 +43,9 @@ Let’s have another look at the table more closely focused on the part we want 
 All the interpretations always come with the footnote that “all other features remain the same”. This is because of the nature of linear regression models. As indicated earlier, this is a major assumption of the linear model. The predicted target is a linear combination of the weighted features. The estimated linear equation is a hyperplane in the feature/target space \(a simple line in the case of a single feature\). The weights specify the slope \(gradient\) of the hyperplane in each direction. 
 
 The good side is that the additivity isolates the interpretation of an individual feature effect from all other features. That is possible because all the feature effects \(= weight \* feature value\) in the equation are combined with an additional operation. On the bad side of things, the interpretation ignores the joint distribution of the features. Increasing one feature, but not changing another, can lead to unrealistic or at least unlikely data points. For example, increasing the number of rooms might be unrealistic without also increasing the size of a house. Similarly, in our data set, increasing the number of children without increasing the age would not make sense.   
-  
-  
 
+
+**Reference**
+
+1.  [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/) - Trevor Hastie and Rob Tibshirani
 
