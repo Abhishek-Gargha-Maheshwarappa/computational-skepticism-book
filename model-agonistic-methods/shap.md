@@ -28,17 +28,17 @@ A method of dividing up the gains or costs among players, according to the value
 
 It rests on three important pillars:
 
-#### 1.Marginal contribution
+#### 1. Marginal contribution
 
 The contribution of each player is determined by what is gained or lost by removing them from the Game. This is called their marginal contributions. To make it clear let us take an example.
 
 ‌Say every day you and your friends bake cookies. One day you get sick and don't go to bake cookies. That day, your friends produce 50 lesser cookies than they would have if you were there with them. So your marginal contribution to the coalition per day is 50 cookies.
 
-#### 2.Interchangeable players have an equal value
+#### 2. Interchangeable players have an equal value
 
 If two parties bring the same things to the coalition, they should have to contribute the same amount and should be rewarded for their contributions.
 
-#### 3.Dummy player has zero values
+#### 3. Dummy player has zero values
 
 If a member of the coalition contributes nothing then they should receive nothing. But it might not be fair in all the cases, let us take an example to make this concept more clear.
 
@@ -135,4 +135,6 @@ This is also a summary plot but here the exact values are plotted instead of abs
 
 Reference
 
-1. 
+1. [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874) - Scott Lundberg, Su-In Lee
+2.  [SHAP \(SHapley Additive exPlanations\)  -](https://shap.readthedocs.io/en/latest/#) ****Scott Lundberg 
+
