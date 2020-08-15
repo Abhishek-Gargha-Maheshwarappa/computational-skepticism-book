@@ -14,13 +14,5 @@ The learned relationships  in a linear model can be written for a single row/ins
 
 ![](../../.gitbook/assets/image%20%2894%29.png)
 
-Where :
-
-* ϵ -  mean-zero random error term
-* y - Dependent variable 
-* X - Independent variables
-* β0 - Expected value of y when all X = 0 A.K.A Intercept
-* β1, β2, β3,...,β4- Average increase in y associated with a one-unit increase in X A.K.A Slope
-
 The equation format makes it very easy to understand how our prediction varies with change in every single feature input. In the coming sections, we will dive deeper into the assumptions of this model, the implementation & interpretation. Links to the Python notebooks are attached towards the end of every section for users.
 
