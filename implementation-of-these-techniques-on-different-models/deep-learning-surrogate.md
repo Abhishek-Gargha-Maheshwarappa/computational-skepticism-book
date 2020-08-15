@@ -18,7 +18,7 @@ The data is trained by making a Keras Sequential model with 3 layers.
 
 ### **Implementation of Interpretability**
 
-In this section, we will interpret a Keras Sequential model with a Decision Tree model as a surrogate. 
+In this section we will interpret a Keras Sequential model with a Decision Tree model as a surrogate. 
 
 ![](../.gitbook/assets/image%20%2889%29.png)
 
@@ -33,4 +33,6 @@ The above tree serves as a surrogate model to the Deep Learning model. As we can
 There are 399 samples in the test set that are diabetic and 215 that are non-diabetic. If the person has low Glucose, then Age is the next most important feature. 
 
 If the Glucose is high, then BMI is the next most important feature in determining if the person is diabetic or not.  
+
+The full tree can be interpreted in a similar step-by-step manner wherein every level has an important feature related to it. 
 
