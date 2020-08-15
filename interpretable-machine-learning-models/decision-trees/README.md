@@ -1,7 +1,5 @@
 # Decision Trees
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 Decision Tree models are one of the oldest machine learning algorithms along with Linear regression. Decision Tree models allow users to explicitly see the decisions made in determining a prediction. As given in the name, these decisions are made in a tree format. Decision Trees are a non-parametric method and supervised learning algorithm that are generally used for classification problems\(can be used for regression as well\).
 
 The reason Decision Trees are prevalent is because they are easy to interpret. Humans can understand the decisions made by a Decision Tree model because that is also how humans make a decision.  
