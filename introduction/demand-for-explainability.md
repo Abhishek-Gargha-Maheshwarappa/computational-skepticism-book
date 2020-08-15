@@ -8,7 +8,7 @@ To understand why explainability is important in data science, let us take an ex
 
 ### The demand for explainability arises because of the following:
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 #### **Trust** 
 

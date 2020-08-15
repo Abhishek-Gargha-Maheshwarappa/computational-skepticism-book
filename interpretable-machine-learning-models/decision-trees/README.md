@@ -4,6 +4,8 @@ Decision Tree models are one of the oldest machine learning algorithms along wit
 
 The reason Decision Trees are prevalent is because they are easy to interpret. Humans can understand the decisions made by a Decision Tree model because that is also how humans make a decision.  
 
+![](../../.gitbook/assets/image%20%2886%29.png)
+
 To understand the an example of Decision Trees in daily life, consider the following picture:
 
 ![](../../.gitbook/assets/screenshot-214-.png)
