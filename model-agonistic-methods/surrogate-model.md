@@ -52,9 +52,7 @@ Once we have tunned the simple model to achieve maximum accuracy, we can visuali
 * Tough to achieve high accuracy on complex models
 * Tend to oversimplify a complex reality
 
-  Reference
+  **Reference**
 
 1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019. [https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/).
-2. 
-
 
