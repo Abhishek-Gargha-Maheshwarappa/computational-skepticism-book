@@ -13,7 +13,7 @@ Datasets are not picked just because they look good or they are open source, but
 3. Sales Opportunity Size Dataset
 4. Pima Indians Diabetes Dataset
 
-Few datasets were acquired from the [Squark](https://squarkai.com/) and others were from the [Kaggle](https://www.kaggle.com/).
+Few datasets were acquired from [Squark](https://squarkai.com/) website and others were from [Kaggle](https://www.kaggle.com/).
 
 
 
