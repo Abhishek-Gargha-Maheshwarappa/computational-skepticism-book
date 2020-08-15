@@ -6,5 +6,3 @@ By model-agnostic, we mean that the methods can be applied to any model. All the
 
 ![](../.gitbook/assets/image%20%28112%29.png)
 
-![](../.gitbook/assets/image%20%28113%29.png)
-
