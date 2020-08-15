@@ -4,7 +4,7 @@
 
 ICE is short for Individual Conditional Expectation. These plots are similar to the PDPs, yet very different.
 
-They are similar to PDPs because they help in understanding the variations in a feature values against the output. In essence, they are extension to the PDPs. An ICE plot is just the PDP but disintegrated for every instance in the data set. The ICE plot unpacks the PDP curve and displays one line per instance that shows how the instance prediction changes when feature changes.
+They are similar to PDPs because they help in understanding the variations in a feature values against the output. In essence, they are extension to the PDPs. An ICE plot can be aggregated to get a PDP plot. The ICE plot unpacks the PDP curve and displays one line per instance that shows how the instance prediction changes when feature changes.
 
 ‌They are different than PDPs because they help achieve local interpretability, rather than the global interpretation we get from PDPs. 
 
@@ -56,14 +56,14 @@ It helps to Identify the heterogeneity within the data. The derivate function \(
 
 ### Visualizations
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%28120%29.png)
 
 ![](../.gitbook/assets/image%20%2864%29.png)
 
 
 
-### References
+**References**
 
-1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019.
-2. The Elements of    Statistical Learning:   Trevor Hastie   , Robert Tibshirani   , Jerome Friedman
+1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019. [https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/).
+2. [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/): Trevor Hastie,  Robert Tibshirani and  Jerome Friedman
 
