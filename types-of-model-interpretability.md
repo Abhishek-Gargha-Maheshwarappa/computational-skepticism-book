@@ -20,7 +20,7 @@ There are three methods employed for achieving Model Interpretability‌
 1. Interpretable machine models
 2. Model agonistic methods
 
-**Interpretable machine models:** These are models which are interpretable by themselves, without external methods. Example - Linear regression and Decision trees.
+**Interpretable machine models:** These are models which are interpretable by themselves, without external methods. Example -[ Linear regression](interpretable-machine-learning-models/linear-regression/) and [Decision trees](interpretable-machine-learning-models/decision-trees/).
 
-**Model agonistic methods:** These are the methods that can be employed to interpret any models. Example - SHAP, LIME and PDP.
+**Model agonistic methods:** These are the methods that can be employed to interpret any models. Example - [SHAP](model-agonistic-methods/shap.md), [LIME ](model-agonistic-methods/lime-and-k-lime.md)and [PDP](model-agonistic-methods/pdp.md).
 

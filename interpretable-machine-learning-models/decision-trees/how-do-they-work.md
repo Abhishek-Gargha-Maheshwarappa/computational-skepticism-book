@@ -8,7 +8,7 @@ We want to be able to predict when we can go for a run \(Run="Yes"\) and when we
 
 The Decision Tree algorithm works on a "Divide & Conquer" principle where the aim is to break the data into subsets with similar attributes. 
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 
 As shown in the above figure, at the origin of the tree we have a "Root" node which is split into "Decision" and "Terminal" nodes. "Terminal" nodes are also referred to as "Leaf" nodes and they contain the model's predicted output. The "Decision" nodes essentially help in splitting the data into a subset. After splitting the data into subsets, we can have a common output for a subset \(terminal node\) or we can split the subset further into more subsets \(with the help of a decision node\)
 
