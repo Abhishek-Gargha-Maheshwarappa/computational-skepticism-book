@@ -34,5 +34,5 @@ There are 399 samples in the test set that are diabetic and 215 that are non-dia
 
 If the Glucose is high, then BMI is the next most important feature in determining if the person is diabetic or not.  
 
-The full tree can be interpreted in a similar step-by-step manner wherein every level has an important feature related to it. 
+The full tree can be interpreted in a similar step-by-step manner wherein every level has an important feature related to it.
 
