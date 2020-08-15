@@ -125,6 +125,7 @@ This is also a summary plot but here the exact values are plotted instead of abs
 ### **Pros** 
 
 * It is better than feature importance since it considers the coalition effect for calculating feature importance
+* SHAP values give the distribution and have both positive and negative affect shown.
 
 ### **Cons**
 
