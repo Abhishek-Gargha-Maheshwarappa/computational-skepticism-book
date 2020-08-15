@@ -12,7 +12,7 @@ The Decision Tree algorithm works on a "Divide & Conquer" principle where the ai
 
 As shown in the above figure, at the origin of the tree we have a "Root" node which is split into "Decision" and "Terminal" nodes. "Terminal" nodes are also referred to as "Leaf" nodes and they contain the model's predicted output. The "Decision" nodes essentially help in splitting the data into a subset. After splitting the data into subsets, we can have a common output for a subset \(terminal node\) or we can split the subset further into more subsets \(with the help of a decision node\)
 
-**How do we decide our root node, decision nodes, and terminal nodes?** It depends on the function we choose to measure the quality of a split. 
+How do we decide our root node, decision nodes, and terminal nodes? It depends on the function we choose to measure the quality of a split. 
 
 Broadly, there are three functions that can be used: Gini, Chi-Squared, and Entropy. Every function has a mathematical formula linked to it and that mathematical formula is used to split the dataset into the root, decision, and terminal nodes. The most commonly used are Gini and Entropy. 
 
