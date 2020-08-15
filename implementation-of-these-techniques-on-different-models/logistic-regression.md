@@ -1,5 +1,7 @@
 # Logistic Regression - SHAP
 
+[Code Implementation Here](https://colab.research.google.com/drive/1MYFSGZuw5Q1-jPEPs29aP-9uXX3--mLb?usp=sharing)
+
 ### What is Logistic Regression?
 
 * Logistic Regression a machine learning algorithms from the field of statistics 
@@ -43,8 +45,6 @@ We have used kmeans on the entire data set before feeding it to the SHAP explain
 ![plot](../.gitbook/assets/image%20%2862%29.png)
 
 The above visualization gives more information compared a summary plot as it shows the distribution of the shap values. If SHAP values are negative then they have negative impact on the output.
-
-**Force Plot:**
 
 \*\*\*\*
 
