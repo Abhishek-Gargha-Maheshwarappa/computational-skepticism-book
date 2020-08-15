@@ -36,11 +36,15 @@ Once we have tunned the simple model to achieve maximum accuracy, we can visuali
 
 ### Visualizations
 
-![](../.gitbook/assets/image%20%2839%29.png)
+The Surrogate model visualizations are similar to that of the interpretable model that is used \(Linear regression, Decision tree, etc\). Below are some visualizations that can be done after making the surrogate model to evaluate the performance.  
+
+![](../.gitbook/assets/image%20%28114%29.png)
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%28115%29.png)
+
+In all the visualizations, you can see that the surrogate values slightly differ from the actual values. However, they still match the distribution and hence serve the purpose of Interpretability well. 
 
 ### Pros
 
@@ -55,4 +59,6 @@ Once we have tunned the simple model to achieve maximum accuracy, we can visuali
   **Reference**
 
 1. Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019. [https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/).
+
+
 
