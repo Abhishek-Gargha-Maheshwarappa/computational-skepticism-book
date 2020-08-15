@@ -1,6 +1,10 @@
 # Linear Regression
 
-A linear model is an attempt to understand the target variable as a linear equation of the features_. **In other words, a linear model predicts the dependent variable as a weighted sum of the independent variables. The linearity of the established relationship makes the interpretation easy.**_ Linear regression models are very widely used by statisticians, computer scientists and other people who tackle quantitative problems. It is safe to say that almost every machine learning engineer started his/her journey with a simple linear regression model. 
+A linear model is an attempt to understand the target variable as a linear equation of the features. In other words, a linear model predicts the target\(dependent\) variable as a weighted sum of the independent variables. The linearity of the established relationship makes the interpretation easy. Linear regression models are very widely used by statisticians, computer scientists and other people who tackle quantitative problems. It is safe to say that almost every machine learning engineer started his/her journey with a simple linear regression model. 
+
+![](../../.gitbook/assets/image%20%2892%29.png)
+
+An example of Linear Regression in daily life occurs when a person is looking for an apartment. After looking at a few apartments, we get to know the price and other information like size of the house, number of rooms, number of bathrooms, etc. With this information, the person builds a linear model in their mind that will approximate the apartment cost for any apartment based on the details of rooms, size, bathrooms, and others.
 
 The reason one uses a linear model because it is easy to implement and easy to understand. Every machine learning model is always made with a trade-off between interpret-ability and accuracy. Complex Deep learning models are highly accurate, but their structure makes it difficult to be interpreted. Linear models, on the other hand, can make reasonably accurate predictions and are easy to interpret.
 
@@ -8,13 +12,13 @@ The reason one uses a linear model because it is easy to implement and easy to u
 
 The learned relationships  in a linear model can be written for a single row/instance as follows:
 
-y = β0 + β1 \*X1 + β2 \*X2 + β3 \*X3 .. + βn \*Xn + ϵ
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 Where :
 
 * ϵ -  mean-zero random error term
 * y - Dependent variable 
-* X1, X2, X3,..., Xn - Independent variables
+* X - Independent variables
 * β0 - Expected value of y when all X = 0 A.K.A Intercept
 * β1, β2, β3,...,β4- Average increase in y associated with a one-unit increase in X A.K.A Slope
 
