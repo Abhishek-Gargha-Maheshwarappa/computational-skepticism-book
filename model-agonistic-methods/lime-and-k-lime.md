@@ -42,19 +42,11 @@ We have to understand that features that may seem important locally need not be 
 
 ### Visualizations
 
-![](../.gitbook/assets/book-lime.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 
-![](../.gitbook/assets/saliency-1.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 
-
-
-**Insert more from python notebook**
-
-### Algorithms suitable for LIME application
-
-LIME is a model agnostic method that can be applied to any kind of model.
-
-Currently, we are dealing with tabular data sets and in the upcoming version we will deal with computer vision and natural language processing models
+![](../.gitbook/assets/image%20%28116%29.png)
 
 ### **Pros** 
 
@@ -63,7 +55,7 @@ Currently, we are dealing with tabular data sets and in the upcoming version we 
 
 ### **Cons**
 
-* The vicinity of a prediction can vary and to find the right  kernel width that generates an accurate local explanation is a difficult job
+* The vicinity of a prediction can vary and find the right  kernel width that generates an accurate local explanation is a difficult job
 * The technique is inconsistent and there is often instability in the explanations
 
 
