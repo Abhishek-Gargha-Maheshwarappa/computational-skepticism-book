@@ -28,5 +28,5 @@ description: Making a model “​TrustWorthy​”
 
 [ ](https://www.linkedin.com/in/nikbearbrown/)
 
-![](.gitbook/assets/image%20%2873%29.png)
+![](.gitbook/assets/axlnpmmbqgr.jpg)
 
