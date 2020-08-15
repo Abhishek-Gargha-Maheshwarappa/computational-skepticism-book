@@ -133,7 +133,7 @@ This is also a summary plot but here the exact values are plotted instead of abs
 
 
 
-Reference
+**Reference**
 
 1. [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874) - Scott Lundberg, Su-In Lee
 2.  [SHAP \(SHapley Additive exPlanations\)  -](https://shap.readthedocs.io/en/latest/#) ****Scott Lundberg 
