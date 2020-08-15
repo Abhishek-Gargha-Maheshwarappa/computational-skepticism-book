@@ -18,7 +18,7 @@ The data is trained by making a Keras Sequential model with 3 layers.
 
 ### **Implementation of Interpretability**
 
-In this section we will interpret a Keras Sequential model with a Decision Tree model as a surrogate. 
+In this section, we will interpret a Keras Sequential model with a Decision Tree model as a surrogate. 
 
 ![](../.gitbook/assets/image%20%2889%29.png)
 
