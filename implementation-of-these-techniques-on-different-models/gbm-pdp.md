@@ -30,7 +30,7 @@ With just few lines of code, we can plot the PDPs for any dataset using the skle
 
 ![](../.gitbook/assets/image%20%2880%29.png)
 
-The above plot shows how each individual feature varies with change in the output. Some key points for interpretation from the above plots:
+The above plot shows how change in output varies with variations in feature values. Some key points for interpretation from the above plots:
 
 * As Pregnancies increase, the person's chances of becoming diabetic go up
 * Higher the Glucose, higher the chances of person becoming diabetic
