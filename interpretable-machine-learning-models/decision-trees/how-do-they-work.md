@@ -16,7 +16,7 @@ As shown in the above figure, at the origin of the tree we have a "Root" node wh
 
 Broadly, there are three functions that can be used: Gini, Chi-Squared, and Entropy. Every function has a mathematical formula linked to it and that mathematical formula is used to split the dataset into the root, decision, and terminal nodes. The most commonly used are Gini and Entropy. 
 
-For the purpose of this book, we have explained the Entropy function. We have not shown the mathematical formula of the Entropy to keep things simple. If you are interested in knowing the mathematical functions or want to know how the other functions work, check out this **link**.
+For the purpose of this book, we have explained the Entropy function. We have not shown the mathematical formula of the Entropy to keep things simple. If you are interested in knowing the mathematical functions or want to know how the other functions work, check out this [link](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf).
 
 Before diving into the explanation of the Entropy function, it is important to understand the difference between a "Pure" node and an "Impure" node. Any "Decision" node that yields only a "Terminal" node, can be called a "Pure" node. In other words, the result of that decision is the same and common for all data points in that subset. 
 
