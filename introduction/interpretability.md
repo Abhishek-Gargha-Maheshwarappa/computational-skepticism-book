@@ -14,3 +14,7 @@ It is important to have a clear understanding of the difference between these te
 
 ![](../.gitbook/assets/image%20%28105%29.png)
 
+**Reference**
+
+[Explaining Explanations: An Overview of Interpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf) - Leilani H. Gilpin, David Bau, Ben Z. Yuan, Ayesha Bajwa, Michael Specter and Lalana Kagal
+
