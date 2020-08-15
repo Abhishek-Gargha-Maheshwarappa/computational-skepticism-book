@@ -38,7 +38,7 @@ In the above plot, we see multiple lines plotted. Each line corresponds to a row
 
 ![](../.gitbook/assets/image%20%28123%29.png)
 
-The above plot shows the ICE plot along with the aggregation line shown in black. The aggregation line is the same as PDP line. 
+The above plot shows the ICE plot along with the aggregation line shown in black. The aggregation line is the same as the PDP line. 
 
 **Centered ICE plot**
 
