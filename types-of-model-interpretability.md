@@ -7,7 +7,7 @@ There are two types models
 1. Interpretable Models
 2. Black Box Models
 
-![](.gitbook/assets/image%20%2897%29.png)
+![](.gitbook/assets/image%20%2896%29.png)
 
 Interpretable Models are interpretable in itself. They don't require any other techniques to explain them explicitly. The other interpretable techniques can be applied to them also for interpreting the model but are not needed.  
 

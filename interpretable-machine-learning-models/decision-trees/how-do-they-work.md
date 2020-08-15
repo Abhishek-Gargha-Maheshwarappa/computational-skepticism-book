@@ -38,11 +38,5 @@ So in our example, Weather was the best attribute and it yielded a pure node in 
 
 The process can continue untill we obtain a tree that will justify all the predictions in a dataset. If that is done, the tree would be too complex and it would overfit the data. By overfitting, we mean that the tree would only be able to predict correctly for the given data set and not new data. This is not desired and so it is advisable to avoid overly complex Decision Trees. In the next sections, we will show how to build a model using sklearn and interpret the model. All the mathematical calculations involved are done by the libraries function and all we have to do is define the hyper-parameters to our model. 
 
-**End**
-
- How the decision tree will classify this
-
-![Tree](../../.gitbook/assets/screenshot-278-.png)
-
 Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/) 
 

@@ -1,7 +1,5 @@
 # PDP \(Partial Dependence Plot\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ### Introduction
 
 Partial Dependence Plots were first used by Friedman in 2001. This model agnostic technique plots the variations in a specified feature's values with the change in predicted outcome, averaging the effect of the other predictor variables. By making such a plot, we can get a gist of how a feature impact varies  - linear, non-linear,  etc. 

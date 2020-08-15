@@ -1,9 +1,5 @@
 # ICE \(Individual Conditional Plots\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
-
-
 ### Introduction
 
 ICE is short for Individual Conditional Expectation. These plots are similar to the PDPs, yet very different.

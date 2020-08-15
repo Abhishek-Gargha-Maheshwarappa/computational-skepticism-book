@@ -1,7 +1,5 @@
 # Creating the model
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 To demonstrate the application of the decision tree model, we will consider the Churn data set. Our aim is to be able to predict whether a customer will Churn or not, using a Decision Tree classifier. 
 
 Before creating the model, we have included a few pre-processing steps. 
@@ -20,5 +18,5 @@ One last step before we train our model is to ensure we use the right hyper para
 
 ![Confusion Matrix for test data](../../.gitbook/assets/image%20%2820%29.png)
 
-After running the model with the best hyperparameters from Grid Search, we get an accuracy of 76% on test set. This is actually pretty good! Especially because trees generally tend to over fit on training data and don't perform well on test data. 
+After running the model with the best hyper-parameters from Grid Search, we get an accuracy of 76% on test set. This is actually pretty good! Especially because trees generally tend to over fit on training data and don't perform well on test data. 
 

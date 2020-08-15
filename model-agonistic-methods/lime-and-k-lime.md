@@ -1,7 +1,5 @@
 # LIME \(Local Interpretable Model-Agnostic Explanations\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ### Introduction
 
 In general, black-box models are highly complex and to be able to generate an overall global explanation for the model’s prediction is actually a very difficult job. The LIME algorithm was first brought into light for its ability to help understand image classification in 2016. With this algorithm, we could identify the parts of the input that triggered or affected our output the most.

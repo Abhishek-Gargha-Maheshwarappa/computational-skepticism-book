@@ -1,7 +1,5 @@
 # SHAP \(SHapley Additive exPlanations\)
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ### **Introduction**
 
 In this section, we explore what is SHAP and how it will help us interpret a model. Given a sample and its prediction, SHAP decomposes the prediction additively between features using a game-theoretic approach.

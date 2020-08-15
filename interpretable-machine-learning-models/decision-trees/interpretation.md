@@ -1,7 +1,5 @@
 # Interpretation
 
-**Readers note:** _**The book is not yet completed will be released in the last week of August**_
-
 ![Decision Tree Visualization](../../.gitbook/assets/image%20%2821%29.png)
 
 Above is the Decision Tree classifier we have made for predicting churn. Can you interpret the tree from first look?

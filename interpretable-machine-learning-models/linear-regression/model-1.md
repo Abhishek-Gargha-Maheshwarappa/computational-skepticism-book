@@ -4,11 +4,11 @@ In this section, we will take you through building a Linear Regression model. We
 
 The first and most important step in data modeling is actually ensuring having the right data. Data preparation for modeling is highly important and difficult to do. Most of the time of a data scientist's job is spent on data preparation rather than building the model.
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2892%29%20%281%29.png)
 
 During pre-processing, there are many steps to be followed - starting with handling categorical columns. Categorical columns can be converted into a numerical codes by Label encoding or split into multiple columns for every category by One-Hot encoding\(1 if category is true, 0 if false\). In One-Hot encoding, we create dummy variables for each category in the column and it leads to an increase in feature space. Label encoding, on the other hand, converts categorical text data into model-understandable numerical data. To know more about the encoding refer to this [link](https://towardsdatascience.com/understanding-feature-engineering-part-2-categorical-data-f54324193e63). 
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 For the Insurance Premium data set, the data preparation involved encoding the categorical columns and scaling the data. **Link to see how we did pre-processing**.
 
