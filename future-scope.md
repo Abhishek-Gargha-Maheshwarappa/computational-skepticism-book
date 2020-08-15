@@ -1,5 +1,7 @@
 # Future scope
 
+This book is living document, means will be updated regularly as in when new  google  Colaboratory is ready 
+
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
