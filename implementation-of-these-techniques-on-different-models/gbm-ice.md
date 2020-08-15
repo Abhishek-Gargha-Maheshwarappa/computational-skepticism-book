@@ -44,5 +44,5 @@ The above plot shows the ICE plot along with the aggregation line shown in black
 
 ![](../.gitbook/assets/image%20%28124%29.png)
 
-
+The Centered ICE plot is centering the curves at a certain point in the feature and displaying only the differences in prediction so that it is easy to interpret.
 
