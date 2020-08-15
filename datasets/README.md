@@ -4,7 +4,7 @@ Datasets and machine learning models are the basic ingredients of the Interpreta
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
-Datasets are not picked just because they look good or they are open source, but there were chosen carefully to replicate use cases and industry usage. These datasets are used in the industry regularly and data scientists are regularly using these datasets to test the models that build. The dataset range from marketing data to medical dataset, which covers a wide variety of problems. 
+Datasets are not picked just because they look good or they are open source, but they were chosen carefully to replicate industrial use cases. These datasets are used in the industry regularly and data scientists are regularly using these datasets to test the models that build. The data sets range from marketing data to medical data set, which covers a wide variety of problems. 
 
 **Datasets**
 
