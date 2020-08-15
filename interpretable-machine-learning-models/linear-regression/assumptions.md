@@ -1,5 +1,7 @@
 # Assumptions
 
+[Code Implementation here](https://colab.research.google.com/drive/1-TLYC_YdscL1CVMPJGxwEzY0tgw7BeqQ?usp=sharing)
+
 ### **Linearity** 
 
 A linear regression model is used when the dependent variable y is assumed to vary linearly with dependent variables X \(X1, X2, X3,..., Xn\).
