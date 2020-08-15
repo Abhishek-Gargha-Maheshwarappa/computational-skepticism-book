@@ -1,7 +1,5 @@
 # Random Forest - LIME
 
-[Code Implementation Here](https://colab.research.google.com/drive/1MeTcEe5bV2eFPoxQZ1jtfX0MXhc7a4kb?usp=sharing)
-
 ### **What is a Random Forest?**
 
 * Random Forest is an ensemble learning method used for classification and regression 
@@ -16,7 +14,7 @@
 
 The data is passed through pre-processing and then trained using Scikit learn Library with RandomForestRegressor function.
 
-**R2 score:** 0.70
+**R2 score:** 0.71
 
 ### **Implementation of Interpretability**
 

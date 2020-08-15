@@ -122,12 +122,6 @@ To understand which features contributed more to the model output prediction SHA
 
 This is also a summary plot but here the exact values are plotted instead of absolute value.
 
-### Algorithms suitable for SHAP application
-
-SHAP is a model agnostic method that can be applied to any kind of model.
-
-Currently, we are dealing with tabular data sets and in the upcoming version we will deal with computer vision and natural language processing models
-
 ### **Pros** 
 
 * It is better than feature importance since it considers the coalition effect for calculating feature importance
