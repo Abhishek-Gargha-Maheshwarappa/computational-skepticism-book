@@ -32,5 +32,7 @@ The above 5 factors are achieved by Model Interpretability. But the vice versa n
 
 To provide a complete explanation for any decision by a black-box model can be a tedious job. The explanations need to provide clarity on all the above-listed aspects and have mathematical and scientific proof. This has led to a new line of research – interpretability - loosely deﬁned as the science of comprehending what a model did.
 
+**Reference**
 
+1. [Validation of the Correctional Offender Management and Profiling Alternative Sanctions \(COMPAS\)](https://search.proquest.com/openview/0ead7ecbca0e1c0ac0fa16c26c6cc5c8/1?pq-origsite=gscholar&cbl=18750&diss=y) - Pierson, Ashley M.Fordham University
 
