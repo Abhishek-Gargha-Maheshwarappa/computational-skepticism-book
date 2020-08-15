@@ -1,6 +1,6 @@
 # Datasets
 
-Datasets and machine learning models are the basic ingredients of the Interpretability. This section contains a description of every dataset we refer to in this book and are used in our coding examples. The datasets are available in our git repository and are open-source datasets that can be accessed by anyone. 
+Datasets and machine learning models are the basic ingredients of the Interpretability. This section contains a description of every dataset we refer to in this book and have used used in our coding examples. The datasets are available in our git repository and are open-source datasets that can be accessed by anyone. 
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
