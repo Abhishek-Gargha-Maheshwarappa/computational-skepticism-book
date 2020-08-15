@@ -26,7 +26,7 @@ In the above picture, it can be seen that "Overcast" is a pure node because when
 
 With that definition in mind. Let's understand what Entropy is. 
 
-Entropy can be defined as the measure of uncertainty of a class in a data/subset of a data set. Entropy essentially tells how pure/impure a node is. The purer a node, the higher it is placed in our tree. Using the [Entropy Mathematical Formula](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)**,**  we obtain the best attribute and use that as the root node of our tree.
+Entropy can be defined as the measure of uncertainty of a class in a data/subset of a data set. Entropy essentially tells how pure/impure a node is. The purer a node, the higher it is placed in our tree. Using the [Entropy Mathematical Formula](https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html)**,**  we obtain the best attribute and use that as the root node of our tree.
 
 Once we have the best attribute, we further split it into two child nodes based on the next best attributes. At each step, we calculate the entropy for a node and then calculate the Information Gain. Overall, we want to design our tree in such a way that the Information Gain is maximized. The mathematical formula for the Information Gain is:
 
@@ -34,7 +34,7 @@ I.G. = Original Entropy - Subset1\(size\*entropy\) - Subset2 \(size \* entropy\)
 
 So in our example, Weather was the best attribute and it yielded a pure node in "Overcast". If the Weather was "Sunny" or "Rainy", we would have further split the data into subsets as they are impure nodes. These subsets are made based on a mathematical calculation of Entropy and Information Gain for every attribute other than "Sunny" or "Rainy".
 
-The process can continue untill we obtain a tree that will justify all the predictions in a dataset. If that is done, the tree would be too complex and it would overfit the data. By overfitting, we mean that the tree would only be able to predict correctly for the given data set and not new data. This is not desired and so it is advisable to avoid overly complex Decision Trees. In the next sections, we will show how to build a model using sklearn and interpret the model. All the mathematical calculations involved are done by the libraries function and all we have to do is define the hyper-parameters to our model. 
+The process can continue until we obtain a tree that will justify all the predictions in a dataset. If that is done, the tree would be too complex and it would overfit the data. By overfitting, we mean that the tree would only be able to predict correctly for the given data set and not new data. This is not desired and so it is advisable to avoid overly complex Decision Trees. In the next sections, we will show how to build a model using sklearn and interpret the model. All the mathematical calculations involved are done by the libraries function and all we have to do is define the hyper-parameters to our model. 
 
-Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/) 
+Explaining the terminology related to the decision is not in the scope of this book, these can be read from [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/).
 
