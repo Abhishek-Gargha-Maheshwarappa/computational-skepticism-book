@@ -8,9 +8,9 @@ Although Decision Trees look easy to interpret, to be able to understand the int
 
 To be able to explain the tree visualizations, we will only explain the leftmost nodes on every level. 
 
-At the top of the tree, as a root node, we have "Contract &lt;= 0.5". This means that the Contract is the most important feature for our model. Note that all categorical columns have been coded to numeric values using Label Encoding. So a "0" in Contract means \*\*\*\*\*\* and a "1" means \_\_\_\_\_\_\_\_ 
+At the top of the tree, as a root node, we have "Contract &lt;= 0.5". This means that Contract is the most important feature for our model. Note that all categorical columns have been coded to numeric values using Label Encoding. So a "0" in Contract means Month-to-month,a "1" means One-year, and a "2" means Two-year. 
 
-**Insert category to code mapping**
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 Since Contract is a categorical column, it can only be "0" or "1", and not any value in between. From the root node, we can see that there are 5247 samples in our training set. The "class" and "value" in the root node are related wherein the former refers to the prediction and the latter shows the distribution of samples that in turn impact the prediction. the
 
@@ -24,7 +24,7 @@ In the next level, we have two decision nodes based on whether Contract &lt;=0.5
 
 ![Root Node and Level 1 of Decision Tree](../../.gitbook/assets/image%20%2825%29.png)
 
-We can see that of the 5247 samples in the root node, 2862 have Contract = 0 \(**Categoryname**\) and 2385 have Contract = 1\(**Categoryname**\). In the first level after the root node, we have two decision nodes which show that "Monthly Charges" is the most important feature for that level. On the left, the decision threshold is "Monthly Charges &lt;= 68.975" and on the right, the decision threshold is "Monthly Charges &lt;=93.675". Remember that the primary separator of data before this node was Contract. 
+We can see that of the 5247 samples in the root node, 2862 have Contract = 0 \(Month-to-Month\) and 2385 have Contract = 1 & 2\(One-year & Two-year\). In the first level after the root node, we have two decision nodes which show that "Monthly Charges" is the most important feature for that level. On the left, the decision threshold is "Monthly Charges &lt;= 68.975" and on the right the decision threshold is "Monthly Charges &lt;=93.675". Remember that the primary separator of data before this node was Contract. 
 
 In the left decision node, with 2862 samples, we have an entropy value of 0.985. Again, we can interpret that we have an impure node with mixed samples. Of the 2862 samples, 1637 have a prediction value of churn to be "Yes" and 1225 have a prediction value of churn to be "No". Since the majority are "Yes", the class associated to this node is Yes. 
 
@@ -32,5 +32,5 @@ In the right decision node, with 2385 samples, we have an entropy value of 0.344
 
 A similar interpretation can be done for every level and overall we can obtain an explanation with the decisions our model makes to generate a prediction. 
 
-Note here that our tree has only 3 levels. This was because it had the best accuracy on the test set from all the other hyperparameter values. In essence, a tree with low levels will do well on test set but a tree with a high number of levels tends to overfit the training set and perform badly on tests.
+Note here that our tree has only 3 levels. This was because it had the best accuracy on test set from all the other hyper parameter values. In essence, a tree with low levels will do well on test set but a tree with high number of levels tends to overfit the training set and perform badly on test.
 
