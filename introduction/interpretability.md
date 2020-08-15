@@ -12,7 +12,7 @@ This is the difference between interpretations and explanations. Many times we d
 
 It is important to have a clear understanding of the difference between these terms since this book only focuses on achieving the "Interpretability" of black-box models.
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](../.gitbook/assets/image%20%28109%29.png)
 
 **Reference**
 

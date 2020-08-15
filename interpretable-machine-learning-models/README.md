@@ -17,7 +17,7 @@ This book discusses two interpretable models
 
 Every machine learning engineer or data scientist learns these two models in the start of their career and every course work will contain these two machine learning models as the fundamental models. The rationale behind this is they are easy to understand and learn from. These models make sense and people can easily connect them with their daily life.
 
-![](../.gitbook/assets/image%20%28105%29.png)
+![](../.gitbook/assets/image%20%28107%29.png)
 
 These were some simple examples of interpretable models. There are cases where simple interpretable machine learning models fail to give self-explanation. For example, when there is multi-collinearity or when there is an interaction effect among the features, the linear models fail to explain themselves  and might need the help of some other methods to be made interpretable. In the next sections, we will explain in detail what multi-collinearity and interaction effect is. We will also explain how Linear models and Decision Trees are interpretable and move on to other techniques to achieve interpretability in the later parts of this book.
 

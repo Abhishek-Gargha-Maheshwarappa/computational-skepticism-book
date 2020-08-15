@@ -10,15 +10,15 @@ Fitting a linear model to non-linear data results in serious prediction errors. 
 
 The desired outcome is that the points that are symmetrically distributed around a diagonal line in the plot \(such as that shown below\).
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 ### **Homoscedasticity**
 
 Homoscedasticity means that the variance around our linear regression line is the same for all the values of predictor variables. In other words, Homoscedasticity describes a situation in which the error term is the same across all the values of the independent variables/feature inputs. Violation of the Homoscedasticity is called Heteroscedasticity. Heteroscedasticity is present when the size of the error term is different across different values of an independent variable. This can be fixed by data transformation methods such as log transformation.
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%28105%29.png)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 ### **No Multicollinearity** 
 
