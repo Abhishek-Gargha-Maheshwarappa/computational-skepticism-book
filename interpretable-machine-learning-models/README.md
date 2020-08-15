@@ -8,6 +8,8 @@ In this section of the book, we want to discuss in detail about some directly In
 
 Consider an example of when you buy a toaster - it is self-explanatory in itself about how it should be used and there will be no need for another person to explain how to operate the toaster. The same is the case with Interpretable machine learning models. They are naturally easy to understand and interpret. 
 
+![](../.gitbook/assets/image%20%28103%29.png)
+
 This book discusses two interpretable models 
 
 1. Linear regression
