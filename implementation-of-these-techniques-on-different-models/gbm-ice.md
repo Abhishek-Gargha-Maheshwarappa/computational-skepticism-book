@@ -34,5 +34,15 @@ We use the Pycebox library and generate ICE plots for "Smoker" feature against o
 
 In the above plot, we see multiple lines plotted. Each line corresponds to a row in our data. We can see that for some individuals smoking does not affect the charges. But for a few of them, becoming a smoker seems to increase the charges. Such interpretation can be very useful in showing people the repercussions of smoking.
 
+**ICE plot with PDP line**
+
+![](../.gitbook/assets/image%20%28123%29.png)
+
+The above plot shows the ICE plot along with the aggregation line shown in black. The aggregation line is the same as PDP line. 
+
+**Centered ICE plot**
+
+![](../.gitbook/assets/image%20%28124%29.png)
+
 
 
