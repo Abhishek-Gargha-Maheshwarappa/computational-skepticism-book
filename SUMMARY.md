@@ -24,7 +24,6 @@
   * [LIME \(Local Interpretable Model-Agnostic Explanations\)](model-agonistic-methods/lime-and-k-lime.md)
   * [PDP \(Partial Dependence Plot\)](model-agonistic-methods/pdp.md)
   * [ICE \(Individual Conditional Plots\)](model-agonistic-methods/ice.md)
-  * [ALE](model-agonistic-methods/ale.md)
 * [Datasets](datasets/README.md)
   * [Medical Cost Personal Dataset](datasets/medical-cost-personal-dataset.md)
   * [Telecom Churn Dataset](datasets/telecom-churn-dataset.md)
@@ -36,10 +35,4 @@
   * [GBM - PDP](implementation-of-these-techniques-on-different-models/gbm-pdp.md)
   * [GBM - ICE](implementation-of-these-techniques-on-different-models/gbm-ice.md)
   * [Deep Learning - Surrogate](implementation-of-these-techniques-on-different-models/deep-learning-surrogate.md)
-  * [Linear Regression](implementation-of-these-techniques-on-different-models/linear-regression-1/README.md)
-    * [Assumptions](implementation-of-these-techniques-on-different-models/linear-regression-1/assumptions.md)
-    * [Linear model feature](implementation-of-these-techniques-on-different-models/linear-regression-1/linear-model-feature.md)
-    * [Interpretability with Azure Machine Learning](implementation-of-these-techniques-on-different-models/linear-regression-1/interpretability-with-azure-machine-learning.md)
-    * [Tabular Explainer Dashboard](implementation-of-these-techniques-on-different-models/linear-regression-1/tabular-explainer.md)
-    * [Understanding the Visualizations](implementation-of-these-techniques-on-different-models/linear-regression-1/dashboard.md)
 
