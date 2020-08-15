@@ -54,11 +54,11 @@ It helps to Identify the heterogeneity within the data. The derivate function \(
 
 ### Visualizations
 
+
+
 ![](../.gitbook/assets/image%20%28120%29.png)
 
-![](../.gitbook/assets/image%20%2864%29.png)
-
-
+![](../.gitbook/assets/image%20%28122%29.png)
 
 **References**
 
