@@ -26,9 +26,9 @@ In the above picture, it can be seen that "Overcast" is a pure node because when
 
 With that definition in mind. Let's understand what Entropy is. 
 
-Entropy can be defined as the measure of uncertainty of a class in a data/subset of a data set. Entropy essentially tells how pure/impure a node is. The purer a node, the higher it is placed in our tree. Using the **Entropy Mathematical Formula,**  we obtain the best attribute and use that as the root node of our tree.
+Entropy can be defined as the measure of uncertainty of a class in a data/subset of a data set. Entropy essentially tells how pure/impure a node is. The purer a node, the higher it is placed in our tree. Using the [Entropy Mathematical Formula](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)**,**  we obtain the best attribute and use that as the root node of our tree.
 
-Once we have the best attribute, we further split it into two child nodes based on next best attributes. At each step, we calculate the entropy for a node and then calculate the Information Gain. Overall, we want to design our tree in such a way that the Information Gain is maximized. The mathematical formula for the Information Gain is:
+Once we have the best attribute, we further split it into two child nodes based on the next best attributes. At each step, we calculate the entropy for a node and then calculate the Information Gain. Overall, we want to design our tree in such a way that the Information Gain is maximized. The mathematical formula for the Information Gain is:
 
 I.G. = Original Entropy - Subset1\(size\*entropy\) - Subset2 \(size \* entropy\)
 
