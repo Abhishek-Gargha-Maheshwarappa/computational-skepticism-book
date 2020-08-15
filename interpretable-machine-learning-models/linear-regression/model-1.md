@@ -10,7 +10,7 @@ During pre-processing, there are many steps to be followed - starting with handl
 
 ![](../../.gitbook/assets/image%20%2897%29.png)
 
-For the Insurance Premium data set, the data preparation involved encoding the categorical columns and scaling the data. **Link to see how we did pre-processing**.
+For the Insurance Premium data set, the data preparation involved encoding the categorical columns and scaling the data.
 
 After the data preparation, a Linear Regression model is trained on the training data. During the training, the model learns the slope and intercept to approximately fit the training data.
 
