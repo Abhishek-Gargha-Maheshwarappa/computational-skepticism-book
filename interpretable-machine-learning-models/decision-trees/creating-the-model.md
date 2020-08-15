@@ -14,9 +14,9 @@ After calculating the feature importance for every column, we have filtered out 
 
 Having filtered the unimportant columns, we remain with only four columns - Monthly Charges, Total Charges, Contract and Tenure. We have used these four columns to train our model.
 
-One last step before we train our model is to ensure we use the right hyper parameters. There are multiple ways to find the right hyper parameters that would yield a highly accurate model. In our case, we have used Grid Search to find them. If you are interested in knowing how the Grid Search algorithms works, read this **article**. 
+One last step before we train our model is to ensure we use the right hyperparameters. There are multiple ways to find the right hyperparameters that would yield a highly accurate model. In our case, we have used Grid Search to find them. If you are interested in knowing how the Grid Search algorithms works, read this [article](https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html). 
 
 ![Confusion Matrix for test data](../../.gitbook/assets/image%20%2820%29.png)
 
-After running the model with the best hyper-parameters from Grid Search, we get an accuracy of 76% on test set. This is actually pretty good! Especially because trees generally tend to over fit on training data and don't perform well on test data. 
+After running the model with the best hyper-parameters from Grid Search, we get an accuracy of 76% on the test set. This is actually pretty good! Especially because trees generally tend to overfit on training data and don't perform well on test data.
 
