@@ -1,6 +1,6 @@
 # Future scope
 
-This book is living document, means will be updated regularly as in when new  google  Colaboratory is ready 
+This book is a living document, which means will be updated regularly as in when new  google  Colaboratory is ready.
 
 ## Getting Super Powers
 
