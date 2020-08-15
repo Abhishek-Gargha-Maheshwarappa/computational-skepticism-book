@@ -58,7 +58,7 @@ We have to understand that features that may seem important locally need not be 
 * The vicinity of a prediction can vary and find the right  kernel width that generates an accurate local explanation is a difficult job
 * The technique is inconsistent and there is often instability in the explanations
 
+**References**
 
-
-
+1. ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938) - Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
 
