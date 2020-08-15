@@ -35,4 +35,5 @@
   * [GBM - PDP](implementation-of-these-techniques-on-different-models/gbm-pdp.md)
   * [GBM - ICE](implementation-of-these-techniques-on-different-models/gbm-ice.md)
   * [Deep Learning - Surrogate](implementation-of-these-techniques-on-different-models/deep-learning-surrogate.md)
+* [Future scope](future-scope.md)
 
