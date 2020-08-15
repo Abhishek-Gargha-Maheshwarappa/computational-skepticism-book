@@ -16,11 +16,9 @@ In PDPs, we said that a feature refers to a subject - Physics, Chemistry or Math
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
-Suppose the teacher was not satisfied with the results in PDP and decided to dive deeper with the ICE approach. In ICE, we do not average the scores for the other subjects. Rather, we plot the Math socre variations with the actual Physics and Chemistry scores.
+Suppose the teacher was not satisfied with the results in PDP and decided to dive deeper with the ICE approach. In ICE, we do not average the scores for the other subjects. Rather, we plot the Math score variations with the actual Physics and Chemistry scores.
 
-So in ICE approach, the teacher gets multiple lines in the plot - one for every test. Each line shows how the overall performance varies with Math scores, but with the different Physics and Chemistry scores that the student had scored. This gives a more detailed insight to the teacher on how the students tests have been going. 
-
-
+So in the ICE approach, the teacher gets multiple lines in the plot - one for every test. Each line shows how the overall performance varies with Math scores, but with the different Physics and Chemistry scores that the student had scored. This gives a more detailed insight to the teacher on how the student's tests have been going. 
 
 The teacher observes that the first test line is well below the last test line. This signifies that the overall performance has gone up from the beginning of the year and that the student has improved in Math. 
 
@@ -32,7 +30,7 @@ As stated before, ICE plots represent feature variations for every individual ro
 
 In the below image, we can see the effect of a feature "Age" on the Cancer prediction probability. How do we interpret this plot? 
 
-First, we see that majority of the lines correspond to low cancer prediction probability. So our data set has majority of people with low predictions of getting a cancer. 
+First, we see that majority of the lines correspond to low cancer prediction probability. So our data set has the majority of people with low predictions of getting cancer. 
 
 Second, we see that there is an increase in the probability of getting cancer at the age of 50. This is a big interpretation and speaks volumes on the data we are studying. 
 
@@ -40,7 +38,7 @@ Second, we see that there is an increase in the probability of getting cancer at
 
 ![](../.gitbook/assets/image%20%2837%29.png)
 
-‌Due to a large amount of data instance, it will be difficult to understand the difference between the individual instances. But, we can find patterns in a group of instances. Above, we see that people with low probability of cancer \(less than 0.2\) would continue to have a low probability as they grow. 
+‌Due to a large amount of data instance, it will be difficult to understand the difference between the individual instances. But, we can find patterns in a group of instances. Above, we see that people with a low probability of cancer \(less than 0.2\) would continue to have a low probability as they grow. 
 
 #### Centered ICE plots
 
@@ -52,7 +50,7 @@ The C-ICE \(centered ICE plots\) makes it easier to compare the curves of indivi
 
 #### Derivate ICE plots
 
-It helps to Identify the heterogeneity within the data. The derivate function \(curve\) will tell you whether changes occur and in which direction they occur. If there are no interactions then the individual partial derivate will be the same and they differ due to interaction which will be visible in derivate ICE -plot. SO Derivate ICE plot can be used to identify the interaction among the features.
+It helps to Identify the heterogeneity within the data. The derivate function \(curve\) will tell you whether changes occur and in which direction they occur. If there are no interactions then the individual partial derivate will be the same and they differ due to interaction which will be visible in derivate ICE -plot. So Derivate ICE plot can be used to identify the interaction among the features.
 
 ### Visualizations
 
