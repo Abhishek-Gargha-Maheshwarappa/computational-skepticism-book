@@ -14,7 +14,7 @@ People who use a machine learning model should trust the model with its predicti
 
 #### Transparency
 
-Transparency refers to the requirement that the end-user can understand how a decision/prediction is made by the AI system. Essentially, this means that one should understand what a model predicts and if there is any bias in that decision. Correctional Offender Management Proﬁling for Alternative Sanctions \(COMPAS\), a widely used criminal risk assessment tool, found that its predictions were unreliable and racially biased. So, after gaining transparency, this insight revealed a bias in the model which was a crucial breakthrough for the company.
+Transparency refers to the requirement that the end-user can understand how a decision/prediction is made by the AI system. Essentially, this means that one should understand what a model predicts and if there is any bias in that decision. Correctional Offender Management Proﬁling for Alternative Sanctions \([COMPAS](https://search.proquest.com/openview/0ead7ecbca0e1c0ac0fa16c26c6cc5c8/1?pq-origsite=gscholar&cbl=18750&diss=y)\), a widely used criminal risk assessment tool, found that its predictions were unreliable and racially biased. So, after gaining transparency, this insight revealed a bias in the model which was a crucial breakthrough for the company.
 
 #### Quality
 
@@ -31,8 +31,4 @@ How do we ensure that algorithmic decisions do not create discriminatory or unju
 The above 5 factors are achieved by Model Interpretability. But the vice versa need not be true. If a model is able to provide all the above 5 factors, the model can still be un-interpretable.
 
 To provide a complete explanation for any decision by a black-box model can be a tedious job. The explanations need to provide clarity on all the above-listed aspects and have mathematical and scientific proof. This has led to a new line of research – interpretability - loosely deﬁned as the science of comprehending what a model did.
-
-**Reference**
-
-1. [Validation of the Correctional Offender Management and Profiling Alternative Sanctions \(COMPAS\)](https://search.proquest.com/openview/0ead7ecbca0e1c0ac0fa16c26c6cc5c8/1?pq-origsite=gscholar&cbl=18750&diss=y) - Pierson, Ashley M.Fordham University
 
