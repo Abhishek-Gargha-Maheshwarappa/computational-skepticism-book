@@ -4,7 +4,7 @@ description: Whom is this book for ?
 
 # Preface
 
-This book is for all Data scientists and Machine Learning engineers. Any person who is interested in data science and has basic knowledge of model building. If you are interested in understanding how the model made a specific decision, then this the right book for you.
+This book is for all Data scientists and Machine Learning engineers. Any person who is interested in data science and has a basic knowledge of model building. If you are interested in understanding how the model made a specific decision, then this is the right book for you.
 
 The book aims to address the general idea of "Model Interpretability" and the novel topics around it. It gives a "hands-on" approach to understand working of Model Interpretability techniques on different machine learning algorithms. The basic requirement of implementing Model Interpretability is the model itself. So throughout our examples, we will be creating models.
 
