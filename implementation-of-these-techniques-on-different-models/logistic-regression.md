@@ -36,7 +36,7 @@ We have used kmeans on the entire data set before feeding it to the SHAP explain
 
 * Can be plotted after generating SHAP values for the entire dataset
 * Tells us the effect of each attribute on the predictions
-* Better than a regular variable importance because of the coalition effect involved in the SHAP calculation
+* Better than regular variable importance because of the coalition effect involved in the SHAP calculation
 
 ![Summary Plot](../.gitbook/assets/image%20%2860%29.png)
 
@@ -44,7 +44,7 @@ We have used kmeans on the entire data set before feeding it to the SHAP explain
 
 ![plot](../.gitbook/assets/image%20%2862%29.png)
 
-The above visualization gives more information compared a summary plot as it shows the distribution of the shap values. If SHAP values are negative then they have negative impact on the output.
+The above visualization gives more information compared a summary plot as it shows the distribution of the shap values. If SHAP values are negative then they have a negative impact on the output.
 
 \*\*\*\*
 
