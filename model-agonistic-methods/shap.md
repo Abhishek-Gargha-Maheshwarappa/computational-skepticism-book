@@ -116,7 +116,7 @@ To understand how a single feature can affect the output of the model we use a p
 
 ![Summary plot](https://lh5.googleusercontent.com/czqK1_0oVj4fU5OnnA49GcMEIGad7UhKJMNh7wCE9VGzezCSHb4ji1ts_S1atsLKwK6HJaAmdMRvYDfRaLxkMF-CiZpDEvsPDp5W-stufPJ124fxsOUo8cpaK44XXq49mxFbTfHS)
 
-To understand which features contributed more to the model output prediction SHAP has something called summary plot.
+To understand which features contributed more to the model output prediction SHAP has something called a summary plot.
 
 ![Summary plot](https://lh5.googleusercontent.com/iNdXT5IF0sVkDnfeFI0UBFpP0YDBR9xzX1rXj1n_g_l3SQc4m182ti-bmYWFusPRwhrTwJzA25HoE6SW87nnYsHVpGHhCPLgCw2-Z7_fhtRAZbH2kYLwBntyZsLdsk12LNqLKfoJ)
 
