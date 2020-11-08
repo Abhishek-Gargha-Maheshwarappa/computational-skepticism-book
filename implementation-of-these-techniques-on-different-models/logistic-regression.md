@@ -12,9 +12,9 @@ To read more about Logistic Regression this [link](https://web.stanford.edu/~has
 
 ### **Making the Model** 
 
-**Data set:** Sales Opportunity Size ; **Target:** DEAL SIZE \(Small, Medium and Large\).
+**Data set:** Sales Opportunity Size; **Target:** DEAL SIZE \(Small, Medium and Large\).
 
-The data is passed through pre-processing stage which contains handling missing values, one-hot encoding, and other steps required. Then it is trained using by calling a function from Scikit-learn library.
+The data is passed through a pre-processing stage which contains handling missing values, one-hot encoding, and other steps required. Then it is trained using by calling a function from the Scikit-learn library.
 
 **Accuracy:** 99.24% 
 
