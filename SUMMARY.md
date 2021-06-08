@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Model Interpretability](README.md)
+* [Explainable AI](README.md)
 * [Preface](preface.md)
 * [About us](about-us.md)
 * [Contents](contents.md)

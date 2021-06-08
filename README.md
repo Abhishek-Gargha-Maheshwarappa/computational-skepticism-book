@@ -2,7 +2,7 @@
 description: Making a model “​TrustWorthy​”
 ---
 
-# Model Interpretability
+# Explainable AI
 
 ####        
 
